@@ -1,0 +1,1382 @@
+OSL Script
+Set Game To DR2
+Text Count|133, 0
+0x2c|0, 20
+Set Flag|0, 7, 1
+Set Flag|0, 13, 0
+Music|26, 100, 0
+Change UI|1, 1
+Sprite|0, 0, 0, 0, 0
+Trial Camera|0, 1, 37, 0, 1, 0
+Voice Line|0, 4, 0, 57, 100
+SFX A|0, 19, 100
+Text|You...must be talking about an <CLT 03>elevator<CLT>!\n
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 7, 4, 0
+Trial Camera|3, 1, 3, 0, 0, 0
+Voice Line|3, 4, 0, 22, 100
+SFX A|0, 20, 100
+Text|What...? Are you saying Nekomaru's body was transported\nusing an elevator?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 3, 0, 0
+Trial Camera|8, 1, 3, 0, 0, 0
+Voice Line|8, 4, 0, 38, 100
+Text|Where the hell is this elevator anyway!?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 12, 0, 0, 0
+Voice Line|0, 4, 0, 58, 100
+Text|It's <CLT 03>the tower itself<CLT>...\n
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 0, 14, 0, 1, 0
+Voice Line|0, 4, 0, 59, 100
+Text|The inside of the tower is one big elevator!\n
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+Screen Fade|1, 1, 24
+Change UI|6, 1
+Change UI|9, 1
+Animation|3, 116, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 116, 0, 0, 0, 0, 0, 4
+0x3a|6, 0, 0, 60
+Animation|3, 116, 0, 0, 0, 0, 0, 6
+Change UI|51, 1
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 4, 0, 60, 100
+Text|Which means the tower was designed so that the whole\nroom goes up and down like an elevator.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|0, 4, 0, 61, 100
+Text|So whether you enter from Strawberry Hall or Grape\nHall...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|0, 4, 0, 62, 100
+Text|It all leads to the <CLT 03>same room<CLT>, right?\n
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 60
+Screen Fade|1, 1, 24
+Animation|3, 116, 0, 0, 0, 0, 0, 255
+Change UI|6, 0
+Change UI|9, 0
+Sprite|7, 7, 32, 0, 0
+Trial Camera|7, 0, 38, 0, 0, 0
+Screen Fade|0, 1, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|7, 7, 32, 0, 0
+Voice Line|7, 4, 0, 31, 100
+Text|So that's why we could only enter it from one side or\nthe other...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 10, 0, 0
+Trial Camera|4, 0, 93, 0, 0, 0
+Voice Line|4, 4, 0, 52, 100
+Text|Now that you mention it...sometimes when I pressed the\ndoor button, it took a while for it to open...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 21, 0, 0
+Trial Camera|8, 0, 38, 0, 0, 0
+Voice Line|8, 4, 0, 39, 100
+SFX A|0, 19, 100
+Text|I see! We were basically waitin' for the room to arrive,\njust like an elevator!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 240, 0
+Sprite|11, 11, 28, 0, 0
+Trial Camera|11, 0, 40, 0, 0, 0
+SFX A|0, 19, 100
+Text|Wait a second! If the inside of the tower\nascends and descends like an elevator...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|24, 100, 60
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|6, 1
+Change UI|9, 1
+0x37|0, 56, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|11
+Text|Then why is there a picture of a strawberry on the far\nback door when you enter from Grape Tower...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3a|6, 0, 0, 30
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 56, 3
+0x37|0, 57, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 60
+Change UI|1, 1
+Speaker|11
+Voice Line|10, 4, 0, 56, 100
+Text|...and a picture of a grape on the far back door when\nyou enter from Strawberry Tower?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 57, 3
+Animation|3, 116, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 2, 24
+Animation|3, 116, 0, 0, 0, 0, 0, 4
+0x3a|6, 0, 0, 60
+Animation|3, 116, 0, 0, 0, 0, 0, 6
+Change UI|51, 1
+Change UI|1, 1
+Speaker|3
+Voice Line|3, 4, 0, 23, 100
+Text|If the room just moves up and down like an elevator,\nthere's no reason for the doors to change...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Animation|3, 116, 0, 0, 0, 0, 0, 255
+Change UI|6, 1
+Change UI|9, 1
+0x37|0, 58, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|1, 1
+Speaker|11
+Text|Also, after the murder the far back door in Grape\nTower had <CLT 03>chains<CLT> wrapped around it, right?\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+SFX A|0, 27, 100
+0x3a|6, 0, 0, 30
+Screen Fade|1, 2, 8
+0x37|0, 58, 3
+0x37|0, 59, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Speaker|11
+Text|But when we entered Strawberry Tower, those chains were\ngone.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|12, 16, 0, 0, 0, 0, 0, 1
+Speaker|7
+Voice Line|7, 4, 0, 32, 100
+Text|Not just that, but if I remember correctly...even the\ndoorknob was broken off.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|12, 16, 0, 0, 0, 0, 0, 2
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+0x3a|6, 0, 0, 30
+Screen Fade|1, 2, 8
+0x37|0, 59, 3
+Change UI|6, 0
+Change UI|9, 0
+Sprite|3, 3, 3, 0, 0
+Trial Camera|3, 0, 143, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|3, 3, 3, 0, 0
+Voice Line|3, 4, 0, 24, 100
+Text|Hmph, there are too many strange things. Was that tower\nreally an elevator?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 10, 0, 0
+Trial Camera|9, 1, 39, 0, 0, 0
+Voice Line|9, 4, 0, 26, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 19, 100
+Text|When you see people and things...make sure you focus on\nthe good parts instead of the bad.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 2, 4, 0
+Trial Camera|3, 0, 235, 0, 0, 0
+Voice Line|3, 4, 0, 25, 100
+SFX A|0, 20, 100
+Text|What did you say?\n
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 2, 0, 0
+Trial Camera|9, 2, 7, 0, 0, 0
+Voice Line|9, 4, 0, 27, 100
+Text|So...let's put aside what's changed, and focus our\nattention on what hasn't.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 11, 0, 0
+Trial Camera|4, 0, 142, 0, 0, 0
+Voice Line|4, 4, 0, 53, 100
+Text|...Why do we have to do that?\n
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 2, 0, 0
+Trial Camera|9, 0, 61, 0, 0, 0
+Voice Line|9, 4, 0, 28, 100
+Text|It's fine... Come on, what does everything that hasn't\nchanged have in common?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|18, 0
+0x3a|11, 0, 0, 60
+0x3a|13, 0, 0, 1
+Animation|0, 200, 0, 0, 0, 0, 0, 0
+0x2c|0, 0
+Change UI|18, 1
+0x3b|1, 244
+0x32|1
+Text|They were all on the floor\n
+Wait Frame|
+Voice Line|0, 99, 0, 1, 100
+Animation|0, 200, 0, 0, 0, 0, 0, 1
+Animation|0, 200, 0, 0, 0, 0, 0, 255
+0x46|21, 5, 0, 1
+0x4d|
+0x3b|1, 245
+0x3a|13, 1, 3, 232
+0x3b|1, 246
+0x2c|1, 245
+0x3a|13, 1, 1, 244
+0x2c|1, 246
+0x3b|0, 1
+0x32|2
+Text|They were all heavy\n
+Wait Frame|
+Sprite|0, 0, 20, 0, 0
+Trial Camera|0, 0, 53, 0, 0, 0
+Text|Were they all heavy? That would include Nekomaru's body\nand the pillar...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 9, 0, 0
+Trial Camera|9, 0, 12, 0, 0, 0
+Text|...What about the oil?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>You're right... I clearly made a mistake just now...\nI need to think it over one more time...!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 220
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 247
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|4, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 247
+0x3b|0, 0
+0x32|3
+Text|They were all Nekomaru's parts\n
+Wait Frame|
+Sprite|0, 0, 20, 0, 0
+Trial Camera|0, 0, 53, 0, 0, 0
+Text|Were they all Nekomaru's parts? That would include his\nbody and the oil...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 9, 0, 0
+Trial Camera|9, 0, 12, 0, 0, 0
+Text|...What about the pillar?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>You're right... I clearly made a mistake just now...\nI need to think it over one more time...!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 220
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 248
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|4, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 248
+0x3b|0, 0
+0x32|4
+Text|They were all huge\n
+Wait Frame|
+Sprite|0, 0, 20, 0, 0
+Trial Camera|0, 0, 53, 0, 0, 0
+Text|Were they all huge? That would include Nekomaru's body\nand the pillar, obviously...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 9, 0, 0
+Trial Camera|9, 0, 12, 0, 0, 0
+Text|...What about the oil? Is that huge too?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>You're right... I clearly made a mistake just now...\nI need to think it over one more time...!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 220
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 249
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|4, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 249
+0x3b|0, 0
+0x32|18
+Sprite|9, 9, 11, 0, 0
+Trial Camera|9, 0, 13, 0, 0, 0
+Text|Hellooooo, why are you so tense?\n
+Wait Frame|
+Wait For Input|
+Text|Nothing's gonna happen even if you wait. It's not like\nthis is Takeshi's Castle or something.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Everyone's staring at me...! I've clearly given the\nwrong impression.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 220
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 250
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|4, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 250
+0x3a|11, 0, 0, 60
+0x3b|0, 0
+0x32|19
+Sprite|0, 0, 1, 0, 0
+Trial Camera|0, 0, 89, 0, 1, 0
+Format|4
+Text|<CLT 04>The things that didn't change when we moved between the\ntwo towers...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|6, 1
+Change UI|9, 1
+0x37|0, 63, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>That includes the body, the pillar, and the oil. We've\nbeen talking about that stuff for a while now.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3a|6, 0, 0, 30
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 63, 3
+0x37|0, 98, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>There shouldn't be anything strange about them, not even\nthe fact that they all moved with the elevator...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 98, 3
+Change UI|6, 0
+Change UI|9, 0
+Sprite|0, 0, 1, 0, 0
+Trial Camera|0, 0, 219, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|0, 0, 1, 0, 0
+Format|4
+Text|<CLT 04>Um... The one thing these all have in common...<CLT>\n
+Format|0
+Wait Frame|
+0x32|255
+0x2c|1, 244
+0x2c|0, 1
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 1, 37, 0, 1, 0
+Voice Line|0, 4, 0, 63, 100
+SFX A|0, 19, 100
+Text|Is it safe to say that...all the <CLT 03>items on the floor<CLT>\ndidn't change...?\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 9, 0, 0
+Trial Camera|9, 0, 34, 0, 0, 0
+Voice Line|9, 4, 0, 29, 100
+Text|...And?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 26, 0, 0
+Trial Camera|0, 0, 112, 0, 0, 0
+Voice Line|0, 4, 0, 64, 100
+Text|...And?\n
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 10, 0, 0
+Trial Camera|9, 0, 205, 0, 0, 0
+Voice Line|9, 4, 0, 30, 100
+Text|Why did the picture on the far back door change...? If\nyou can figure that out, you'll have the answer.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 8, 0, 0
+Trial Camera|9, 0, 118, 0, 0, 0
+Voice Line|9, 4, 0, 31, 100
+Text|The reason is because...that elevator has something\nunique about it.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|18, 0
+0x3a|11, 0, 0, 60
+0x3a|13, 0, 0, 1
+Animation|0, 200, 0, 0, 0, 0, 0, 0
+0x2c|0, 2
+Change UI|18, 1
+0x3b|1, 251
+0x32|1
+Text|Only the floor moves\n
+Wait Frame|
+Voice Line|0, 99, 0, 1, 100
+Animation|0, 200, 0, 0, 0, 0, 0, 1
+Animation|0, 200, 0, 0, 0, 0, 0, 255
+0x46|21, 5, 0, 1
+0x4d|
+0x3b|1, 252
+0x3a|13, 1, 3, 232
+0x3b|1, 253
+0x2c|1, 252
+0x3a|13, 1, 1, 244
+0x2c|1, 253
+0x3b|0, 3
+0x32|2
+Text|It's an enormous circle\n
+Wait Frame|
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 53, 0, 0, 0
+Text|That elevator is unique...because it's an enormous\ncircle.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 9, 0, 0
+Trial Camera|9, 0, 12, 0, 0, 0
+Text|What's wrong with that...?\n
+Wait Frame|
+Wait For Input|
+Text|You noticed it too, right? That you just said something\nthat doesn't relate to anything.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>You're right... I clearly made a mistake just now...\nI need to think it over one more time...!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 220
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 254
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|4, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 254
+0x3b|0, 2
+0x32|3
+Text|You can only enter one side at a time\n
+Wait Frame|
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 53, 0, 0, 0
+Text|That elevator is unique...because you can only enter it\nfrom one side at a time.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 9, 0, 0
+Trial Camera|9, 0, 12, 0, 0, 0
+Text|I think all elevators are like that. If you enter one\nfrom the 1st floor, you can't enter from the 3rd floor.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|You noticed it too, right? That you just said something\nthat doesn't relate to anything.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>You're right... I clearly made a mistake just now...\nI need to think it over one more time...!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 220
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 255
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|4, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 255
+0x3b|0, 2
+0x32|4
+Text|There's no ceiling\n
+Wait Frame|
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 53, 0, 0, 0
+Text|That elevator is unique...because it has no ceiling.\n
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 9, 0, 0
+Trial Camera|9, 0, 12, 0, 0, 0
+Text|It's true it had no ceiling...but that's not really\nrelevant to what we're discussing, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>You're right... I clearly made a mistake just now...\nI need to think it over one more time...!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 220
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|2, 0
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|4, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|2, 0
+0x3b|0, 2
+0x32|18
+Sprite|9, 9, 11, 0, 0
+Trial Camera|9, 0, 13, 0, 0, 0
+Text|Hellooooo, why are you so tense?\n
+Wait Frame|
+Wait For Input|
+Text|Nothing's gonna happen even if you wait. It's not like\nthis is Takeshi's Castle or something.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Everyone's staring at me...! I've clearly given the\nwrong impression.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 220
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|2, 1
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|4, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|2, 1
+0x3a|11, 0, 0, 60
+0x3b|0, 2
+0x32|19
+0x47|0, 35, 0, 0, 2, 7, 0, 35, 0, 0, 1
+0x4d|
+0x3b|2, 2
+Sprite|0, 0, 1, 0, 0
+Trial Camera|0, 0, 219, 0, 1, 0
+Format|4
+Text|<CLT 04>There's something unique about that elevator...?<CLT>\n
+Format|0
+Wait Frame|
+0x3b|2, 3
+0x2c|2, 2
+Sprite|0, 0, 1, 0, 0
+Trial Camera|0, 0, 219, 0, 1, 0
+Format|4
+Text|<CLT 04>There's something unique about that elevator...?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Text|The doors changed...but everything on the floor stayed\nthe same. That means...\n<CLT>
+Wait Frame|
+Wait Frame|
+Format|0
+0x2c|2, 3
+0x32|255
+0x2c|1, 251
+0x2c|0, 3
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Music|56, 100, 0
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 1, 25, 0, 1, 0
+Voice Line|0, 4, 0, 65, 100
+SFX A|0, 19, 100
+Text|So that's it! The elevator was designed so <CLT 03>only the\nfloor<CLT> moved!\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 21, 0, 0
+Trial Camera|8, 0, 41, 0, 0, 0
+Voice Line|8, 4, 0, 40, 100
+Text|...Only the floor moved?\n
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+Screen Fade|1, 1, 24
+Change UI|60, 0
+Change UI|6, 1
+Change UI|9, 1
+Animation|3, 126, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 126, 0, 0, 0, 0, 0, 4
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 4, 0, 66, 100
+Text|Which means the whole room wasn't an elevator, only the\nfloor was.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Animation|3, 126, 0, 0, 0, 0, 0, 6
+0x3a|6, 0, 0, 60
+Change UI|1, 1
+Voice Line|0, 4, 0, 67, 100
+Text|That's why we saw <CLT 03>different doors<CLT> in each tower.\n
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3a|6, 0, 0, 30
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Animation|3, 126, 0, 0, 0, 0, 0, 255
+Change UI|60, 1
+0x37|0, 56, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 4, 0, 68, 100
+Text|Which means on the 1st floor of Grape Tower, the door on\nthe far back wall had a strawberry design...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3a|6, 0, 0, 30
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 56, 3
+0x37|0, 57, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 4, 0, 69, 100
+Text|...and on the 4th floor—which was Strawberry Tower—a\n<CLT 03>different<CLT> door on the far back wall had a grape design.\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 57, 3
+Change UI|6, 0
+Change UI|9, 0
+Sprite|8, 8, 21, 0, 0
+Trial Camera|8, 0, 137, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|8, 8, 21, 0, 0
+Voice Line|8, 4, 0, 41, 100
+Text|Then...where do the different floors lead?\n
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+Screen Fade|1, 1, 24
+Change UI|60, 0
+Change UI|6, 1
+Change UI|9, 1
+Screen Fade|0, 2, 24
+Animation|3, 126, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 126, 0, 0, 0, 0, 0, 4
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 4, 0, 32, 100
+Text|I want to say they lead outside but...they're probably\njust for show.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 60
+Screen Fade|1, 1, 24
+Animation|3, 116, 0, 0, 0, 0, 0, 255
+Change UI|60, 1
+Change UI|6, 0
+Change UI|9, 0
+Sprite|4, 4, 3, 0, 0
+Trial Camera|4, 0, 67, 0, 0, 0
+Screen Fade|0, 1, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|4, 4, 3, 0, 0
+Text|Just for show? Why was something like that necessary?\n
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 0, 0, 0
+Trial Camera|9, 0, 87, 0, 0, 0
+Voice Line|9, 4, 0, 33, 100
+Text|So we'd falsely believe that the doors were connected to\nwhere their picture signified.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+Screen Fade|1, 1, 24
+Change UI|60, 0
+Change UI|6, 1
+Change UI|9, 1
+Animation|3, 98, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 98, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 4, 0, 34, 100
+Text|It was actually very effective. Because of that, we\ntotally misunderstood the building's structure.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+Screen Fade|1, 1, 24
+Animation|3, 98, 0, 0, 0, 0, 0, 255
+Change UI|60, 1
+Change UI|6, 0
+Change UI|9, 0
+Sprite|8, 8, 13, 0, 0
+Trial Camera|8, 0, 90, 0, 0, 0
+Screen Fade|0, 1, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|8, 8, 13, 0, 0
+Voice Line|8, 4, 0, 42, 100
+Text|I don't get it, but I guess it means whoever designed\nthis building had a totally twisted personality!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|13, 100, 0
+Sprite|16, 16, 32, 0, 0
+Trial Camera|16, 2, 39, 0, 0, 0
+Voice Line|16, 4, 0, 6, 100
+SFX A|0, 21, 100
+Text|...Did you hear that, Monomi!?\n
+Wait Frame|
+Wait For Input|
+Sprite|17, 17, 26, 0, 0
+Trial Camera|17, 2, 79, 0, 0, 0
+Voice Line|17, 4, 0, 4, 100
+SFX A|0, 18, 100
+Text|Don't blame this on me! Take responsibility for\nyourself!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 31, 0, 0
+Trial Camera|16, 2, 17, 0, 0, 0
+Voice Line|16, 4, 0, 7, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 25, 100
+Text|Then I'll take responsibility and gently caress you!\n
+Wait Frame|
+Wait For Input|
+Sprite|17, 17, 22, 4, 0
+Trial Camera|17, 2, 137, 0, 0, 0
+Voice Line|17, 4, 0, 5, 100
+SFX A|0, 24, 100
+Text|*Swoon!*\n
+Wait Frame|
+Wait For Input|
+Music|255, 180, 0
+Sprite|17, 17, 26, 0, 0
+Trial Camera|17, 2, 81, 0, 0, 0
+Voice Line|17, 4, 0, 6, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 18, 100
+Text|...Like, there's no way that's gonna happen! Stop with\nthe tasteless jokes!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|24, 100, 0
+Sprite|4, 4, 10, 0, 0
+Trial Camera|4, 0, 14, 0, 0, 0
+Voice Line|4, 4, 0, 54, 100
+Text|By the way...what does the chain on the far back door in\nGrape Tower mean?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 2, 0, 0
+Trial Camera|1, 2, 184, 0, 0, 0
+Voice Line|1, 4, 0, 55, 100
+Text|It was...probably wrapped there by the killer to keep us\nas far from Strawberry Tower as possible.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 21, 0, 0
+Trial Camera|8, 0, 93, 0, 0, 0
+Voice Line|8, 4, 0, 43, 100
+Text|...Why?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 4, 0, 0
+Trial Camera|1, 0, 112, 0, 0, 0
+Voice Line|1, 4, 0, 56, 100
+Text|Because of that chain, you guys thought you couldn't\nenter there, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|6, 1
+Change UI|9, 1
+0x37|0, 63, 1
+Sprite|1, 4, 15, 8, 2
+Filter|1, 1, 0, 0
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|1, 1
+Speaker|4
+Text|Like you said...I could probably use these parts to\nrepair that button, but...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|S-Seriously, hold on!\n
+Wait Frame|
+Wait For Input|
+Text|Even if you do repair the button, what's going to happen\nto the chain on the other side of the door?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 0, 4, 2
+Sprite|0, 1, 27, 1, 2
+Speaker|1
+Text|...Chain?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|The door that leads to Strawberry Hall has a chain\nwrapped around the doorknob.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Even if you fix the button on the Strawberry Hall side,\nthe door won't open as long as that chain is there.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 1, 1, 2
+Speaker|1
+Text|You don't need to worry about that at all.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...Huh?\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Filter|1, 0, 0, 0
+Sprite|0, 1, 4, 3, 2
+0x37|0, 63, 3
+Change UI|6, 0
+Change UI|9, 0
+Sprite|1, 1, 3, 0, 0
+Trial Camera|1, 2, 11, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|1, 1, 3, 0, 0
+Voice Line|1, 4, 0, 57, 100
+Text|The killer destroyed the Strawberry Hall button...so\nwe'd stay away from Strawberry Tower.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|1, 0, 162, 0, 1, 0
+Voice Line|1, 4, 0, 58, 100
+Text|Everything...was done to tamper with the evidence so we\nwouldn't find out about the secret of the Funhouse.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+Screen Fade|1, 1, 24
+Change UI|60, 0
+Change UI|6, 1
+Change UI|9, 1
+Animation|3, 103, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 103, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 4, 0, 59, 100
+Text|The appearance of a body in the tower would <CLT 03>contradict<CLT>\nwhat we thought we knew about the building...\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Screen Fade|1, 1, 24
+Animation|3, 103, 0, 0, 0, 0, 0, 255
+Animation|3, 107, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 107, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 30
+Speaker|1
+Voice Line|1, 4, 0, 60, 100
+Text|In that situation, if we'd gone to Strawberry Tower,\nwe'd have seen that <CLT 03>contradiction<CLT> firsthand...\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+Screen Fade|1, 1, 24
+Animation|3, 107, 0, 0, 0, 0, 0, 255
+Change UI|60, 1
+Change UI|6, 0
+Change UI|9, 0
+Sprite|1, 1, 7, 0, 0
+Trial Camera|1, 2, 10, 0, 0, 0
+Screen Fade|0, 1, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|1, 1, 7, 0, 0
+Voice Line|1, 4, 0, 61, 100
+Text|...and using that as a clue, we might've discovered the\ntruth...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+Screen Fade|1, 1, 24
+Change UI|60, 0
+Change UI|6, 1
+Change UI|9, 1
+Animation|3, 115, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 115, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 4, 0, 62, 100
+Text|The truth that the two houses and the two towers are\nactually <CLT 03>one complete vertical building<CLT>.\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 60
+Screen Fade|1, 1, 24
+Animation|3, 115, 0, 0, 0, 0, 0, 255
+Change UI|60, 1
+Change UI|6, 0
+Change UI|9, 0
+Sprite|1, 1, 22, 0, 0
+Trial Camera|1, 0, 213, 0, 0, 0
+Screen Fade|0, 1, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|1, 1, 22, 0, 0
+Voice Line|1, 4, 0, 63, 100
+Text|The killer wanted to keep us from learning that...\nThat's why they made us stay away from Strawberry Tower.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 48, 0, 0
+Trial Camera|7, 0, 21, 0, 0, 0
+Voice Line|7, 4, 0, 33, 100
+Text|They destroyed the button and wrapped a chain around the\ndoor just for that?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|11, 11, 28, 0, 0
+Trial Camera|11, 0, 18, 0, 0, 0
+Text|But why would the killer want to keep duping us\nabout the way this hellhole is built?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 3, 0, 0
+Trial Camera|1, 0, 93, 0, 0, 0
+Voice Line|1, 4, 0, 64, 100
+Text|It would've been a major inconvenience for you.\n
+Wait Frame|
+Wait For Input|
+Voice Line|1, 4, 0, 65, 100
+Text|After all...this <CLT 03>Funhouse<CLT> is strongly connected to the\n<CLT 03>Ultimate Weapon<CLT> that killed Nekomaru!\n
+Format|3
+Format|0
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 1, 0, 0
+Trial Camera|3, 0, 137, 0, 0, 0
+Voice Line|3, 4, 0, 26, 100
+SFX A|0, 19, 100
+Text|Hold on...you're progressing much too quickly... There's\nstill a contradiction concerning the building structure.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|11, 11, 30, 0, 0
+Trial Camera|11, 0, 40, 0, 0, 0
+SFX A|0, 21, 100
+Text|Go Gundham, show this asshole who is\nthe real cool nerd out there!\n
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 12, 0, 0
+Trial Camera|3, 0, 147, 0, 0, 0
+Voice Line|3, 4, 0, 27, 100
+Text|You said earlier that Strawberry House and Grape House\nare connected vertically, right...?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 13, 4, 0
+Trial Camera|3, 1, 23, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|3, 4, 0, 28, 100
+SFX A|0, 21, 100
+Text|If so, how does the <CLT 03>contact elevator<CLT> supposedly\ntransport us from one house to the other?\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 89, 0, 0, 0
+Format|4
+Text|<CLT 04>I see...now that you mention it, I completely forgot\nabout that matter...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+Screen Fade|1, 1, 24
+Music|19, 100, 0
+Change UI|60, 0
+Change UI|6, 1
+Change UI|9, 1
+Animation|3, 117, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 117, 0, 0, 0, 0, 0, 1
+Change UI|51, 1
+Change UI|1, 1
+Speaker|3
+Voice Line|3, 4, 0, 29, 100
+Text|If that elevator moves vertically...\n
+Wait Frame|
+Wait For Input|
+Voice Line|3, 4, 0, 30, 100
+Text|Then when <CLT 03>your back is facing the elevator<CLT>,\nboth towers should be on the <CLT 03>same side<CLT>.\n
+Format|3
+Format|0
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Voice Line|3, 4, 0, 31, 100
+Text|But...does this reflect reality?\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3a|6, 0, 0, 30
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Animation|3, 116, 0, 0, 0, 0, 0, 255
+Change UI|60, 1
+0x37|0, 60, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 60
+Change UI|1, 1
+Speaker|3
+Voice Line|3, 4, 0, 32, 100
+Text|Inside Grape House, Grape Hall is <CLT 03>on your right<CLT> when\nyour back is to the elevator...\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3a|6, 0, 0, 30
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 60, 3
+0x37|0, 61, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 60
+Change UI|1, 1
+Speaker|3
+Voice Line|3, 4, 0, 33, 100
+Text|...and inside Strawberry House, Strawberry Hall is <CLT 03>on\nyour left<CLT> when your back is to the elevator.\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 61, 3
+Change UI|6, 0
+Change UI|9, 0
+Sprite|3, 3, 12, 0, 0
+Trial Camera|3, 0, 171, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|3, 3, 12, 0, 0
+Voice Line|3, 4, 0, 34, 100
+Text|Which means, the houses are on exact opposite sides of\nthe tower...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 13, 4, 0
+Trial Camera|3, 1, 37, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|3, 4, 0, 35, 100
+SFX A|0, 18, 100
+Text|Answer me fiend! What does this mean!?\n
+Wait Frame|
+Wait For Input|
+Sprite|11, 11, 44, 0, 0
+Trial Camera|11, 0, 40, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 18, 100
+Text|Yeah, the hell does this mean!?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 117, 0, 0, 0
+Format|4
+Text|<CLT 04>I agree... What does this mean?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+Screen Fade|1, 1, 24
+Change UI|60, 0
+Change UI|6, 1
+Change UI|9, 1
+Animation|3, 117, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 117, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>If the two houses are connected vertically, the position\nof the tower should be the same in both houses...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3a|6, 0, 0, 30
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Animation|3, 117, 0, 0, 0, 0, 0, 255
+0x37|0, 60, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>But in fact, when my back was facing the elevator in\nGrape House, the tower was on my right...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3a|6, 0, 0, 30
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 60, 3
+0x37|0, 61, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>And when my back was facing the elevator in Strawberry\nHouse, the tower was on my left.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 61, 3
+Change UI|6, 0
+Change UI|9, 0
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 219, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|0, 0, 18, 0, 0
+Format|4
+Text|<CLT 04>How can I break through this contradiction...?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Script|4, 0, 217, 0, 0
+Stop Script|
+Stop Script|

@@ -1,0 +1,427 @@
+OSL Script
+Set Game To DR2
+Text Count|32, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+0x2f|0, 8, 112, 59, 1, 244, 112, 48, 0, 1
+0x3a|19, 0, 0, 0
+Show Background|0, 2, 112
+Show Background|0, 6, 112
+Show Background|0, 7, 112
+Show Background|255, 255, 112
+0x2c|1, 244
+Set Flag|0, 12, 0
+Change UI|6, 0
+Load Map|0, 79, 0, 0
+Run Script|4, 3, 231, 0, 173
+Change UI|9, 0
+0x1|0, 79, 29, 0
+0x23|33, 1, 0, 1, 0
+0x23|34, 1, 0, 1, 0
+0x23|35, 1, 0, 1, 0
+0x23|36, 1, 0, 1, 0
+Change UI|14, 0
+Screen Fade|0, 1, 24
+Change UI|3, 1
+0x3a|6, 0, 0, 30
+0x46|13, 11, 0, 0
+0x4d|
+0x3b|1, 245
+0x3a|19, 0, 0, 0
+0x1|1, 76, 0, 1
+0x3a|6, 0, 0, 30
+Change UI|26, 43
+0x3a|5, 0, 0, 60
+Change UI|51, 0
+Change UI|3, 1
+Change UI|2, 1
+Change UI|9, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>Ah, it's already...five minutes till 7:00 a.m.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|27, 1
+0x3a|5, 0, 0, 60
+0x3a|0, 0, 0, 2
+Change UI|3, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>I really don't want to waste my energy participating in\nthat activity...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>But if I ignore Monokuma's rule... Everyone will get in\ntrouble...not just me...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>And...I don't even have the energy to complain...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Let's go...to Grape Tower...\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Set Flag|13, 11, 1
+Set Flag|0, 12, 1
+0x2c|1, 245
+Change UI|16, 1
+0x3b|1, 246
+Check Character|15
+Change UI|51, 0
+Change UI|9, 1
+Sprite|1, 9, 2, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 99, 0, 25, 100
+Text|C'mon, we don't really have time to relax. If we don't\nhurry, we're gonna be late.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Yeah, you're right.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 2, 4, 2
+Change UI|1, 0
+Check Character|1
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 10, 3, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|10
+Voice Line|10, 99, 0, 18, 100
+SFX A|0, 25, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Oh my, Hajime... Upon closer inspection, your face looks\nlike a Sachertorte!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 9, 1, 2
+Voice Line|10, 99, 0, 3, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Might I trouble you for a bite near the center?\n
+Wait Frame|
+Wait For Input|
+Text|I shall repay the favor later!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Sonia, get a grip on yourself...\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Sprite|0, 10, 3, 4, 2
+Check Character|255
+Choice|20
+Run Script|4, 3, 231, 0, 8
+Choice|21
+Run Script|4, 3, 231, 0, 8
+Choice|22
+Run Script|4, 3, 231, 0, 8
+Choice|23
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Text|Then...I'll press the button...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>When I pressed the button, the door in front of me\ninstantly opened...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 225, 100
+0x3a|6, 0, 0, 10
+Screen Fade|1, 1, 24
+Change UI|6, 1
+0x37|0, 0, 1
+Screen Fade|0, 1, 24
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>It...was very sudden.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>That's right, it's always sudden.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>The door to despair...always opens suddenly.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Music|255, 120, 0
+Screen Fade|1, 1, 24
+0x37|0, 0, 3
+Movie|14, 1
+0x3a|6, 0, 0, 10
+Change UI|51, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>On the other side of that door...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>I saw the remains...of our friend.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|3, 0
+0x3a|6, 0, 0, 60
+Screen Fade|1, 1, 120
+0x37|255, 255, 3
+Change UI|1, 0
+Change UI|3, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 0
+Screen Fade|1, 1, 24
+Script|4, 0, 100, 0, 0
+Stop Script|
+Choice|24
+Run Script|4, 3, 231, 0, 150
+Choice|25
+0x13|0, 1
+0x3a|19, 0, 0, 1
+0x1|1, 73, 0, 1
+0x46|13, 11, 0, 1, 6, 13, 12, 0, 0
+0x4d|
+0x3b|1, 247
+0x3a|6, 0, 0, 60
+Change UI|51, 0
+Change UI|2, 1
+Change UI|9, 1
+Sprite|0, 10, 3, 1, 2
+0x1|1, 73, 10, 1
+Change UI|1, 1
+Speaker|10
+Voice Line|10, 99, 0, 18, 100
+SFX A|0, 25, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Ah Hajime! Good morning!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Sonia...you seem energetic...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 1, 1, 2
+Speaker|10
+Voice Line|10, 99, 0, 10, 100
+SFX A|0, 25, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Hahahahahahaha.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Wh-What's so funny...?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 3, 1, 2
+Speaker|10
+Voice Line|10, 99, 0, 20, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|My goodness Hajime...when did your face become Mont\nBlanc all of a sudden?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>Sh-She's not <CLT><CLT 03><CLT><CLT 04><CLT><CLT 03>energetic<CLT><CLT 04>... She's extremely dangerous!<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 9, 1, 2
+Speaker|10
+Voice Line|10, 99, 0, 3, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Um...just the corner is fine, so...may I take a bite out\nof you?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+0x1|1, 73, 9, 1
+Sprite|1, 9, 9, 1, 1
+Speaker|9
+Voice Line|9, 99, 0, 45, 100
+Text|...You'd get a stomachache.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 3, 1, 2
+Speaker|10
+Voice Line|10, 99, 0, 18, 100
+SFX A|0, 25, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Oh my, now there's an adorable shortcake.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 0, 1, 1
+Speaker|9
+Voice Line|9, 99, 0, 26, 100
+Text|I'm not a shortcake... I'm Chiaki.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Chiaki, you too... Are you about to head over to Grape\nTower?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 2, 1, 1
+Speaker|9
+Voice Line|9, 99, 0, 6, 100
+Text|It's almost time.\n
+Wait Frame|
+Wait For Input|
+Text|C'mon, if you're too slow, we'll be late.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Yeah...you're right...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 0, 4, 1
+Change UI|1, 0
+Set Flag|13, 12, 1
+Change UI|9, 0
+Sprite|15, 9, 0, 0, 0
+Sprite|1, 10, 0, 0, 0
+0x1|1, 73, 9, 1
+0x1|1, 73, 10, 1
+0x1|0, 79, 29, 0
+0x2c|1, 247
+0x1|1, 73, 0, 1
+Choice|26
+Run Script|4, 3, 231, 0, 8
+Choice|27
+Run Script|4, 3, 231, 0, 8
+Choice|28
+Run Script|4, 3, 231, 0, 8
+Choice|29
+Run Script|4, 3, 231, 0, 8
+Choice|30
+Run Script|4, 3, 231, 0, 8
+Choice|31
+Run Script|4, 3, 231, 0, 8
+Choice|32
+0x47|0, 19, 0, 0, 0
+0x4d|
+0x3b|1, 248
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+0x2f|0, 19, 112, 59, 1, 249, 112, 48, 0, 0
+Set Flag|0, 12, 0
+0x3a|8, 0, 0, 2
+Change UI|25, 2
+0x3a|19, 0, 0, 2
+0x3a|5, 0, 0, 30
+Show Background|0, 2, 112
+0x3a|8, 0, 0, 1
+Change UI|25, 2
+0x3a|19, 0, 0, 0
+0x3a|5, 0, 0, 30
+Show Background|255, 255, 112
+0x3a|6, 0, 0, 60
+Change UI|3, 1
+0x3b|1, 250
+0x2c|1, 248
+Run Script|4, 3, 231, 0, 8
+0x2c|1, 250
+Choice|33
+Run Script|4, 3, 231, 0, 157
+Choice|34
+Run Script|4, 3, 231, 0, 156
+Choice|35
+Run Script|4, 3, 231, 0, 158
+Choice|36
+Run Script|4, 3, 231, 0, 159
+Choice|37
+Run Script|4, 3, 231, 0, 8
+Choice|38
+Run Script|4, 3, 231, 0, 8
+Choice|39
+Run Script|4, 3, 231, 0, 154
+Choice|40
+Run Script|4, 3, 231, 0, 100
+Choice|41
+Run Script|4, 3, 231, 0, 101
+Choice|42
+Run Script|4, 3, 231, 0, 153
+Choice|43
+Run Script|4, 3, 231, 0, 154
+Choice|44
+Run Script|4, 3, 231, 0, 165
+Choice|45
+Run Script|4, 3, 231, 0, 100
+Choice|46
+Run Script|4, 3, 231, 0, 101
+Choice|47
+Run Script|4, 3, 231, 0, 100
+Choice|48
+Run Script|4, 3, 231, 0, 101
+Choice|254
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+0x2f|0, 19, 112, 59, 1, 251, 112, 48, 0, 0
+Set Flag|0, 12, 0
+0x3a|8, 0, 0, 2
+Change UI|25, 2
+0x3a|19, 0, 0, 2
+0x3a|5, 0, 0, 30
+Show Background|255, 255, 112
+0x3a|6, 0, 0, 60
+Change UI|3, 1
+Choice|255
+0x2c|1, 246
+Stop Script|
+Stop Script|

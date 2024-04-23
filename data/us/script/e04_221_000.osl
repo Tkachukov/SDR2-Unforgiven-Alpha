@@ -1,0 +1,150 @@
+OSL Script
+Set Game To DR2
+Text Count|18, 0
+0x2c|0, 20
+Set Flag|0, 13, 0
+Set Flag|0, 7, 1
+Music|14, 100, 0
+Change UI|6, 1
+Change UI|9, 1
+Animation|1, 153, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|1, 153, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 120
+Change UI|51, 1
+Change UI|1, 1
+Speaker|16
+Voice Line|16, 99, 0, 59, 100
+SFX A|0, 19, 100
+Text|Why hello there! I thought of a new bad word to call\nMonomi!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|17
+Voice Line|17, 99, 0, 64, 100
+Text|Uwah...I can already tell I won't be pleased by this...\n
+Wait Frame|
+Wait For Input|
+Speaker|16
+Text|Then let me say it right away!\n
+Wait Frame|
+Wait For Input|
+Speaker|17
+Text|Hehe...I'm already used to insults and slander...\nThere's no way I'll get hurt by a mere word.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|16
+SFX A|0, 21, 100
+Text|Monomi...is a serious Stufatly!\n
+Wait Frame|
+Wait For Input|
+Speaker|17
+Text|Th-That's much more straightforward than I expected...\nStufatly...huh...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|16
+Text|Tsk, tsk, tsk... That's not it. That's not it at all.\n
+Wait Frame|
+Wait For Input|
+Text|Stupid, fat, and ugly... The perfect Jetstream Attack\nincorporating all three of these would be...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+SFX A|0, 18, 100
+Text|Tadaaaa! Stufatly!\n
+Wait Frame|
+Wait For Input|
+Speaker|17
+Voice Line|17, 99, 3, 36, 100
+SFX A|0, 22, 100
+Text|Ha-wa-wa!? There's a "fat" hidden in there!?\n
+Wait Frame|
+Wait For Input|
+Voice Line|16, 99, 3, 42, 100
+Speaker|16
+Text|Okay everyone, all together now... Monomi is a serious\nStufatly!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 60
+Music|255, 180, 0
+Screen Fade|1, 1, 160
+Animation|1, 153, 0, 0, 0, 0, 0, 255
+Music|255, 0, 0
+0x3a|15, 0, 0, 43
+Change UI|12, 1
+0x3a|15, 0, 0, 41
+Change UI|6, 1
+Change UI|9, 1
+Animation|0, 33, 0, 0, 0, 0, 0, 0
+Screen Fade|0, 0, 1
+Animation|0, 33, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 90
+Animation|0, 33, 0, 0, 0, 0, 0, 2
+Screen Fade|1, 2, 24
+Animation|0, 33, 0, 0, 0, 0, 0, 255
+Music|49, 100, 0
+Change UI|6, 1
+Change UI|9, 1
+Sprite|0, 17, 0, 1, 2
+Animation|1, 160, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 2, 64
+Animation|1, 160, 0, 0, 0, 0, 4, 1
+Change UI|51, 1
+Change UI|1, 1
+Sprite|0, 17, 0, 1, 2
+Voice Line|17, 4, 0, 8, 100
+Text|Hello! I hope your day is well!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 4, 1, 2
+Voice Line|17, 4, 0, 9, 100
+SFX A|0, 23, 100
+Text|...I'm trying to force myself to be more energetic, or\nelse my mental state won't be able to keep up!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 4, 1, 2
+Voice Line|17, 4, 0, 10, 100
+Text|Ah, my heart's thumping like crazy!\n
+Wait Frame|
+Wait For Input|
+Voice Line|17, 4, 0, 11, 100
+Text|I might as well have a laidback "so what" attitude and\ngo ahead with high energy!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 8, 1, 2
+Voice Line|17, 4, 0, 12, 100
+Text|Yeehaaaaaa!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 0, 1, 2
+Voice Line|17, 4, 0, 13, 100
+Text|Ah, but be careful that your batteries don't run out!\nFor various reasons!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 14, 1, 2
+Voice Line|17, 4, 0, 14, 100
+Text|And just like I say each time, don't forget to save\nfrequently!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+Screen Fade|1, 1, 24
+Sprite|0, 17, 14, 3, 2
+Animation|1, 160, 0, 0, 0, 0, 0, 255
+Change UI|6, 0
+Change UI|9, 0
+Sprite|17, 17, 22, 0, 1
+Script|4, 0, 222, 0, 0
+Stop Script|
+Stop Script|

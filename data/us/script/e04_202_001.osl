@@ -1,0 +1,108 @@
+OSL Script
+Set Game To DR2
+Text Count|20, 0
+Change UI|21, 1
+Change UI|22, 1
+0x3b|1, 244
+Check Flag A|0, 0
+Sprite|7, 7, 37, 0, 0
+Text|I guess we should figure\nout the weapon first...\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 1
+Sprite|4, 4, 9, 0, 0
+Text|The weapon was right there\nat the scene of the crime!\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 2
+Sprite|8, 8, 22, 0, 0
+Text|...That pillar, huh.\n
+Wait Frame|
+Check Flag A|0, 3
+Sprite|4, 4, 8, 0, 0
+Text|No, the hammer!\n
+Wait Frame|
+Check Flag A|0, 4
+Sprite|4, 4, 10, 0, 0
+Text|The killer used that hammer...\n
+Wait Frame|
+Check Flag A|0, 5
+Sprite|4, 4, 2, 0, 0
+Text|...and <CLT 17>beat the crap<CLT> out of him!\n
+Format|17
+Format|0
+Wait Frame|
+Check Flag A|0, 6
+Sprite|10, 10, 19, 0, 0
+Text|Are you saying they had just\ncaught Mister Robot by surprise?\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 7
+Sprite|4, 4, 2, 0, 0
+Text|That's right! It was a <CLT 69>surprise beating<CLT>!\n
+Format|69
+Format|0
+Wait Frame|
+Check Flag A|0, 8
+Sprite|4, 4, 16, 0, 0
+Text|The weapon is decided!\n
+Wait Frame|
+Check Flag A|0, 9
+Format|20
+Text|<CLT 20>...Well, that's obvious.<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 10
+Format|20
+Text|<CLT 20>Don't go taking charge on your own.<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 11
+Format|20
+Text|<CLT 20>Is it...about that...?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 12
+Format|20
+Text|<CLT 20>Hey, hey...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 13
+Format|20
+Text|<CLT 20>Y-You serious...?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 14
+Format|20
+Text|<CLT 20>A beating...?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 15
+Format|20
+Text|<CLT 20>By surprise...?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 16
+Format|20
+Text|<CLT 20>Puhuhuhuhu...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 17
+Format|20
+Text|<CLT 20>...Huh?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 18
+Format|20
+Text|<CLT 20>...Huh?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 19
+Format|20
+Text|<CLT 20>...Huh?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|255, 255
+0x2c|1, 244
+0x1c|
+Stop Script|

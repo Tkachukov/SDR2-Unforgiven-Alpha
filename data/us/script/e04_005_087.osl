@@ -1,0 +1,680 @@
+OSL Script
+Set Game To DR2
+Text Count|58, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+Set Flag|0, 12, 0
+0x1|0, 87, 29, 1
+Change UI|6, 0
+Load Map|0, 87, 0, 0
+Change UI|9, 0
+0x1|0, 87, 6, 1
+0x23|28, 0, 0, 1, 0
+0x23|29, 1, 0, 1, 0
+0x23|30, 1, 0, 1, 0
+0x23|31, 0, 0, 1, 0
+0x23|33, 0, 0, 0, 0
+Music|2, 100, 0
+0x3a|5, 0, 0, 2
+Screen Fade|0, 1, 24
+Change UI|3, 1
+0x3a|5, 0, 0, 30
+Change UI|51, 0
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Ngh...\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Change UI|13, 1
+Text|Ughhh...\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>When I woke up...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>...I was someplace that didn't make sense.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>It was clearly a place I've never seen before.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>My sense of reality was still hazy, so I wasn't able to\nreact right away...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|9, 0
+Sprite|14, 19, 0, 0, 10
+Change UI|9, 1
+0x3a|6, 0, 0, 60
+Change UI|26, 19
+0x3a|5, 0, 0, 20
+Sprite|0, 19, 7, 1, 2
+Change UI|1, 1
+Speaker|6
+Voice Line|6, 99, 0, 40, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Where...is thiiiiiis!?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>However, when I looked over at Nekomaru standing tall in\na wide stance, my sense of reality felt even hazier.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 8, 6, 1, 1
+Speaker|8
+Voice Line|8, 99, 0, 24, 100
+Text|*Yawwwwwn...* Man, I slept good...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 47, 1, 0
+Speaker|11
+Voice Line|11, 99, 0, 53, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|What... douchebag thought it would be a fun idea\nto drug me YET AGAIN?!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 48, 1, 2
+Speaker|7
+Voice Line|7, 99, 0, 70, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Wh-What the hell is this!?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Voices expressing surprise and confusion began to\nsurround me, one after another.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>It seems that the others have started to wake up as\nwell.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>So...this is Strawberry Tower, huh...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>The building is shaped like a huge circle. Plus...the\nceiling is so high, I can't really make it out.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 7, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 23, 100
+Text|Jeez...more of these bright red decorations... What\nterrible taste!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 0, 1, 2
+Voice Line|6, 99, 0, 7, 100
+Text|Well, with a name like Strawberry Tower, I guess the\nterrible decorations are intentional...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 0, 4, 2
+Speaker|0
+Format|4
+Text|<CLT 04>That's right...this is Strawberry Tower, right?\nThen why...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>Why do I see something that doesn't match the strawberry\ntheme at all?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|9, 0
+Sprite|5, 19, 0, 0, 20
+0x3a|6, 0, 0, 60
+Change UI|16, 1
+0x3b|1, 244
+Check Character|5
+0x46|12, 25, 0, 0
+0x4d|
+0x3b|1, 245
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 19, 7, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|6
+Voice Line|6, 99, 0, 7, 100
+Text|This is such terrible taste...\n
+Wait Frame|
+Wait For Input|
+Text|Well, if Monokuma did the decorating, it's a given that\nthis place would have terrible taste.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 0, 4, 2
+Change UI|1, 0
+0x3b|1, 246
+0x2c|1, 245
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 19, 2, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|6
+Voice Line|6, 99, 0, 47, 100
+Text|Don't look down on this body's strength. Just a little\nbit more and I'll get this door open!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 0, 4, 2
+Change UI|1, 0
+0x2c|1, 246
+Check Character|255
+Choice|20
+Run Script|4, 3, 231, 0, 100
+Choice|21
+Run Script|4, 3, 231, 0, 101
+Choice|22
+0x46|12, 25, 0, 0
+0x4d|
+0x3b|1, 247
+Change UI|15, 0
+Change UI|51, 0
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>There's a huge door at the far back of the tower... But\nthere's a grape image on it.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>I thought this was Strawberry Tower...?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Wait, this image...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Doesn't it match the one on the lounge phone and also\nthe one we found near the 1st floor elevator?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 7, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 36, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Perhaps...this door might be the exit!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...Huh? Exit?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 0, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 7, 100
+Text|Take a look at the map we received from Monokuma...\n
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Change UI|6, 1
+Sprite|0, 19, 0, 3, 2
+Animation|3, 93, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 93, 0, 0, 0, 0, 0, 1
+Animation|3, 93, 0, 0, 0, 0, 0, 20
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|6
+Voice Line|6, 99, 0, 5, 100
+Text|There's a door at the far back of Strawberry Tower, but\nnothing is drawn <CLT 03>on the other side<CLT> of that door...\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 18, 100
+Change UI|13, 1
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Now...doesn't this mean that the exit is on the other\nside of this door!?\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Animation|3, 93, 0, 0, 0, 0, 0, 255
+Change UI|6, 0
+Change UI|3, 1
+Screen Fade|0, 1, 24
+Sprite|0, 19, 8, 1, 2
+Change UI|51, 0
+Change UI|2, 1
+Change UI|9, 1
+Speaker|6
+Voice Line|6, 99, 0, 15, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Therefore, we must try to confirm it by opening this\ndoor!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Nekomaru let out a battle cry, grabbed the doorknob\ntightly with both hands...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>...and attempted to pry the door open!<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>However...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Animation|12, 63, 0, 0, 0, 0, 0, 1
+SFX A|0, 213, 100
+Speaker|63
+Change UI|13, 1
+Format|6
+Text|<CLT 06>*Clatter-clatter! Clatter-clatter!*<CLT>\n
+Format|0
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 19, 9, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 33, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Gh...what does this mean...? The doorknob won't budge,\nnot even one bit!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Is it locked...?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 9, 1, 2
+Speaker|6
+Text|Well, shit...it appears to be locked tight...\n
+Wait Frame|
+Wait For Input|
+Animation|12, 63, 0, 0, 0, 0, 0, 2
+Sprite|0, 19, 4, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 16, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|In that case, I shall use my FULL POWER!\nUOOOOOOOOOOOOOOOOOOOOOOOOO!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>With a fierce roar, Nekomaru put all his power into\ngrabbing the doorknob with both hands.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>But...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|1, 53, 100
+Speaker|63
+Change UI|13, 1
+Format|6
+Text|<CLT 06>*Clatter-clatter-clatter-clatter-clatter-clatter!*<CLT>\n
+Format|0
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+SFX A|255, 255, 100
+Wait For Input|
+Sprite|0, 19, 8, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 41, 100
+Text|Heh...heh heh...not yet... Here it comes...the\nincredible strength of one million horsepower!!!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 5, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 15, 100
+SFX A|0, 18, 100
+SFX A|1, 53, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|GUOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!!!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Speaker|0
+Text|W-Wait...isn't it creaking? If you break off the\ndoorknob, we'll be stuck in here!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+SFX A|255, 255, 100
+Sprite|0, 19, 9, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 40, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Ngh!? That would be bad!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|S-So...shouldn't we discuss this with everyone else\nfirst before you attempt to force your way through?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 7, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 37, 100
+Text|Hmmm... You have a point...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 0, 1, 2
+Voice Line|6, 99, 0, 2, 100
+Text|Very well then! Even though the door would've opened\nsoon, I'll give it a rest!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Then...let's go back to Strawberry House and discuss\nthis with everyone...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>If...they'll listen to what I have to say, that is...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 0, 4, 2
+Change UI|1, 0
+0x3a|6, 0, 0, 10
+Set Flag|12, 25, 1
+Set Flag|0, 12, 1
+0x3b|1, 248
+0x2c|1, 247
+Change UI|51, 0
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Text|Let's go back to Strawberry House and discuss this with\neveryone...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>If...they'll listen to what I have to say, that is...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x2c|1, 248
+Choice|23
+0x2c|0, 1
+0x46|12, 26, 0, 0
+0x4d|
+0x3b|1, 249
+Change UI|15, 0
+Change UI|51, 0
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>Along the tower floor, there appear to be many lights\nbuilt into the floor illuminating the wall.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>The lights are all...red.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>I see...because of these lights, the walls and interior\ndesign of the tower look red...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>And with the lights, they're able to create the designs\non the wall.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>However, because these lights are shining on the walls,\nthe ceiling is pretty dark and I can't really see it.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Set Flag|12, 26, 1
+0x3b|1, 250
+0x2c|1, 249
+Run Script|4, 3, 231, 0, 142
+0x2c|1, 250
+Choice|24
+0x3b|0, 1
+Choice|25
+0x46|12, 27, 0, 0
+0x4d|
+0x3b|1, 251
+Change UI|15, 0
+Change UI|51, 0
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>There's a picture on the floor... It's Usami's face...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>She has a strawberry in her mouth... Even this is\nstrawberry themed, huh.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Well, at least it's not an illustration of Monokuma...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Set Flag|12, 27, 1
+0x3b|1, 252
+0x2c|1, 251
+Run Script|4, 3, 231, 0, 143
+0x2c|1, 252
+Choice|26
+0x2c|0, 0
+0x46|12, 28, 0, 0
+0x4d|
+0x3b|1, 253
+Change UI|15, 0
+Change UI|51, 0
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>On both sides of the door in the far back stand two huge\npillars.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Ah, perhaps...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Without thinking, I turned around and checked behind\nme...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>...Just as I thought. There are pillars, or gateposts,\non both sides of the door Nekomaru and I entered from.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|It appears they're standing face-to-face with the other\npair.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Set Flag|12, 28, 1
+0x3b|1, 254
+0x2c|1, 253
+Run Script|4, 3, 231, 0, 144
+0x2c|1, 254
+Choice|27
+0x3b|0, 0
+Choice|254
+0x46|12, 25, 0, 0
+0x4d|
+0x3b|1, 255
+Change UI|51, 0
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>I see something that doesn't match the strawberry theme\nat all... What in the world is that?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3b|2, 0
+0x2c|1, 255
+Change UI|2, 1
+Change UI|1, 1
+Change UI|18, 0
+Change UI|18, 3
+0x3b|2, 1
+0x32|1
+Text|Yes\n
+Wait Frame|
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 79, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 15
+SFX A|0, 201, 100
+Change UI|15, 2
+Script|4, 0, 6, 0, 79
+Stop Script|
+0x32|2
+Text|No\n
+Wait Frame|
+Change UI|1, 0
+0x32|18
+0x32|19
+Speaker|63
+Format|6
+Text|<CLT 06>Leave here?<CLT>\n
+Format|0
+Wait Frame|
+0x32|255
+0x2c|2, 1
+0x2c|2, 0
+Choice|255
+0x2c|1, 244
+Stop Script|
+Stop Script|

@@ -1,0 +1,199 @@
+OSL Script
+Set Game To DR2
+Text Count|27, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+Set Flag|0, 12, 1
+Change UI|6, 0
+Load Map|0, 84, 0, 0
+Change UI|9, 0
+Music|255, 120, 0
+Change UI|14, 1
+Change UI|3, 1
+Change UI|51, 0
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>I'm trying to do my very best not to worry...but even I\nhave my limits...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|I'm...hungry...\n
+Wait Frame|
+Wait For Input|
+Music|255, 0, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|0, 16, 3, 6, 2
+Music|12, 100, 0
+0x3a|6, 0, 0, 10
+Change UI|1, 1
+Speaker|16
+Voice Line|16, 99, 0, 91, 100
+Text|Oooo, I heard that!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 9, 1, 2
+Voice Line|16, 99, 0, 43, 100
+Text|Jeez...are you whining already? It's only your second\nday.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|It's so "Jeez!" of you to do this that all I can say is\n"Jeez!"\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 4, 1, 2
+Voice Line|16, 99, 1, 250, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|You should just stop being stubborn. Hurry up and start\nthe killing already!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Text|...What do you want?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 10, 1, 2
+Speaker|16
+Voice Line|16, 99, 0, 45, 100
+Text|My my, you don't even have the energy to be mad, huh?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 0, 1, 2
+Voice Line|16, 99, 1, 159, 100
+Text|Well, I have good news for you guys!\n
+Wait Frame|
+Wait For Input|
+Text|You've all lost your drive ever since you guys got here,\nright?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|You have the drive of an old man in his fifties.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 13, 1, 2
+Voice Line|16, 99, 0, 32, 100
+Text|In order for you guys to get your energy back, I'm\nproviding a special service with all my heart.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Sooooo everyone please gather at <CLT 03>Grape Tower<CLT> tomorrow\nmorning at 7:00 a.m.!\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|S-Seven in the morning...?\n
+Wait Frame|
+Wait For Input|
+Text|There's no alarm clock in this room. How do you expect\nus to wake up!?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 3, 1, 2
+Speaker|16
+Voice Line|16, 99, 0, 29, 100
+Text|That's your responsibility so you figure it out! By the\nway, being late is strictly prohibited!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 0, 1, 2
+Voice Line|16, 99, 0, 63, 100
+Text|Okay then, good byeeeeee!\n
+Wait Frame|
+Wait For Input|
+Music|10, 100, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|0, 16, 0, 7, 2
+0x3a|6, 0, 0, 30
+Music|10, 100, 120
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>Service with all your heart...huh...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>It's no use...my stomach feels so empty, I can't stop\nthinking about food...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>If I know Monokuma... There's no way he'll provide that\nfor us...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Text|...Dammit.\n
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 64
+Change UI|6, 1
+0x37|0, 0, 1
+Screen Fade|0, 1, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>I pulled up the thin covers of my futon, desperately\ntrying to ignore my hunger pangs...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>...and went to sleep.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+Change UI|3, 0
+Change UI|1, 0
+0x3a|6, 0, 0, 30
+Screen Fade|1, 1, 24
+0x37|0, 0, 3
+0x3a|0, 0, 0, 4
+0x3a|6, 0, 0, 60
+Run Script|8, 0, 100, 0, 11
+Screen Fade|1, 1, 24
+Script|4, 0, 14, 0, 0
+Stop Script|
+Stop Script|

@@ -1,0 +1,689 @@
+OSL Script
+Set Game To DR2
+Text Count|70, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+0x2f|0, 8, 112, 59, 1, 244, 112, 48, 0, 1
+0x3a|19, 0, 0, 0
+Show Background|0, 2, 112
+Show Background|0, 3, 112
+Show Background|0, 4, 112
+Show Background|0, 8, 112
+Show Background|0, 9, 112
+Show Background|0, 10, 112
+Show Background|0, 11, 112
+Show Background|0, 12, 112
+Show Background|0, 13, 112
+Show Background|0, 14, 112
+Show Background|0, 18, 112
+Show Background|255, 255, 112
+0x2c|1, 244
+Set Flag|0, 12, 0
+Set Flag|0, 5, 0
+Change UI|6, 0
+Load Map|0, 71, 0, 0
+Run Script|4, 3, 231, 0, 172
+Change UI|9, 0
+Sprite|30, 17, 0, 0, 20
+Sprite|24, 10, 0, 0, 20
+Sprite|28, 1, 0, 0, 20
+Sprite|22, 3, 0, 0, 20
+Sprite|31, 4, 0, 0, 20
+Sprite|25, 19, 0, 0, 20
+Sprite|23, 7, 30, 0, 20
+Sprite|1, 8, 0, 0, 20
+Sprite|21, 9, 0, 0, 20
+Change UI|9, 1
+0x23|33, 1, 0, 1, 0
+0x23|34, 1, 0, 1, 0
+0x23|35, 1, 0, 1, 0
+0x23|36, 1, 0, 1, 0
+0x23|37, 1, 0, 1, 0
+0x23|51, 1, 0, 1, 0
+0x23|52, 0, 0, 0, 0
+0x46|19, 15, 0, 1
+0x4d|
+0x3b|1, 245
+0x23|41, 0, 0, 0, 0
+0x2c|1, 245
+0x23|55, 0, 0, 0, 0
+Change UI|3, 0
+0x1|1, 99, 0, 254
+Change UI|6, 1
+Animation|3, 95, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 95, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|10
+Voice Line|10, 99, 0, 58, 100
+Text|I must say...this elevator is rather quiet.\n
+Wait Frame|
+Wait For Input|
+Text|It is like the toad's wart... Oh, wait...never mind!\n
+Wait Frame|
+Wait For Input|
+Speaker|7
+Voice Line|7, 99, 0, 68, 100
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Toad's wart...? What's she talking about?\n
+Wait Frame|
+Wait For Input|
+Speaker|1
+Voice Line|1, 99, 0, 26, 100
+Text|It doesn't feel like we're moving extremely fast. It\nseems it's moving very slowly...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|If so... The two houses might be surprisingly close.\n
+Wait Frame|
+Wait For Input|
+Speaker|4
+Voice Line|4, 99, 0, 43, 100
+Text|If two towers are connected in the middle, the distance\nbetween them shouldn't be that much.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 60
+SFX A|0, 225, 100
+Screen Fade|1, 1, 24
+Animation|3, 95, 0, 0, 0, 0, 0, 255
+Music|2, 100, 0
+0x1|1, 67, 0, 1
+0x1|1, 67, 1, 1
+0x1|1, 67, 3, 1
+0x1|1, 67, 4, 1
+0x1|1, 67, 6, 1
+0x1|1, 67, 7, 1
+0x1|1, 67, 8, 1
+0x1|1, 67, 9, 1
+0x1|1, 67, 10, 1
+Set Flag|0, 5, 1
+Change UI|6, 0
+Change UI|9, 1
+Change UI|3, 1
+Screen Fade|0, 1, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Text|All right...let's head over to Strawberry Tower.\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x1|1, 67, 0, 1
+0x1|1, 67, 1, 1
+0x1|1, 67, 3, 1
+0x1|1, 67, 4, 1
+0x1|1, 67, 6, 1
+0x1|1, 67, 7, 1
+0x1|1, 67, 8, 1
+0x1|1, 67, 9, 1
+0x1|1, 67, 10, 1
+0x1|0, 71, 29, 0
+Change UI|16, 1
+0x3b|1, 246
+Check Character|30
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 17, 0, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Text|Hey...why'd you create such an ugly-looking building?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 12, 1, 2
+Speaker|17
+Voice Line|17, 99, 0, 62, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Like I said...it wasn't me!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 0, 1, 2
+Speaker|17
+Voice Line|17, 99, 0, 11, 100
+Text|Well, you know...it already existed back when it was an\nattraction at the amusement park...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 14, 1, 2
+Speaker|17
+Voice Line|17, 99, 0, 48, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|But Monokuma's the one who modified it like this! It's\nall his fault!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 17, 14, 4, 2
+Speaker|0
+Format|4
+Text|<CLT 04>You make it sound so easy...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>How much time and energy did he put into modifying a\nbuilding like this?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Check Character|24
+0x46|13, 21, 0, 0
+0x4d|
+0x3b|1, 247
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 10, 9, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|10
+Voice Line|10, 99, 0, 23, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|The Three Laws of Robotics are laws that every robot\nmust follow!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|It consists of three laws that strive for safety, obedience,\nand self-defense.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>What!? She's explaining this all of a sudden!?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 0, 1, 2
+Speaker|10
+Voice Line|10, 99, 0, 5, 100
+Text|The first is safety... Human safety.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 6, 1, 2
+Voice Line|10, 99, 0, 26, 100
+Text|In simple terms... The first law stipulates that robots\nmay not harm human beings.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|The second law is obedience... Robots must obey any\norder given to it by human beings.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 14, 1, 2
+Voice Line|10, 99, 0, 58, 100
+Text|The third law is self-defense...\n
+Wait Frame|
+Wait For Input|
+Text|As long as it does not violate the previous two laws, a\nrobot must protect its own existence.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>...Why does Sonia know so much about this?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 17, 6, 1, 3
+Speaker|17
+Voice Line|17, 99, 0, 8, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Hoooooold on!\n
+Wait Frame|
+Wait For Input|
+Text|That explanation is too insufficient. Let your teacher\nexpand upon that!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 17, 8, 1, 3
+Voice Line|17, 99, 0, 32, 100
+Text|Ah, now I can finally act like a teacher... I shall\nreclaim my dignity right here, right now!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 4, 1, 1
+Speaker|8
+Voice Line|8, 99, 0, 2, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|What're you guys talkin' about!?\n
+Wait Frame|
+Wait For Input|
+Text|Now's not the time to talk about that stuff. Let's head\nover to Strawberry Tower!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 10, 1, 1, 2
+Speaker|10
+Voice Line|10, 99, 0, 4, 100
+Text|You are right... Perhaps we shall discuss this matter\nsome other time!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Yeah, let's hurry.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 0, 1, 3
+Speaker|17
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 10, 1, 3
+SFX A|0, 23, 100
+Voice Line|17, 99, 0, 39, 100
+Text|Heh, I'm already used to being treated like this...\nThat's right...I'm no longer down about it...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 10, 4, 3
+Change UI|1, 0
+Set Flag|13, 21, 1
+0x3b|1, 248
+0x2c|1, 247
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 10, 1, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|10
+Voice Line|10, 99, 0, 9, 100
+Text|Tune in next week and we shall continue our discussion\nof the Three Laws of Robotics!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 0, 4, 2
+Change UI|1, 0
+0x2c|1, 248
+Check Character|28
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 1, 2, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 99, 0, 26, 100
+Text|Isn't this elevator...actually moving extremely slow?\n
+Wait Frame|
+Wait For Input|
+Text|If so... The two houses might be surprisingly close.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 2, 4, 2
+Change UI|1, 0
+Check Character|22
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 3, 15, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|3
+Voice Line|3, 99, 0, 41, 100
+Text|Now then, let's see what result awaits us...\n
+Wait Frame|
+Wait For Input|
+Text|Have you fiends made up your mind? Don't forget to pray\nto your god.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Well, it's not like I have a god to pray to, anyway...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 6, 1, 2
+Voice Line|3, 99, 0, 23, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|I already know...God has been wiped out by my very own\nhands!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 0, 4, 2
+Change UI|1, 0
+Check Character|31
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 4, 10, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|4
+Voice Line|4, 99, 0, 46, 100
+Text|If two towers are connected in the middle, the distance\nbetween them shouldn't be that much.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 10, 4, 2
+Change UI|1, 0
+Check Character|25
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 19, 0, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|6
+Voice Line|6, 99, 0, 2, 100
+Text|Now then, let's get going and go confirm it!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 0, 4, 2
+Change UI|1, 0
+Check Character|23
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 7, 31, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|7
+Voice Line|7, 99, 0, 11, 100
+Text|Creating this complicated building just to make us\nkill...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|...It doesn't make any sense.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 0, 4, 2
+Change UI|1, 0
+Check Character|1
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 8, 4, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|8
+Voice Line|8, 99, 0, 16, 100
+Text|I don't really get it, but let's hurry up and head over\nto Strawberry Tower!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 0, 4, 2
+Change UI|1, 0
+Check Character|21
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 9, 2, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 99, 0, 5, 100
+Text|If we go inside Strawberry Tower from the door in\nStrawberry Hall...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|And if my handbook is still there, we can safely say\nthat the the two towers are the same building.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 0, 4, 2
+Change UI|1, 0
+Check Character|255
+Choice|20
+Run Script|4, 3, 231, 0, 151
+Choice|21
+Run Script|4, 3, 231, 0, 152
+Choice|22
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 8, 18, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|8
+Voice Line|8, 99, 0, 63, 100
+Text|Hey, why're you headin' back!? Let's hurry up and go to\nStrawberry Tower!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 0, 4, 2
+Change UI|1, 0
+Choice|23
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 8, 4, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|8
+Voice Line|8, 99, 0, 18, 100
+Text|That's not it! Let's hurry up and go to Strawberry\nTower!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 0, 4, 2
+Change UI|1, 0
+Choice|24
+Change UI|51, 0
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Text|If you press the button next to this door, you should be\nable to enter Strawberry Tower...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 2, 1, 2
+Speaker|9
+Voice Line|9, 99, 0, 5, 100
+Text|Then I'll press it.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 3, 3, 1, 1
+Speaker|3
+Voice Line|3, 99, 0, 46, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Wait. Step aside, you fiends...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...Wh-What?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 3, 13, 1, 1
+Speaker|3
+Voice Line|3, 99, 0, 53, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Emissary of evil... In accordance with our ancient\ncontract... The time has come to lend me your aid...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 3, 17, 1, 1
+Voice Line|3, 99, 0, 50, 100
+SFX A|0, 18, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Change UI|13, 1
+Text|Pierce through! <CLT 03>Supernova Silver Fox<CLT> San-D!\n
+Format|3
+Format|0
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Music|255, 0, 0
+Sprite|1, 3, 17, 4, 1
+Animation|12, 3, 0, 0, 0, 0, 0, 1
+Speaker|63
+SFX A|1, 27, 100
+Format|6
+Text|<CLT 06>"Chuuuu! Chuuuuu!"<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|63
+SFX A|1, 54, 100
+Format|6
+Text|<CLT 06>*Click!*<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Music|2, 100, 0
+Animation|12, 3, 0, 0, 0, 0, 0, 2
+Speaker|0
+Text|Ah, it pressed the button...?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 3, 15, 1, 1
+Speaker|3
+Voice Line|3, 99, 0, 41, 100
+Text|Truly, this is the <CLT 03>Skyline Lamentation Art of the Demon\nMouse<CLT>...!\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 3, 9, 1, 1
+Voice Line|3, 99, 0, 33, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Fuhahahaha! Soon, the door of destiny shall open!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 3, 1, 2
+Speaker|10
+Voice Line|10, 99, 0, 18, 100
+SFX A|0, 25, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Wow! Amazing! Your hamsters are truly skilled!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 3, 15, 1, 3
+Speaker|3
+Voice Line|3, 99, 0, 42, 100
+Text|I see, your eyes managed to follow San-D's movements...\nAs expected of the Dark Lady, you have my praise.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 3, 1, 2
+Speaker|10
+Voice Line|10, 99, 0, 20, 100
+SFX A|0, 25, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Amazing! Truly amazing! You must have a strong, trusting\nrelationship with them!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 3, 15, 1, 3
+Speaker|3
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 3, 5, 1, 3
+Voice Line|3, 99, 0, 21, 100
+Text|Th-Thank you...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 19, 1, 1
+Speaker|4
+Voice Line|4, 99, 0, 56, 100
+Text|Pfft, you didn't need to bother making your hamster\npress it...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 9, 1, 2
+Speaker|9
+Text|...\n
+Wait Frame|
+Wait For Input|
+Voice Line|9, 99, 0, 44, 100
+Text|Mmm... Just as I thought, it's taking a while to open.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 2, 1, 1
+Speaker|1
+Voice Line|1, 99, 0, 26, 100
+Text|Considering what we discussed earlier...\n
+Wait Frame|
+Wait For Input|
+Text|The sensor will confirm that nothing is moving inside\nthe tower, then wait for the other door to close...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+SFX A|0, 215, 100
+Speaker|0
+Format|4
+Text|<CLT 04>At that moment, I heard a loud sound from the other side\nof the door...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Change UI|3, 0
+Change UI|6, 1
+Sprite|0, 1, 0, 3, 1
+Animation|3, 223, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 223, 0, 0, 0, 0, 0, 4
+0x3a|6, 0, 0, 30
+SFX A|0, 225, 100
+Animation|3, 223, 0, 0, 0, 0, 0, 6
+Load Map|0, 87, 1, 0
+0x3a|6, 0, 0, 120
+0x3a|8, 0, 0, 0
+Screen Fade|1, 1, 24
+Animation|3, 223, 0, 0, 0, 0, 0, 255
+Script|4, 0, 8, 0, 87
+Stop Script|
+Choice|25
+Choice|26
+Choice|27
+Choice|28
+Choice|29
+Choice|30
+Choice|31
+Choice|32
+Choice|33
+Run Script|4, 3, 231, 0, 160
+Choice|34
+Run Script|4, 3, 231, 0, 161
+Choice|35
+Run Script|4, 3, 231, 0, 162
+Choice|36
+Run Script|4, 3, 231, 0, 163
+Choice|37
+Run Script|4, 3, 231, 0, 164
+Choice|38
+Choice|39
+Choice|40
+Change UI|15, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>Thanks to the wall clock, I know what time it is... But\nknowing the time isn't going to help things.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Choice|41
+Run Script|4, 3, 231, 0, 10
+Choice|53
+Run Script|4, 3, 231, 0, 100
+Choice|54
+Run Script|4, 3, 231, 0, 101
+Choice|254
+Choice|255
+0x2c|1, 246
+Stop Script|
+Stop Script|

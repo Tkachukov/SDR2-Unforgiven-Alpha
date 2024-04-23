@@ -1,0 +1,364 @@
+OSL Script
+Set Game To DR2
+Text Count|27, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+0x2f|0, 8, 112, 59, 1, 244, 112, 48, 0, 1
+0x3a|19, 0, 0, 0
+Show Background|0, 2, 112
+Show Background|0, 6, 112
+Show Background|0, 7, 112
+Show Background|0, 8, 112
+Show Background|0, 9, 112
+Show Background|0, 10, 112
+Show Background|0, 11, 112
+Show Background|0, 12, 112
+Show Background|0, 15, 112
+Show Background|255, 255, 112
+0x2c|1, 244
+Set Flag|0, 12, 0
+Change UI|6, 0
+Load Map|0, 79, 0, 0
+Change UI|9, 0
+Sprite|0, 10, 0, 0, 0
+Sprite|1, 1, 0, 0, 0
+Sprite|13, 3, 0, 0, 0
+Sprite|14, 4, 0, 0, 0
+Sprite|16, 19, 0, 0, 0
+Sprite|20, 7, 30, 0, 0
+Sprite|15, 8, 0, 0, 0
+Sprite|18, 9, 0, 0, 0
+Sprite|17, 17, 0, 0, 0
+0x1|1, 73, 0, 1
+0x1|1, 73, 1, 1
+0x1|1, 73, 3, 1
+0x1|1, 73, 4, 1
+0x1|1, 73, 6, 1
+0x1|1, 73, 7, 1
+0x1|1, 73, 8, 1
+0x1|1, 73, 9, 1
+0x1|1, 73, 10, 1
+0x1|1, 73, 17, 1
+0x1|0, 79, 29, 0
+0x23|33, 1, 0, 1, 0
+0x23|34, 1, 0, 1, 0
+0x23|35, 1, 0, 1, 0
+0x23|36, 1, 0, 1, 0
+Change UI|14, 0
+Change UI|3, 1
+Screen Fade|0, 1, 24
+0x3a|6, 0, 0, 30
+Change UI|16, 1
+0x3b|1, 245
+Check Character|0
+0x46|13, 26, 0, 0
+0x4d|
+0x3b|1, 246
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 10, 14, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|10
+Voice Line|10, 99, 0, 69, 100
+Text|It seems you are all being quite rude to Nekomaru. Have\nyou never heard of the Three Laws of Robotics...?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|The Three Laws of Robotics? I'm not familiar...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 6, 1, 2
+Speaker|10
+Voice Line|10, 99, 0, 30, 100
+Text|Very well, I shall explain! If this continues, I will\nfeel just awful for Nekomaru.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|But...I think it's best if we head toward Strawberry\nTower for now.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 1, 1, 2
+Speaker|10
+Voice Line|10, 99, 0, 12, 100
+Text|Ah, you are right... Then let us discuss this in greater\ndetail later!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 0, 4, 2
+Change UI|1, 0
+Set Flag|13, 26, 1
+0x3b|1, 247
+0x2c|1, 246
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 10, 6, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|10
+Voice Line|10, 99, 0, 30, 100
+Text|I shall teach you all about The Three Laws of Robotics\nin detail!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 0, 4, 2
+Change UI|1, 0
+0x2c|1, 247
+Check Character|1
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 1, 4, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 99, 0, 64, 100
+Text|I can't believe he has such high-quality sensors, and\ncreated such an elaborate setup...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 7, 1, 2
+Voice Line|1, 99, 0, 47, 100
+Text|...Well, it's not like this is something new.\n
+Wait Frame|
+Wait For Input|
+Text|This whole time, Monokuma has been doing a lot of\nintricate stuff...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 0, 4, 2
+Change UI|1, 0
+Check Character|13
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 3, 1, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|3
+Voice Line|3, 99, 0, 48, 100
+Text|If I get serious, I will not be captured by a mere\nsensor...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 15, 1, 2
+Voice Line|3, 99, 0, 41, 100
+Text|But even so...doesn't that sound boring?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 0, 4, 2
+Change UI|1, 0
+Check Character|14
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 4, 10, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|4
+Voice Line|4, 99, 0, 4, 100
+Text|Including Nekomaru's functions, Monokuma sure does have\na lot of useless technology...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|But still, Monokuma looks like he's pretty high-tech\nhimself.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 10, 4, 2
+Change UI|1, 0
+Check Character|16
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 19, 7, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|6
+Voice Line|6, 99, 0, 30, 100
+Text|Sleep mode is convenient, but while I'm sleeping, I'm\nutterly defenseless no matter what happens...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Even I'm a little worried about being left alone in that\nstate...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 0, 4, 2
+Change UI|1, 0
+Check Character|20
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 7, 31, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|7
+Voice Line|7, 99, 0, 12, 100
+Text|It's better if we just hurry up and check it out. Let's\ngo...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 0, 4, 2
+Change UI|1, 0
+Check Character|15
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 8, 21, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|8
+Voice Line|8, 99, 0, 70, 100
+Text|That reminds me... Does coach Nekomaru still get hungry?\nI mean, he's a robot now.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 0, 4, 2
+Change UI|1, 0
+Check Character|18
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 9, 2, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 99, 0, 5, 100
+Text|After traveling from Strawberry Hall to Strawberry Tower...\n
+Wait Frame|
+Wait For Input|
+Text|If the handbook is still there, we can safely say that\nthe two towers are the same building.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 0, 4, 2
+Change UI|1, 0
+Check Character|17
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 17, 0, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Text|Hey...why'd you create such an ugly-looking building?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 12, 1, 2
+Speaker|17
+Voice Line|17, 99, 0, 62, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Like I said...it wasn't me!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 0, 1, 2
+Speaker|17
+Voice Line|17, 99, 0, 11, 100
+Text|Well, you know...it already existed back when it was an\nattraction at the amusement park...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 14, 1, 2
+Speaker|17
+Voice Line|17, 99, 0, 48, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|But Monokuma's the one who modified it like this! It's\nall his fault!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 17, 0, 4, 2
+Speaker|0
+Format|4
+Text|<CLT 04>You make it sound so easy...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>How much time and energy did he put into modifying a\nbuilding like this?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Check Character|255
+Choice|20
+Run Script|4, 3, 231, 0, 149
+Choice|21
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Change UI|6, 1
+Load Map|0, 71, 1, 0
+SFX A|0, 225, 100
+0x3a|8, 0, 0, 17
+Screen Fade|1, 1, 24
+Script|4, 0, 8, 0, 71
+Stop Script|
+Choice|22
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 9, 2, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 99, 0, 50, 100
+Text|We have to head over to Strawberry Tower. C'mon, the\nelevator is over there.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 0, 4, 2
+Change UI|1, 0
+Choice|23
+Change UI|9, 1
+Sprite|0, 9, 2, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 99, 0, 50, 100
+Text|We have to head over to Strawberry Tower. C'mon, the\nelevator is over there.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 0, 4, 2
+Change UI|1, 0
+Choice|24
+Run Script|4, 3, 231, 0, 150
+Choice|25
+Choice|26
+Choice|27
+Choice|28
+Choice|29
+Choice|30
+Choice|31
+Choice|32
+Choice|33
+Run Script|4, 3, 231, 0, 157
+Choice|34
+Run Script|4, 3, 231, 0, 156
+Choice|35
+Run Script|4, 3, 231, 0, 158
+Choice|36
+Run Script|4, 3, 231, 0, 159
+Choice|37
+Choice|38
+Choice|39
+Run Script|4, 3, 231, 0, 154
+Choice|45
+Run Script|4, 3, 231, 0, 100
+Choice|46
+Run Script|4, 3, 231, 0, 101
+Choice|47
+Run Script|4, 3, 231, 0, 100
+Choice|48
+Run Script|4, 3, 231, 0, 101
+Choice|254
+Choice|255
+0x2c|1, 245
+Stop Script|
+Stop Script|

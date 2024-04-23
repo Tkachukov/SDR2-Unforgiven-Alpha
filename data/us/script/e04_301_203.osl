@@ -1,0 +1,582 @@
+OSL Script
+Set Game To DR2
+Text Count|64, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+Set Flag|0, 12, 0
+Change UI|6, 0
+Load Map|0, 209, 0, 0
+Change UI|9, 0
+Sprite|3, 8, 0, 0, 0
+Sprite|4, 1, 0, 0, 0
+Sprite|5, 7, 30, 0, 0
+Sprite|8, 9, 0, 0, 0
+Sprite|11, 11, 7, 0, 0
+Sprite|13, 4, 0, 0, 0
+Sprite|14, 16, 0, 0, 0
+Sprite|15, 17, 0, 0, 0
+0x1|0, 209, 1, 1
+0x1|0, 209, 4, 1
+0x1|0, 209, 7, 1
+0x1|0, 209, 8, 1
+0x1|0, 209, 9, 1
+0x1|0, 209, 10, 1
+Music|16, 100, 120
+Change UI|6, 0
+Change UI|3, 1
+Screen Fade|0, 1, 24
+0x3a|6, 0, 0, 60
+Change UI|26, 10
+0x3a|5, 0, 0, 20
+Change UI|9, 1
+Format|4
+Text|<CLT 04>Even after Gundham is gone... The spirit of his parting\nwords still lingered deep in our chests.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 41, 1, 2
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|11
+Voice Line|11, 99, 0, 34, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Change UI|13, 1
+Text|He... wasn't really afraid of death, was he?\nWhich means, he tried to get away with his crime...\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Text|...and get us all executed only because he was\na mega bitch.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 8, 1, 0
+Speaker|4
+Voice Line|4, 99, 0, 24, 100
+Text|Hey! It is a bit screwed up to start talking shit\nabout the guy right after he died, don't you think?!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 15, 1, 0
+Speaker|4
+Voice Line|4, 99, 0, 27, 100
+Text|Also... didn't you two make peace just before that?\nI am... totally not getting it?!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 45, 1, 0
+Speaker|11
+Voice Line|11, 99, 0, 42, 100
+Text|...Deep down, Gundham was a nice, selfless guy.\nHe even probably wanted to die so we could survive...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 4, 1, 0
+Speaker|4
+Voice Line|4, 99, 0, 28, 100
+Text|What's happening here?!\nNow you're suddently praising him again?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 27, 1, 0
+Speaker|11
+Voice Line|11, 99, 0, 42, 100
+Text|But... he had got so lost in this character of\na mighty and untouchable supervillian...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 38, 1, 0
+Speaker|11
+Voice Line|11, 99, 0, 62, 100
+Text|...that he felt he had no choice but to try\nto kill us all. However, I can't be mad at him! Because...\n
+Wait Frame|
+Wait For Input|
+Text|I am exactly the same! I felt like I had no choice\nbut to keep biting you all without provocation...\n
+Wait Frame|
+Wait For Input|
+Text|...because I am a mega bitch, too!\nI wanted to be seen as strong and important, even though I am not!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 4, 1, 0
+Speaker|9
+Voice Line|9, 99, 0, 5, 100
+Text|Hush, Hiyoko. The admittance of one's flaws is\nthe first step on the road to improvement, you know?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 4, 4, 1
+Change UI|1, 0
+Change UI|27, 0
+0x3a|5, 0, 0, 60
+Change UI|1, 1
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|3
+Text|<CLT 03>"Don't give up on life"<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Did I...misunderstand what he meant?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Then...what's the right thing to do?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>I don't know...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>No matter how much I think about it... I don't know if\nI'll ever be able to answer that.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|26, 8
+0x3a|5, 0, 0, 30
+Change UI|1, 1
+Sprite|0, 8, 12, 1, 2
+Speaker|8
+Voice Line|8, 99, 0, 42, 100
+Text|Dammit...! DAMMIT!!!\n
+Wait Frame|
+Wait For Input|
+Text|I'm so pissed off...I need to throw something...!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 24, 1, 2
+Voice Line|8, 99, 0, 74, 100
+Text|You all spent so much time worryin' about each other...\nAnd thanks to that...things ended up like this...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|You're all...full of shit... Every last one of you...\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|But the biggest piece of shit...is me!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 8, 12, 1, 2
+Voice Line|8, 99, 0, 46, 100
+Text|Dammit...! Why am I so weak...!?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 16, 1, 3
+Speaker|9
+Text|...\n
+Wait Frame|
+Wait For Input|
+Voice Line|9, 99, 0, 64, 100
+Text|It's such a downer...clearly...\n
+Wait Frame|
+Wait For Input|
+Text|But still...\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Even though we feel this way... We still gotta do our\nvery best.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 35, 1, 4
+Speaker|11
+Voice Line|11, 99, 0, 28, 100
+Text|You...are right... This time around...\nWe must go forward and together, grind Monokuma to dust!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 44, 1, 4
+Speaker|11
+Voice Line|11, 99, 0, 61, 100
+Text|Gundham and Mister Rob... Nekomaru both sacrificed\nthemselves so we could have a chance to fight!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 45, 1, 4
+Speaker|11
+Voice Line|11, 99, 0, 62, 100
+Text|So, um... if I promise to do my best to help you...\nCould some of you... help me in turn?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 4, 1, 4
+Speaker|9
+Voice Line|9, 99, 0, 28, 100
+Text|Are you finally ready to ask us out to help you\nput your kimono back on?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 42, 1, 4
+Speaker|11
+Voice Line|11, 99, 0, 59, 100
+Text|...Yes. Mahiru would have approved, right?\nKazuichi, as a mechanic, you can tie a simple knot, right?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 4, 1, 4
+Speaker|4
+Voice Line|4, 99, 0, 27, 100
+Text|Why... why me?!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 41, 1, 4
+Speaker|11
+Voice Line|11, 99, 0, 36, 100
+Text|You had openly admitted that you are not...\ninterested in my body, so I trust you not to be creepy.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 6, 1, 4
+Speaker|4
+Voice Line|4, 99, 0, 29, 100
+Text|Are you asking me to bath together with you?!!!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 27, 1, 4
+Speaker|11
+Voice Line|11, 99, 0, 51, 100
+Text|Of course not! You would just have to help me\ntie my obi sash after I shower by myself.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 11, 1, 4
+Speaker|4
+Voice Line|4, 99, 0, 20, 100
+Text|Well... this is something I can get behind,\nI guess... It still would be hella awkward...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 13, 4, 4
+Change UI|1, 0
+Change UI|27, 0
+0x3a|5, 0, 0, 60
+Change UI|1, 1
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>We shouldn't just stand here...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>I mean...it's not like <CLT><CLT 03><CLT><CLT 04><CLT><CLT 03>this<CLT><CLT 04> is over.<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>We...still have to do it.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>We still have to finish <CLT><CLT 03><CLT><CLT 04><CLT><CLT 03>this<CLT><CLT 04>.<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 18, 100
+Change UI|13, 1
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>For the sake of our friends who have died, we need to\nfinish <CLT><CLT 03><CLT><CLT 04><CLT><CLT 03>this<CLT><CLT 04> once and for all!<CLT>\n
+Wait Frame|
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Format|4
+Text|<CLT 04>So...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Don't just stand there.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Stand up and walk.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Move forward.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Live.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>If you don't... Everyone who fought and died will have\ndied in vain...!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 18, 100
+Change UI|13, 1
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>We can't allow that!<CLT>\n
+Format|0
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Change UI|1, 0
+0x3a|6, 0, 0, 10
+Change UI|26, 16
+0x3a|5, 0, 0, 20
+Change UI|1, 1
+Sprite|1, 16, 10, 6, 2
+SFX A|0, 33, 100
+Speaker|16
+Voice Line|16, 99, 0, 1, 100
+Text|So how long are you guys gonna stand around chattering?\n
+Wait Frame|
+Wait For Input|
+Text|The class trial is over, so it's okay for you to hurry\nback over to Jabberwock Island!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 3, 1, 2
+Voice Line|16, 99, 0, 29, 100
+Text|However, the killing school trip will proceed as usual,\nso make sure you know that!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|1, 16, 0, 7, 2
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Sprite|0, 17, 14, 1, 1
+Speaker|17
+Voice Line|17, 99, 0, 46, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|H-Hold on!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Text|How...how much longer are you gonna keep doing this!?\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+SFX A|0, 34, 100
+Sprite|0, 17, 0, 7, 1
+Music|255, 180, 0
+0x3a|6, 0, 0, 30
+Change UI|9, 0
+Sprite|14, 16, 98, 0, 0
+Sprite|15, 17, 98, 0, 0
+Change UI|9, 1
+Change UI|1, 0
+Change UI|27, 0
+0x3a|5, 0, 0, 60
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>Seriously...how long is he going to keep doing this...?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>How long...is this going to continue...?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|26, 8
+0x3a|5, 0, 0, 20
+Change UI|1, 1
+Sprite|1, 8, 11, 1, 2
+Speaker|8
+Voice Line|8, 99, 0, 5, 100
+Text|Now then...\n
+Wait Frame|
+Wait For Input|
+Music|2, 100, 0
+Sprite|1, 8, 2, 1, 2
+Voice Line|8, 99, 0, 11, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|All right, after feeling down for so long, I finally\nfeel refreshed! Let's hurry back and eat some food!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 4, 1, 3
+Speaker|4
+Voice Line|4, 99, 0, 23, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|H-Hold on a sec! That mood shift is too damn fast!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 8, 11, 1, 2
+Speaker|8
+Voice Line|8, 99, 0, 38, 100
+Text|Well, you know...it's like Gundham and Nekomaru said...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 8, 26, 1, 2
+Voice Line|8, 99, 0, 8, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|That's what it means to live...right?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 50, 1, 1
+Speaker|7
+Voice Line|7, 99, 0, 72, 100
+Text|Heh... She's certainly something else...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 8, 2, 1, 2
+Speaker|8
+Voice Line|8, 99, 0, 11, 100
+Text|But seriously, I'm starvin'!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 2, 1, 3
+Speaker|9
+Voice Line|9, 99, 0, 5, 100
+Text|Then...let's go back for now and eat.\n
+Wait Frame|
+Wait For Input|
+Text|And then...after we're full, let's sleep as much as we\nwant.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 4, 1, 3
+Voice Line|9, 99, 0, 35, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|And then...let's do our best again.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...Yeah, you're right.\n
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 120
+Change UI|6, 1
+Sprite|0, 9, 0, 3, 3
+0x37|0, 0, 1
+Screen Fade|0, 1, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>With this, the class trial has come to an end and once\nagain, we returned to Jabberwock Island.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>The size of our group has definitely diminished...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>But despite that...even if it was just the rest of us,\nwe did our best to stay upbeat and have fun together.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Of course, our optimism was only superficial...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>But at that moment, we were able to forget about the\ndark despair looming before us.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+Format|4
+Text|<CLT 04>However, the only thing I was worried about...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Music|10, 100, 0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>...was <CLT><CLT 03><CLT><CLT 04><CLT><CLT 03>him<CLT><CLT 04>. He wasn't there.<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Format|3
+Text|<CLT 04><CLT><CLT 03><CLT><CLT 04><CLT><CLT 03>He<CLT><CLT 04>...suddenly disappeared from our sight.<CLT>\n
+Format|0
+Format|4
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Screen Fade|1, 1, 24
+0x37|0, 0, 3
+0x3a|8, 0, 0, 0
+Script|4, 1, 45, 0, 105
+Stop Script|
+Stop Script|

@@ -1,0 +1,35 @@
+OSL Script
+Set Game To DR2
+Text Count|0, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|28, 255
+Change UI|7, 0
+Change UI|16, 0
+0x3a|0, 0, 0, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+0x3a|15, 0, 0, 36
+0x3a|20, 0, 0, 11
+Set Flag|0, 4, 1
+Set Flag|0, 5, 1
+Set Flag|0, 6, 0
+Set Flag|0, 7, 1
+0x1|1, 99, 0, 252
+0x1|1, 99, 0, 253
+0x1|1, 99, 0, 254
+0x1|0, 87, 1, 1
+0x1|1, 73, 4, 1
+0x1|0, 85, 9, 1
+0x1|1, 78, 10, 1
+0x1|1, 67, 7, 1
+0x1|0, 77, 6, 1
+0x1|0, 77, 8, 1
+0x1|0, 78, 3, 1
+Run Script|4, 3, 231, 0, 167
+Truth Bullet|255, 0
+Screen Fade|1, 1, 24
+0x3a|8, 0, 0, 1
+Script|4, 0, 0, 0, 79
+Stop Script|
+Stop Script|

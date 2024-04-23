@@ -1,0 +1,187 @@
+OSL Script
+Set Game To DR2
+Text Count|20, 0
+0x2c|0, 20
+Set Flag|0, 7, 1
+Set Flag|0, 13, 0
+Music|56, 100, 0
+Change UI|1, 1
+Sprite|0, 0, 20, 0, 0
+Trial Camera|0, 1, 23, 0, 1, 0
+Voice Line|0, 4, 0, 89, 100
+Text|Didn't the doorknob have scrape marks on it?\n
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 0, 133, 0, 1, 0
+Animation|12, 15, 0, 0, 0, 0, 0, 1
+Voice Line|0, 4, 0, 90, 100
+Text|That...might've been <CLT 03>where it got scraped by the\nwire<CLT>...\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Animation|12, 15, 0, 0, 0, 0, 0, 2
+Sprite|7, 7, 47, 0, 0
+Trial Camera|7, 0, 142, 0, 0, 0
+Voice Line|7, 4, 0, 42, 100
+SFX A|0, 19, 100
+Text|Is that the same wire that was tied around Nekomaru?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 14, 0, 0, 0
+Animation|12, 5, 0, 0, 0, 0, 0, 1
+Voice Line|0, 4, 0, 91, 100
+Text|The tip of that wire was tied into a loop...\n
+Wait Frame|
+Wait For Input|
+Voice Line|0, 4, 0, 92, 100
+Text|If the elevator moved while that looped part hung from\nthe doorknob...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|12, 5, 0, 0, 0, 0, 0, 2
+Sprite|11, 11, 32, 4, 0
+Trial Camera|11, 0, 18, 0, 0, 0
+SFX A|0, 20, 100
+Text|I-If they did something like that, he would have been\n<CLT 03>suspended in midair<CLT>!\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 20, 0, 0
+Trial Camera|9, 0, 237, 0, 0, 0
+Voice Line|9, 4, 0, 56, 100
+Text|That's right. He was suspended in midair.\n
+Wait Frame|
+Wait For Input|
+Sprite|11, 11, 36, 0, 0
+Trial Camera|11, 0, 40, 0, 0, 0
+SFX A|0, 22, 100
+Text|Huh!?\n
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 2, 0, 0
+Trial Camera|9, 0, 159, 0, 0, 0
+Voice Line|9, 4, 0, 57, 100
+Text|The killer tied up Mechamaru with the wire while he was\nin sleep mode...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|9, 2, 7, 0, 1, 0
+Voice Line|9, 4, 0, 58, 100
+Text|...tied the tip of the wire into a knot, and hung it on\nthe <CLT 03>doorknob to the 4th floor<CLT>...\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Trial Camera|9, 0, 89, 0, 1, 0
+Voice Line|9, 4, 0, 59, 100
+Text|With that, they moved the elevator from the 4th floor to\nthe 1st floor of Grape Tower...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+Screen Fade|1, 1, 24
+Change UI|60, 0
+Change UI|6, 1
+Change UI|9, 1
+Animation|3, 120, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 120, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 90
+Change UI|51, 1
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 4, 0, 60, 100
+Text|...and suspended Mechamaru in midair.\n
+Wait Frame|
+Wait For Input|
+Speaker|16
+Voice Line|16, 99, 2, 215, 100
+Text|That's right, he was sooooooooooooo well hung! Kinda\nlike...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|17
+Voice Line|17, 4, 0, 15, 100
+SFX A|0, 18, 100
+Text|You better not finish that sentence!\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 60
+Screen Fade|1, 1, 24
+Animation|3, 120, 0, 0, 0, 0, 0, 255
+Change UI|60, 1
+Change UI|6, 0
+Change UI|9, 0
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 113, 0, 0, 0
+Screen Fade|0, 1, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|0, 0, 9, 0, 0
+Voice Line|0, 4, 0, 93, 100
+Text|The killer took advantage of the elevator's unique\nfeature: <CLT 03>only the floor moves<CLT>.\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 0, 111, 0, 1, 0
+Change UI|72, 5
+Animation|0, 208, 0, 0, 0, 0, 0, 0
+Voice Line|0, 4, 0, 94, 100
+Text|By doing that, they created a drop so Nekomaru could\nfall to his death.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|25, 100, 0
+Voice Line|11, 99, 0, 55, 100
+Animation|0, 210, 0, 0, 0, 0, 0, 1
+Change UI|72, 4
+Animation|0, 210, 0, 0, 0, 0, 0, 255
+Sprite|0, 0, 18, 2, 0
+Sprite|11, 11, 44, 1, 0
+Trial Camera|11, 1, 29, 0, 0, 0
+Trial Camera|0, 1, 19, 0, 0, 1
+Change UI|70, 1
+Sprite|11, 11, 44, 1, 0
+0x2d|1, 0, 120, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 18, 100
+Text|So what if they created a drop!? There's no way you\ncould make him fall and die with just that!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 2, 0
+Trial Camera|0, 0, 161, 0, 0, 1
+Voice Line|0, 4, 0, 95, 100
+SFX A|0, 20, 100
+Text|Why...?\n
+Wait Frame|
+Wait For Input|
+Sprite|11, 11, 41, 1, 0
+Trial Camera|11, 0, 18, 0, 0, 0
+Text|If Nekomaru is suspended in midair like that...then how\ndo you get him to fall?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|11, 11, 44, 1, 0
+Trial Camera|11, 2, 233, 0, 0, 0
+Trial Camera|0, 2, 235, 0, 0, 1
+0x2e|1, 30, 1, 44, 0
+0x2d|1, 0, 120, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 21, 100
+Text|'Cause even if he's suspended in midair, he won't die if\nhe doesn't actually fall!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Script|4, 0, 227, 0, 0
+Stop Script|
+Stop Script|

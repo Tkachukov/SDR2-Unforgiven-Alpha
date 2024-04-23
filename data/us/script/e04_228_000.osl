@@ -1,0 +1,651 @@
+OSL Script
+Set Game To DR2
+Text Count|80, 0
+0x2c|0, 20
+Set Flag|0, 7, 1
+Set Flag|0, 13, 0
+Music|56, 100, 0
+Change UI|1, 1
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 143, 0, 1, 0
+Voice Line|0, 4, 0, 98, 100
+Text|What do you think would happen if Nekomaru woke up while\nhe was suspended upside-down in midair?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|11, 11, 32, 0, 0
+Trial Camera|11, 0, 40, 0, 0, 0
+Text|Wh-What are you saying...? Like...how would he even wake\nup...?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 39, 0, 0, 0
+Voice Line|0, 4, 0, 99, 100
+Text|He has an <CLT 03>alarm<CLT> inside his body. As long as it was\narmed, it would've deactivated his sleep mode.\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 0, 215, 0, 1, 0
+Voice Line|0, 4, 0, 100, 100
+Text|Which means the killer set the alarm before they\nsuspended Nekomaru!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 8, 0, 0
+Trial Camera|9, 0, 183, 0, 0, 0
+Voice Line|9, 4, 0, 61, 100
+Text|If you woke up from an alarm, and realized you were\nhanging upside-down and had no clue why...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+Screen Fade|1, 1, 24
+Change UI|60, 0
+Change UI|6, 1
+Change UI|9, 1
+Animation|3, 120, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 120, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 4, 0, 62, 100
+Text|If something like that happened to you... You would\nstart panicking a lot, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|9, 4, 0, 63, 100
+Text|Instinctively, your body would start moving... Mechamaru\nprobably did exactly that.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 60
+Screen Fade|1, 1, 24
+Animation|3, 120, 0, 0, 0, 0, 0, 255
+Change UI|60, 1
+Change UI|6, 0
+Change UI|9, 0
+Sprite|1, 1, 4, 0, 0
+Trial Camera|1, 0, 21, 0, 0, 0
+Screen Fade|0, 1, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|1, 1, 4, 0, 0
+Voice Line|1, 4, 0, 89, 100
+Text|And then, in order to make him fall from the force he\nwas generating...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|1, 4, 0, 90, 100
+Text|The wire was hung on the tip of the doorknob so it would\neasily slip off.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|12, 15, 0, 0, 0, 0, 0, 1
+Sprite|1, 1, 3, 0, 0
+Trial Camera|1, 0, 118, 0, 0, 0
+Voice Line|1, 4, 0, 91, 100
+Text|In actuality, the scrape marks caused by the wire were\nnear the tip of the doorknob, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|12, 15, 0, 0, 0, 0, 0, 2
+Sprite|8, 8, 21, 0, 0
+Trial Camera|8, 0, 93, 0, 0, 0
+Voice Line|8, 4, 0, 57, 100
+Text|But Nekomaru didn't fall because the wire came off,\nright?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 87, 0, 0, 0
+Voice Line|0, 4, 0, 101, 100
+Text|He fell because the entire doorknob came off...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 10, 0, 0
+Trial Camera|1, 0, 38, 0, 0, 0
+Voice Line|1, 4, 0, 92, 100
+Text|When Nekomaru awoke, he must've struggled much more than\nexpected, which caused the doorknob to break off.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|11, 11, 36, 0, 0
+Trial Camera|11, 0, 18, 0, 0, 0
+Text|Was that...unexpected for the killer, too?\n
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 37, 0, 0
+Trial Camera|7, 0, 91, 0, 0, 0
+Voice Line|7, 4, 0, 43, 100
+Text|Well, that's probably it...\n
+Wait Frame|
+Wait For Input|
+Voice Line|7, 4, 0, 44, 100
+Text|If they knew it'd leave behind evidence like that, they\nwould've at least tried to do something to cover it up.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 180, 0
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 21, 0, 0, 0
+Format|4
+Text|<CLT 04>The killer didn't expect the doorknob to come off... The\nreason that even happened was because...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Music|15, 100, 0
+Change UI|6, 1
+Change UI|9, 1
+0x37|0, 56, 1
+Filter|1, 1, 0, 0
+Sprite|0, 19, 4, 8, 2
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|1, 1
+Speaker|6
+Text|In that case, I shall use my FULL POWER!\nUOOOOOOOOOOOOOOOOOOOOOOOOO!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>With an fierce roar, Nekomaru put all his power into\ngrabbing the doorknob with both hands.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>But...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|63
+Format|6
+Text|<CLT 06>*Clatter-clatter-clatter-clatter-clatter-clatter!*<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 8, 1, 2
+Speaker|6
+Text|Heh...heh heh...not yet... Here it comes...the\nincredible strength of one million horsepower!!!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 5, 1, 2
+Speaker|6
+Text|GUOOOOOOOOOOOOOOOOOOOOOOOOOOOO!!!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|W-Wait...isn't it creaking? If you break off the\ndoorknob, we'll be stuck in here!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Filter|1, 0, 0, 0
+Sprite|0, 19, 5, 3, 2
+0x37|0, 56, 3
+Music|24, 100, 0
+Change UI|6, 0
+Change UI|9, 0
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 54, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|0, 0, 19, 0, 0
+Format|4
+Text|<CLT 04>If that's really what it was...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 1, 255, 0, 1, 0
+Format|4
+Text|<CLT 04>Then that's the clue Nekomaru left for us to find...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|11, 11, 45, 0, 0
+Trial Camera|11, 0, 18, 0, 0, 0
+Text|I see... So that's how Nekomaru fell to his death...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Trial Camera|0, 0, 112, 0, 0, 0
+Voice Line|0, 4, 0, 102, 100
+Text|...Do you finally understand now?\n
+Wait Frame|
+Wait For Input|
+Sprite|11, 11, 38, 0, 0
+Trial Camera|11, 0, 40, 0, 0, 0
+Text|Yeah... No matter how hard I am trying to help...\n
+Wait Frame|
+Wait For Input|
+Music|255, 180, 0
+Sprite|11, 11, 40, 0, 0
+Trial Camera|11, 0, 18, 0, 1, 0
+Text|I am just a useless load... A dumb little bitch\nwho cannot even dress herself...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|17, 100, 0
+Sprite|11, 11, 47, 4, 0
+Trial Camera|11, 0, 40, 0, 0, 0
+Text|I am just a worthless parasite who should have died\nin Nekomaru's place, isn'n this what you all think?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 4, 0, 0
+Trial Camera|8, 0, 183, 0, 0, 0
+Text|Don't say such things, little chick!\nI believe in ya doing your best!\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 13, 14, 0
+Trial Camera|8, 1, 45, 0, 0, 0
+Text|Also, even though dying sucks... I think Coach\nNekomaru would rather be dead than outlive ya...\n
+Wait Frame|
+Wait For Input|
+Music|255, 180, 0
+Sprite|11, 11, 45, 0, 0
+Trial Camera|11, 0, 40, 0, 0, 0
+Text|Why... why are you so nice to me?!\nI...I...
+Wait Frame|
+Wait For Input|
+Music|24, 100, 0
+Sprite|1, 1, 3, 0, 0
+Trial Camera|1, 0, 57, 0, 0, 0
+Voice Line|1, 4, 0, 93, 100
+Text|So thanks to that alarm, Nekomaru ended up falling while\nhe was still hanging upside-down...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|1, 0, 38, 0, 1, 0
+Voice Line|1, 4, 0, 94, 100
+Text|That doesn't mean he just crashed straight into the\nfloor. Of course, you know that too, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 1, 0, 0
+Trial Camera|0, 0, 87, 0, 0, 0
+Format|4
+Text|<CLT 04>It doesn't mean Nekomaru crashed straight into the\nfloor...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|18, 0
+0x3a|11, 0, 0, 60
+0x3a|13, 0, 0, 1
+Animation|0, 200, 0, 0, 0, 0, 0, 0
+0x2c|0, 0
+Change UI|18, 1
+0x3b|1, 244
+0x32|1
+Text|He collided with the pillar\n
+Wait Frame|
+Voice Line|0, 99, 0, 1, 100
+Animation|0, 200, 0, 0, 0, 0, 0, 1
+Animation|0, 200, 0, 0, 0, 0, 0, 255
+0x46|21, 5, 0, 1
+0x4d|
+0x3b|1, 245
+0x3a|13, 1, 3, 232
+0x3b|1, 246
+0x2c|1, 245
+0x3a|13, 1, 1, 244
+0x2c|1, 246
+0x3b|0, 1
+0x32|2
+Text|He ran out of battery\n
+Wait Frame|
+Sprite|0, 0, 20, 0, 0
+Trial Camera|0, 0, 53, 0, 0, 0
+Text|The moment Nekomaru hit the floor, his battery ran\nout... That's what happened, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 16, 0, 0
+Trial Camera|9, 0, 13, 0, 0, 0
+Text|If the battery in the cartridge runs out, your save data\nwill disappear.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|As a retro game fan, this is more horrifying to me than\nthe Prophecies of Nostradamus.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>I...don't really get it, but it looks I made a mistake.<CLT>\n
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 220
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 247
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|4, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 247
+0x3b|0, 0
+0x32|3
+Text|Cola came out of his eyes\n
+Wait Frame|
+Sprite|0, 0, 20, 0, 0
+Trial Camera|0, 0, 53, 0, 0, 0
+Text|The moment Nekomaru hit the floor, cola came out of his\neyes... That's what happened, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 3, 0, 0
+Trial Camera|8, 0, 255, 0, 0, 0
+Text|C-Cola? It wasn't Rooibos tea?\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 4, 0, 0
+Trial Camera|8, 1, 19, 0, 0, 0
+Text|...Wait, who friggin' cares!? That's totally not it\nanyway!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>For Akane to react so strongly... Looks that was a\nvery wrong answer.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 220
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 248
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|4, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 248
+0x3b|0, 0
+0x32|4
+Text|The wire got loose\n
+Wait Frame|
+Sprite|0, 0, 20, 0, 0
+Trial Camera|0, 0, 53, 0, 0, 0
+Text|The moment Nekomaru crashed into the floor, the wire\ngot loose.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 14, 0, 0
+Trial Camera|4, 0, 13, 0, 0, 0
+Text|No... His body was definitely tied up with the wire.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Text|Y-You're right...\n
+Wait Frame|
+Wait For Input|
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>Dammit, I've made a mistake... I should calm down and\nthink it over one more time...!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 220
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 249
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|4, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 249
+0x3b|0, 0
+0x32|18
+Sprite|9, 9, 11, 0, 0
+Trial Camera|9, 0, 138, 0, 0, 0
+Text|Hajime's freezing up...! Did you get Ice Slashed by Ice\nMan!?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 13, 0, 0
+Text|...Now's not the time to fool around, so hurry up and\nanswer.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Everyone's staring... Looks like I just made a fool of\nmyself in front of everyone...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 220
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 250
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|4, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 250
+0x3a|11, 0, 0, 60
+0x3b|0, 0
+0x32|19
+Sprite|0, 0, 1, 0, 0
+Trial Camera|0, 0, 219, 0, 1, 0
+Format|4
+Text|<CLT 04>The moment Nekomaru fell to the floor, the only thing I\ncan think of that happened to him was...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+0x32|255
+0x2c|1, 244
+0x2c|0, 1
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 87, 0, 1, 0
+Voice Line|0, 4, 0, 103, 100
+Text|When Nekomaru fell to the floor, he ended up <CLT 03>colliding\nwith the pillar<CLT>... Isn't that it?\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 4, 4, 0
+Trial Camera|8, 1, 17, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|8, 4, 0, 58, 100
+SFX A|0, 18, 100
+Text|Finally, the pillar!\n
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 2, 0, 0
+Trial Camera|3, 2, 152, 0, 0, 0
+Voice Line|3, 4, 0, 50, 100
+Text|So that's how the pillar shattered, and why oil was\nspilled all over the place...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 2, 0, 0
+Trial Camera|8, 0, 38, 0, 0, 0
+Voice Line|8, 4, 0, 59, 100
+SFX A|0, 19, 100
+Text|See, I told ya the pillar was the weapon! My gut was\ntotally right!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 7, 0, 0
+Trial Camera|1, 0, 117, 0, 0, 0
+Voice Line|1, 4, 0, 95, 100
+Text|Well, the pillar was a bonus. It's not even clear if the\nkiller intended that or if it was just a coincidence.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|11, 11, 41, 0, 0
+Trial Camera|11, 0, 18, 0, 0, 0
+Text|Damn it, this killer is some criminal genius.\nAre we sure yet it is not Fuyuhiko?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 42, 0, 0
+Trial Camera|7, 0, 142, 0, 0, 0
+Voice Line|7, 4, 0, 46, 100
+Text|Then what about the alarm?\n
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 35, 0, 0
+Trial Camera|7, 0, 34, 0, 0, 0
+Voice Line|7, 4, 0, 47, 100
+Text|I'm positive the alarm was set for 7:30 a.m., and if we\nmap it out from there...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 0, 0
+Sprite|8, 8, 1, 0, 0
+Trial Camera|8, 0, 251, 0, 0, 0
+Voice Line|8, 4, 0, 60, 100
+SFX A|0, 19, 100
+Text|...Hold on, Baby Gangsta.\n
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 41, 4, 0
+Trial Camera|7, 0, 255, 0, 0, 0
+Voice Line|7, 4, 0, 48, 100
+SFX A|0, 22, 100
+Text|S-Stop calling me Baby Gangsta!\n
+Wait Frame|
+Wait For Input|
+Music|25, 100, 120
+Sprite|8, 8, 16, 4, 0
+Trial Camera|8, 1, 23, 0, 0, 0
+Voice Line|8, 4, 0, 61, 100
+SFX A|0, 21, 100
+Text|What'd you just say? Did you say...the alarm was set for\n7:30 a.m.?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 32, 0, 0
+Trial Camera|7, 0, 61, 0, 0, 0
+Animation|12, 14, 0, 0, 0, 0, 0, 1
+Voice Line|7, 4, 0, 49, 100
+Text|Y-You didn't check it yourself? Nekomaru's alarm was set\nfor <CLT 03>7:30 a.m.<CLT>\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Animation|12, 14, 0, 0, 0, 0, 0, 2
+Sprite|8, 8, 21, 0, 0
+Trial Camera|8, 0, 93, 0, 0, 0
+Voice Line|8, 4, 0, 62, 100
+Text|Nah, that's impossible.\n
+Wait Frame|
+Wait For Input|
+Voice Line|8, 4, 0, 63, 100
+Text|Cause...even though I slept in a little, I still got\nto the tower at <CLT 03>7:00 in the morning<CLT>.\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|11, 11, 25, 4, 0
+Trial Camera|11, 0, 40, 0, 0, 0
+Text|Me too, so you have a clear alibi!\n
+Wait Frame|
+Wait For Input|
+Sprite|11, 11, 29, 0, 0
+Trial Camera|11, 0, 18, 0, 1, 0
+Text|There was no way I could be late for Monokuma Tai Chi,\nso I left for Grape Tower before 7:00 a.m.!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 13, 0, 0
+Trial Camera|8, 0, 92, 0, 0, 0
+Voice Line|8, 4, 0, 64, 100
+Text|And if we found Nekomaru's body there, it would've been\nbefore the <CLT 03>7:30 a.m. alarm<CLT> went off...\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 1, 0, 0
+Trial Camera|3, 1, 5, 0, 0, 0
+Voice Line|3, 4, 0, 51, 100
+SFX A|0, 21, 100
+Text|...It appears yet another contradiction has been\nbirthed.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 13, 0, 0
+Trial Camera|3, 2, 7, 0, 0, 0
+Voice Line|3, 4, 0, 52, 100
+Text|How were you able to discover Nekomaru died at 7:30 a.m.\nwhen you went to the tower at 7:00?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 16, 0, 0
+Trial Camera|8, 0, 34, 0, 0, 0
+Voice Line|8, 4, 0, 65, 100
+Text|Th-That's what I wanna know!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 92, 0, 0, 0
+Format|4
+Text|<CLT 04>Another mystery I don't understand...? Seriously, it's\njust one after another...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 2, 7, 0, 0, 0
+Sprite|0, 0, 18, 0, 0
+Format|4
+Text|<CLT 04>But...I can't choke up at a time like this. Just a\nlittle more and I'll be able to reach the truth...!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 21, 4, 0
+Trial Camera|0, 2, 235, 0, 1, 0
+SFX A|0, 26, 100
+Format|4
+Text|<CLT 04>There should definitely be a clue to breaking through\nthis contradiction!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Script|4, 0, 229, 0, 0
+Stop Script|
+Stop Script|

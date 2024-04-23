@@ -1,0 +1,2678 @@
+OSL Script
+Set Game To DR2
+Text Count|39, 1
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+Set Flag|0, 12, 0
+0x1|0, 91, 29, 1
+Change UI|6, 0
+Load Map|0, 91, 0, 0
+Change UI|9, 0
+0x1|0, 91, 6, 1
+0x23|28, 0, 0, 0, 0
+0x23|29, 0, 0, 0, 0
+0x23|30, 0, 0, 0, 0
+0x23|31, 0, 0, 0, 0
+0x23|32, 0, 0, 0, 0
+0x23|34, 0, 0, 0, 0
+Change UI|14, 0
+Change UI|6, 0
+0x3a|5, 0, 0, 2
+Screen Fade|0, 1, 24
+0x3a|6, 0, 0, 30
+Change UI|3, 1
+Change UI|51, 0
+Change UI|2, 1
+Change UI|9, 1
+Change UI|1, 1
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>The door opened...!<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>But...what was that pause just now? Why didn't the door\nopen right away?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 0, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 5, 100
+Text|So this is Grape Tower...\n
+Wait Frame|
+Wait For Input|
+Text|Hm... The structure of this building doesn't seem all\nthat different compared to Strawberry Tower...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 0, 4, 2
+Speaker|0
+Text|Yeah, you're right...\n
+Wait Frame|
+Wait For Input|
+Text|The building is the same circular shape, and the ceiling\nis just as high and hard to make out...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 7, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 40, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|However, this wall is green. Strawberry Tower's wall is\nred.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 0, 4, 2
+Speaker|0
+Format|4
+Text|<CLT 04>Well, speaking of different... There's something\nblatantly different over there.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|9, 0
+Sprite|5, 19, 0, 0, 20
+0x3a|5, 0, 0, 60
+Change UI|16, 1
+0x3b|1, 244
+Check Character|0
+0x46|13, 1, 0, 0
+0x4d|
+0x3b|1, 245
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 7, 31, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|7
+Voice Line|7, 99, 0, 4, 100
+Text|I'm sure the others already know, but let me tell you\njust in case...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|The 2nd floor of Grape House also has guestrooms similar\nto the ones on the 2nd floor of Strawberry House.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Change UI|3, 0
+Change UI|6, 1
+Sprite|0, 7, 21, 3, 2
+0x37|0, 44, 1
+Filter|1, 1, 0, 0
+Screen Fade|0, 1, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|7
+Voice Line|7, 99, 0, 37, 100
+Text|But instead of being covered with strawberry patterns,\nthey're covered with grape patterns\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Change UI|6, 1
+Filter|1, 0, 0, 0
+0x37|0, 44, 3
+0x37|0, 45, 1
+Filter|1, 1, 0, 0
+Screen Fade|0, 1, 24
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|7
+Voice Line|7, 99, 0, 8, 100
+Text|Also...like the guestrooms, there's a similar lounge\nhere as well. There's also a phone in the lounge too.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|However, instead of the <CLT 03>grape button<CLT> that was on the\nphone in Strawberry House's lounge...\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|12, 1, 0, 0, 0, 0, 0, 1
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|There's a <CLT 03>strawberry button<CLT> on the phone in Grape House's\nlounge.\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|12, 1, 0, 0, 0, 0, 0, 2
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+0x37|0, 45, 3
+Filter|1, 0, 0, 0
+Change UI|6, 0
+Change UI|3, 1
+Sprite|0, 7, 42, 8, 2
+Screen Fade|0, 1, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|7
+Voice Line|7, 99, 0, 9, 100
+Text|Now, I'm just guessing at this point but...\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|It's possible...that we can use those two phones to\ncommunicate with each other.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 10, 14, 1, 3
+Speaker|10
+Voice Line|10, 99, 0, 59, 100
+Text|So the picture on the buttons shows where each phone\nconnects to.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 10, 0, 4, 3
+Speaker|0
+Format|4
+Text|<CLT 04>The picture on the buttons shows where each phone\nconnects to.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>...That's probably it.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Set Flag|13, 1, 1
+0x46|13, 0, 0, 1, 6, 13, 2, 0, 1
+0x4d|
+0x3b|1, 246
+0x3b|0, 10
+0x2c|1, 246
+0x3b|1, 247
+0x2c|1, 245
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 7, 31, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|7
+Voice Line|7, 99, 0, 4, 100
+Text|The 2nd floor of Grape House also has guestrooms similar\nto the ones on the 2nd floor of Strawberry House.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Change UI|6, 1
+Sprite|0, 7, 21, 3, 2
+0x37|0, 44, 1
+Filter|1, 1, 0, 0
+Screen Fade|0, 1, 24
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|2, 0
+Change UI|1, 1
+Speaker|7
+Voice Line|7, 99, 0, 49, 100
+Text|But instead of being covered with strawberry patterns,\nthey're covered with grape patterns\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Change UI|6, 1
+0x37|0, 44, 3
+Filter|1, 0, 0, 0
+0x37|0, 45, 1
+Filter|1, 1, 0, 0
+Screen Fade|0, 1, 24
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|2, 0
+Change UI|1, 1
+Speaker|7
+Voice Line|7, 99, 0, 8, 100
+Text|There's also a lounge. Of course, there's also a phone\nin the lounge too.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|However, instead of the <CLT 03>grape button<CLT> that was on the\nphone in Strawberry House's lounge...\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|12, 1, 0, 0, 0, 0, 0, 1
+Text|There's a <CLT 03>strawberry button<CLT> on the phone in Grape House's\nlounge.\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|12, 1, 0, 0, 0, 0, 0, 2
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+0x37|0, 45, 3
+Filter|1, 0, 0, 0
+Change UI|6, 0
+Change UI|3, 1
+Sprite|0, 7, 42, 8, 2
+Screen Fade|0, 1, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|7
+Voice Line|7, 99, 0, 7, 100
+Text|Maybe we can contact each other with those phones?\n
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>If the buttons show where each phone connects to...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Yeah, that's probably it.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 42, 4, 2
+Change UI|1, 0
+0x2c|1, 247
+Check Character|1
+0x46|13, 2, 0, 0
+0x4d|
+0x3b|1, 248
+Change UI|51, 0
+Change UI|9, 1
+0x3a|5, 0, 0, 60
+Sprite|0, 8, 8, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|8
+Voice Line|8, 99, 0, 31, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|This ain't funny at all! There's seriously no food\nanywhere!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 15, 1, 3
+Speaker|4
+Voice Line|4, 99, 0, 47, 100
+Text|Instead of talking about food all the time... How about\nyou try to find the exit?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 19, 1, 2
+Speaker|8
+Voice Line|8, 99, 0, 66, 100
+Text|...Exit? Is that tasty?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 5, 1, 3
+Speaker|4
+Voice Line|4, 99, 0, 25, 100
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|This chick... Even the inside of her head is full of\ndrool...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 0, 4, 3
+Change UI|1, 0
+0x3b|1, 249
+0x2c|1, 248
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 8, 19, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Voice Line|8, 99, 0, 66, 100
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Haa...haaa...!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...Akane, I don't think Monomi is edible.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 4, 1, 2
+Voice Line|8, 99, 0, 18, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|How do you know!? We won't know unless we try!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 17, 2, 1, 1
+Speaker|17
+Voice Line|17, 99, 0, 26, 100
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Nooooooo! I definitely don't want it to end this way!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 17, 0, 4, 1
+Change UI|1, 0
+0x2c|1, 249
+Check Character|2
+0x46|12, 31, 0, 0
+0x4d|
+0x3b|1, 250
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 9, 2, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 99, 0, 11, 100
+Text|Um...that door doesn't lead outside, I think it's\npointless to even try it out...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...Definitely.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 19, 7, 1, 3
+Speaker|6
+Voice Line|6, 99, 0, 40, 100
+Text|Definitely...you say?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 0, 1, 2
+Speaker|0
+Text|It's rare for Chiaki to be that certain...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 10, 1, 2
+Speaker|9
+Voice Line|9, 99, 0, 6, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|I have a good reason for that.\n
+Wait Frame|
+Wait For Input|
+Text|I think I've found out the secret of the Funhouse's\nstructure.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...The secret of the structure?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 9, 1, 2
+Speaker|9
+Voice Line|9, 99, 0, 52, 100
+Text|...Want me to tell you? Do you want me to explain it to\nyou?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Well...pay close attention to each house's relationship\nto its respective tower.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Change UI|3, 0
+Change UI|6, 1
+Sprite|0, 19, 0, 3, 2
+Music|19, 100, 0
+Animation|3, 93, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 93, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 99, 0, 5, 100
+Text|First, try to remember the 1st floor of Strawberry\nHouse.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|3, 93, 0, 0, 0, 0, 0, 18
+Text|From the elevator, Strawberry Hall is on your <CLT 03>left-hand\nside<CLT><CLT 03>, right?\n
+Format|3
+Wait Frame|
+Format|0
+Format|3
+Wait Frame|
+Wait For Input|
+Animation|3, 93, 0, 0, 0, 0, 0, 20
+Text|And if you walk along it, you'll end up at Strawberry\nTower, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 10
+Screen Fade|1, 1, 24
+Animation|3, 93, 0, 0, 0, 0, 0, 255
+Animation|3, 96, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 96, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 99, 0, 25, 100
+Text|On the other hand, Grape House...\n
+Wait Frame|
+Wait For Input|
+Animation|3, 96, 0, 0, 0, 0, 0, 6
+Text|From the elevator, Grape Hall is on your <CLT 03>right-hand\nside<CLT>, right?\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Animation|3, 96, 0, 0, 0, 0, 0, 8
+Text|And if you walk along it, you'll end up at Grape Tower,\nright?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 10
+Screen Fade|1, 1, 24
+Animation|3, 96, 0, 0, 0, 0, 0, 255
+Change UI|6, 0
+Sprite|0, 9, 8, 108, 2
+Change UI|3, 1
+Screen Fade|0, 1, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 99, 0, 45, 100
+Text|Now, here comes the main point... With those two\nbuildings...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 8, 4, 2
+Music|255, 0, 0
+Speaker|4
+Voice Line|4, 99, 0, 26, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Ah, so you were here all along!\n
+Wait Frame|
+Wait For Input|
+Music|2, 100, 0
+Sprite|0, 9, 0, 4, 2
+Change UI|1, 0
+Change UI|27, 0
+0x3a|5, 0, 0, 50
+Change UI|9, 0
+Sprite|4, 4, 0, 0, 20
+Sprite|9, 1, 0, 0, 20
+0x3a|5, 0, 0, 30
+Change UI|9, 1
+Change UI|26, 4
+0x3a|5, 0, 0, 20
+Sprite|0, 4, 19, 1, 2
+0x1|0, 91, 1, 1
+0x1|0, 91, 4, 1
+Change UI|1, 1
+Speaker|4
+Voice Line|4, 99, 0, 23, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Hey Chiaki! Don't go running off on your own!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 13, 1, 3
+Speaker|1
+Voice Line|1, 99, 0, 2, 100
+Text|You disappeared so suddenly...I was worried about you.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Kazuichi... Nagito...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 3, 1, 2
+Speaker|4
+Voice Line|4, 99, 0, 47, 100
+Text|Thanks to your disappearance, I was left all alone with\nNagito...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 7, 1, 3
+Speaker|1
+Voice Line|1, 99, 0, 46, 100
+Text|Huh...was that annoying for you?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 8, 1, 2
+Speaker|4
+Voice Line|4, 99, 0, 41, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Hell yeah it was! I don't wanna be alone with a creep\nlike you!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 1, 14, 1, 3
+Speaker|1
+Voice Line|1, 99, 0, 72, 100
+Text|I see...so it's not just Hajime, you don't trust me\neither, huh Kazuichi...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 1, 1, 3
+Voice Line|1, 99, 0, 2, 100
+Text|Hey, are you okay? Have you...stopped trusting other\nhumans?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 13, 1, 2
+Speaker|4
+Voice Line|4, 99, 0, 53, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Well yeah! Thanks to you, bastard!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 4, 13, 4, 2
+Change UI|1, 0
+Change UI|27, 0
+0x3a|5, 0, 0, 30
+Change UI|9, 0
+Sprite|0, 7, 30, 0, 20
+Sprite|1, 8, 0, 0, 20
+Sprite|8, 10, 0, 0, 20
+Sprite|7, 3, 0, 0, 20
+0x1|0, 91, 3, 1
+0x1|0, 91, 7, 1
+0x1|0, 91, 8, 1
+0x1|0, 91, 10, 1
+0x3a|5, 0, 0, 60
+Change UI|9, 1
+Change UI|26, 9
+0x3a|5, 0, 0, 60
+Sprite|0, 9, 9, 1, 2
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 99, 0, 47, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Huh? Oh, you all came.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 35, 1, 1
+Speaker|7
+Voice Line|7, 99, 0, 29, 100
+Text|Good timing... We didn't have to waste any time\ngathering people.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 0, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 7, 100
+Text|That was quick! I thought your investigations would take\nmore time!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 31, 1, 1
+Speaker|7
+Voice Line|7, 99, 0, 10, 100
+Text|There aren't many areas to search, and we didn't find\nany good clues...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 11, 1, 2
+Speaker|8
+Voice Line|8, 99, 0, 42, 100
+Text|Right now...the only thing I found out is...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 8, 1, 2
+Voice Line|8, 6, 0, 34, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Change UI|13, 1
+Text|There's seriously no food anywhere! This ain't funny at\nall!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 4, 12, 1, 3
+Speaker|4
+Voice Line|4, 99, 0, 59, 100
+SFX A|0, 23, 100
+Text|I-I heard...that it's super painful to die from\nstarvation.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Before that happens...why don't we...you know...the\nhamsters that Gundham carries around...?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 11, 1, 4
+Speaker|10
+Voice Line|10, 99, 0, 47, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|You imbecile! What are you implying!?\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 4, 6, 1, 3
+Speaker|4
+Voice Line|4, 99, 0, 32, 100
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Ahhhhhhhhhhhhhhhhh! I-I'm sorry!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 13, 1, 4
+Speaker|3
+Voice Line|3, 99, 0, 7, 100
+Text|Kazuichi... You should be grateful to Sonia.\n
+Wait Frame|
+Wait For Input|
+Text|If you'd gotten your hands on my Four Dark Devas of\nDestruction, your body would be incinerated by hellfire!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 9, 1, 2
+Speaker|9
+Voice Line|9, 99, 0, 5, 100
+Text|But are the hamsters going to be okay without food?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 15, 1, 3
+Speaker|3
+Voice Line|3, 99, 0, 44, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Fortunately, the flowers blooming in Strawberry House's\nindoor park are cursed flowers from hell's garden...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|As long as those seeds are there... The Four Dark Devas\nof Destruction shall not lose a single hit point.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 10, 1, 1, 4
+Speaker|10
+Voice Line|10, 99, 0, 9, 100
+Text|I am relieved to hear that.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 8, 1, 3
+Speaker|6
+Voice Line|6, 99, 0, 2, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Now then, let's listen to your reports and see what you\nguys have found!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Personally...I'd rather let Chiaki continue her talk\nbut...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Oh well... I should listen to what everyone has to say.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 21, 1, 2
+Speaker|1
+Voice Line|1, 99, 0, 88, 100
+Text|Is it fine if Gundham, Fuyuhiko, and I represent our\nteams and give the reports?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 31, 1, 1
+Speaker|7
+Voice Line|7, 99, 0, 4, 100
+Text|Yeah, I don't mind...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 3, 15, 1, 3
+Speaker|3
+Voice Line|3, 99, 0, 41, 100
+Text|Hmph, rejoice mongrels... I've discovered something that\nyou fiends will be happy to hear about.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 6, 1, 4
+Speaker|10
+Voice Line|10, 99, 0, 31, 100
+SFX A|0, 25, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Yes, our team's discovery is number one! We shall not\nlose!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>I think their priorities are off slightly...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 6, 4, 3
+Sprite|1, 3, 15, 4, 2
+Change UI|1, 0
+Set Flag|12, 31, 1
+0x3b|1, 251
+0x2c|1, 250
+Change UI|51, 0
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>Personally...I'd rather let Chiaki continue her talk\nbut...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>But everyone's reports are important too. I should get\nthose over with first...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x2c|1, 251
+Check Character|4
+0x46|13, 3, 0, 0
+0x4d|
+0x3b|1, 252
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 4, 3, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|4
+Voice Line|4, 99, 0, 56, 100
+Text|Chiaki... When I realized she suddenly disappeared, I\ncouldn't believe she went to you of all people...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|And now everyone's gathered here all of a sudden. What's\ngoing on?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|You better not say...I lured everyone here.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 15, 1, 2
+Speaker|4
+Voice Line|4, 99, 0, 43, 100
+Text|Well, it's not like that...\n
+Wait Frame|
+Wait For Input|
+Text|But you look like you already knew this place was\nimportant, so you were totally casing this area...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>So once someone is suspicious of me, anything I do will\nlook suspicious to them, huh. What should I do...?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 0, 4, 2
+Change UI|1, 0
+Set Flag|13, 3, 1
+0x3b|1, 253
+0x2c|1, 252
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 4, 15, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|4
+Voice Line|4, 99, 0, 56, 100
+Text|Chiaki... When I realized she suddenly disappeared, I\ncouldn't believe she went to you of all people...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|And now everyone's gathered here all of a sudden. What's\ngoing on?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>So once someone is suspicious of me, anything I do will\nlook suspicious to them, huh. What should I do...?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 0, 4, 2
+Change UI|1, 0
+0x2c|1, 253
+Check Character|5
+0x46|12, 30, 0, 0
+0x4d|
+0x3b|1, 254
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 19, 7, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|6
+Voice Line|6, 99, 0, 30, 100
+Text|But...why did Grape Hall's door not open sooner...?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>That's definitely strange... Well, this building's\nexistence is a mystery.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 0, 4, 2
+Change UI|1, 0
+0x3b|1, 255
+0x2c|1, 254
+0x46|12, 31, 0, 0
+0x4d|
+0x3b|2, 0
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 19, 2, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|6
+Voice Line|6, 99, 0, 47, 100
+Text|It's pointless to try it out?\n
+Wait Frame|
+Wait For Input|
+Text|It's possible that that door is the exit. Why is it\npointless to try it out...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 2, 4, 2
+Change UI|1, 0
+0x3b|2, 1
+0x2c|2, 0
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 19, 0, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|6
+Voice Line|6, 99, 0, 7, 100
+Text|We should first...listen to the reports that the others\nhave gathered...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 0, 4, 2
+Change UI|1, 0
+0x2c|2, 1
+0x2c|1, 255
+Check Character|7
+0x46|13, 0, 0, 0
+0x4d|
+0x3b|2, 2
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 3, 15, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|3
+Voice Line|3, 99, 0, 41, 100
+Text|Kekeke... Now then, I shall present to you my\ndiscovery...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 12, 1, 2
+Speaker|3
+Voice Line|3, 99, 0, 38, 100
+Text|I won't let you say such nonsense like "I forgot".\nMonokuma said it himself before we arrived here.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|He said there are <CLT 03>ship parts<CLT> in the Funhouse...\n
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 5, 1, 1
+Speaker|4
+Voice Line|4, 99, 0, 23, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|C-Could it be!?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 15, 1, 2
+Speaker|3
+Voice Line|3, 99, 0, 41, 100
+Text|Kazuichi...and you lowly humans...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 6, 1, 2
+Voice Line|3, 99, 0, 15, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Fall to your knees and show your gratitude to me, the\n<CLT 03>Overlord of Ice of the Destroyed World of Death<CLT>!\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Text|Feast your eyes on this!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 9, 1, 2
+Voice Line|3, 99, 0, 33, 100
+Animation|12, 2, 0, 0, 0, 0, 0, 1
+Text|Fuhahahahahahahahahaha! Behold! A motor! It's a ship\npart!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|B-Based on it's extremely small size, isn't that...\n
+Wait Frame|
+Wait For Input|
+Animation|12, 2, 0, 0, 0, 0, 0, 2
+Sprite|1, 4, 6, 1, 1
+Voice Line|4, 99, 0, 31, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Change UI|13, 1
+Text|Th-That's just a radio-controlled toy!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 3, 1, 1, 2
+Speaker|3
+Voice Line|3, 99, 0, 8, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Allow me to tell you a little old story...\n
+Wait Frame|
+Wait For Input|
+Text|I was born as a result of a union between a human and a\ndemon, and my existence was shunned by both races...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Perhaps it's because nobody has ever bought me a toy\nbefore, but I believe this is truly remarkable...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 13, 1, 1
+Voice Line|4, 99, 0, 53, 100
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...I'm not asking about that! You mean the ship part you\nfound was just some radio-controlled toy!?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 0, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|0, 16, 4, 6, 2
+Music|12, 100, 0
+0x3a|6, 0, 0, 10
+Change UI|1, 1
+Speaker|16
+Voice Line|16, 99, 1, 251, 100
+Text|Teee-heeeee! You totally got tricked!\n
+Wait Frame|
+Wait For Input|
+Text|I never said a single word about the ship being real!\nStupid! Idiot! Mooooooron!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|0, 16, 0, 7, 2
+0x3a|6, 0, 0, 30
+Music|2, 100, 0
+Sprite|1, 4, 20, 1, 1
+Change UI|1, 1
+Speaker|4
+Text|...\n
+Wait Frame|
+Wait For Input|
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 37, 1, 0
+Speaker|7
+Voice Line|7, 99, 0, 38, 100
+Text|Looks like...we don't even have the strength...to get\nupset...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 9, 1, 1
+Speaker|9
+Voice Line|9, 99, 0, 44, 100
+Text|It might be better...if we leave him alone for a while.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 0, 4, 1
+Speaker|0
+Format|4
+Text|<CLT 04>So it was definitely a waste of time to believe\nMonokuma...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>If so...what he said about our student profiles might be\na lie, too...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>But...our situation is getting so grim that I can't\nreally focus on that right now...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Set Flag|13, 0, 1
+0x46|13, 1, 0, 1, 6, 13, 2, 0, 1
+0x4d|
+0x3b|2, 3
+0x3b|0, 10
+0x2c|2, 3
+0x3b|2, 4
+0x2c|2, 2
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 3, 15, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|3
+Voice Line|3, 99, 0, 47, 100
+Text|What happened...you lowly human...?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 6, 1, 2
+Voice Line|3, 99, 0, 23, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Fall to your knees and show your gratitude to me, the\n<CLT 03>Overlord of Ice of the Destroyed World of Death<CLT>!\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>But...if it's just a radio-controlled toy...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 0, 4, 2
+Change UI|1, 0
+0x2c|2, 4
+Check Character|8
+0x46|13, 0, 0, 0
+0x4d|
+0x3b|2, 5
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 10, 6, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|10
+Voice Line|10, 99, 0, 30, 100
+Text|Our team's discovery is number one! We shall not lose!\nHurry up and ask Gundham about it!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>What does Sonia think these reports are supposed to be\nabout...?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 0, 4, 2
+Change UI|1, 0
+0x3b|2, 6
+0x2c|2, 5
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 10, 3, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|10
+Voice Line|10, 99, 0, 20, 100
+Text|This was the very first time I have ever seen a\nradio-controlled toy. I found it quite fashionable!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|I was able to hear Gundham's old story as well, so this\nwas quite a wonderful discovery!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>...But it wasn't useful at all.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 0, 4, 2
+Change UI|1, 0
+0x2c|2, 6
+Check Character|9
+0x46|13, 2, 0, 0
+0x4d|
+0x3b|2, 7
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 1, 0, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 99, 0, 32, 100
+Text|Allow me to give you a brief report.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 7, 1, 2
+Voice Line|1, 99, 0, 48, 100
+Text|Since I'm the one who made this discovery, it's just as\nimportant as I am.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 14, 1, 2
+Voice Line|1, 99, 0, 49, 100
+Text|Which means...it's not that important at all.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 32, 1, 1
+Speaker|7
+Voice Line|7, 99, 0, 14, 100
+Text|...Just hurry up and say it already.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 2, 1, 2
+Speaker|1
+Voice Line|1, 99, 0, 27, 100
+Text|Well, it's about the 3rd floor of Grape House...\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Change UI|3, 0
+Change UI|6, 1
+Sprite|0, 1, 0, 3, 2
+Animation|3, 96, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 96, 0, 0, 0, 0, 0, 1
+Animation|3, 96, 0, 0, 0, 0, 0, 3
+0x3a|6, 0, 0, 60
+Animation|3, 96, 0, 0, 0, 0, 0, 12
+Change UI|51, 1
+Change UI|2, 0
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 99, 0, 91, 100
+Text|Do you remember what Monokuma said about a <CLT 03>Monokuma\nArchive<CLT> on the 3rd floor...?\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Text|I actually tried to go there...\n
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Change UI|6, 1
+Animation|3, 96, 0, 0, 0, 0, 0, 255
+0x37|0, 46, 1
+Filter|1, 1, 0, 0
+Screen Fade|0, 1, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 0
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 99, 0, 64, 100
+Text|Like the name suggests...it was an archive full of stuff\nabout Monokuma.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|It reminded me...of those celebrites who build their\nmemorial house in their hometown.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 10
+Screen Fade|1, 1, 24
+0x37|0, 46, 3
+Filter|1, 0, 0, 0
+Change UI|6, 0
+Change UI|3, 1
+Sprite|0, 9, 9, 8, 1
+Screen Fade|0, 1, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 99, 0, 14, 100
+Text|Then it looks like we don't ever need to go in there.\nEver.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 3, 1, 2
+Speaker|1
+Voice Line|1, 99, 0, 23, 100
+Text|Ah, also...I found a lost child at the Monokuma\nArchive...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...A lost child?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 27, 1, 2
+Speaker|1
+Voice Line|1, 99, 0, 69, 100
+Text|...Huh? Where did she go?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 17, 1, 2
+Voice Line|1, 99, 0, 79, 100
+Text|Heeeeey, don't just hide, come on out!\n
+Wait Frame|
+Wait For Input|
+Music|255, 0, 0
+Change UI|1, 0
+SFX A|0, 34, 100
+Sprite|0, 17, 4, 6, 0
+Music|14, 100, 0
+0x3a|6, 0, 0, 10
+Change UI|1, 1
+Speaker|17
+Voice Line|17, 99, 0, 67, 100
+Text|H-Hello...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 37, 1, 1
+Speaker|7
+Voice Line|7, 99, 0, 38, 100
+Text|...So the lost child was you.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 2, 1, 0
+Speaker|17
+Voice Line|17, 99, 0, 10, 100
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Right!? That's how people react, right!? Well, I had a\ngeneral idea of how you all would react!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+SFX A|0, 23, 100
+Sprite|0, 17, 9, 1, 0
+Voice Line|17, 99, 0, 39, 100
+Text|It's okay...I won't be depressed anymore... I'm used to\nbeing treated so poorly...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Hehe! How sad! It's so sad to get used to it!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 14, 1, 1
+Speaker|9
+Voice Line|9, 99, 0, 61, 100
+Text|She's seems a little tense...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 2, 1, 2
+Speaker|10
+Voice Line|10, 99, 0, 3, 100
+Text|Um... Did Monokuma bring you here as well, Monomi?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 17, 10, 1, 0
+SFX A|0, 23, 100
+Speaker|17
+Voice Line|17, 99, 0, 67, 100
+Text|Yes...I'm so ashamed of myself...for getting carelessly\ntricked by him...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 17, 2, 1, 0
+Voice Line|17, 99, 0, 16, 100
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|I'm a failure as a teacher! I have no right to guide\neveryone!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 37, 1, 1
+Speaker|7
+Voice Line|7, 99, 0, 50, 100
+Text|...Nobody here considers you a teacher to begin with...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 8, 2, 1, 2
+Speaker|8
+Voice Line|8, 99, 0, 8, 100
+SFX A|0, 25, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|But I'm honestly happy that you're here!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 3, 1, 0
+Speaker|17
+Voice Line|17, 99, 0, 21, 100
+Text|...Huh?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 8, 19, 1, 2
+Speaker|8
+Voice Line|8, 99, 0, 66, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Hey...are you a complete stuffed animal? Is there any\npart of you left that's still rabbit meat?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 2, 1, 0
+Speaker|17
+Voice Line|17, 99, 0, 16, 100
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|I'm expected to be food!?\n
+Wait Frame|
+Music|255, 60, 0
+Wait For Input|
+Sprite|0, 17, 0, 4, 1
+Change UI|1, 0
+Set Flag|13, 2, 1
+Change UI|9, 0
+Sprite|3, 17, 0, 0, 20
+Music|2, 100, 0
+0x46|13, 0, 0, 1, 6, 13, 1, 0, 1
+0x4d|
+0x3b|2, 8
+0x3b|0, 10
+0x2c|2, 8
+0x3b|2, 9
+0x2c|2, 7
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 1, 4, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 99, 0, 31, 100
+Text|I tried going to the 3rd floor of Grape House...\n
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Change UI|6, 1
+Sprite|0, 1, 0, 4, 2
+0x37|0, 46, 1
+Filter|1, 1, 0, 0
+Screen Fade|0, 1, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 0
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 99, 0, 27, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Like the name suggests...the <CLT 03>Monokuma Archive<CLT> was full\nof stuff about Monokuma.\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 10
+Screen Fade|1, 1, 24
+0x37|0, 46, 3
+Filter|1, 0, 0, 0
+Change UI|6, 0
+Change UI|3, 1
+Sprite|0, 1, 1, 1, 2
+Screen Fade|0, 1, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 99, 0, 24, 100
+Text|But it's just as Chiaki said, we don't ever need to go\nin there. Ever.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 1, 4, 2
+Change UI|1, 0
+Change UI|9, 0
+0x2c|2, 9
+Check Character|3
+0x46|13, 2, 0, 1
+0x4d|
+0x3b|2, 10
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 17, 2, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|17
+Voice Line|17, 99, 0, 64, 100
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|*Shiver-shiver-shiver...*\n*Shiver-shiver-shiver-shiver-shiver...*\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|I feel Akane's feral stare... It's like...I'm being\nlicked from head to toe...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 4, 1, 2
+SFX A|0, 23, 100
+Voice Line|17, 99, 0, 23, 100
+Text|But...it feels kinda good...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 12, 1, 2
+Voice Line|17, 99, 0, 57, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Ha-wa-wa! Wh-What am I saying!?\n
+Wait Frame|
+Wait For Input|
+Text|Th-Th-Th-That's not it, okay!? Don't misunderstand,\nokay!?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 0, 4, 4
+Change UI|1, 0
+0x2c|2, 10
+Check Character|255
+Choice|20
+Run Script|4, 3, 231, 0, 100
+Choice|21
+Run Script|4, 3, 231, 0, 101
+Choice|22
+0x46|12, 30, 0, 0
+0x4d|
+0x3b|2, 11
+Change UI|9, 1
+Change UI|15, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>On the Grape Tower door at the far back, there's a\nstrawberry image on there...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 7, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 30, 100
+Text|A strawberry door inside Grape tower... That sounds\ncomplicated!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|It's like the opposite...of Strawberry Tower.\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|3, 0
+Change UI|6, 1
+Sprite|0, 19, 0, 3, 2
+0x37|0, 43, 1
+Filter|1, 1, 0, 0
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 0
+Change UI|1, 1
+Speaker|0
+Text|As I recall, there should've been a grape image on the\nfar back door of Strawberry Tower.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|6
+Voice Line|6, 99, 0, 7, 100
+Text|Hm...so on the <CLT 03>Strawberry<CLT> side, there's a <CLT 03>Grape\ndoor<CLT>, and on the <CLT 03>Grape<CLT> side, a <CLT 03>Strawberry door<CLT>...\n
+Format|3
+Format|0
+Format|3
+Wait Frame|
+Format|0
+Format|3
+Format|0
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 18, 100
+Text|That's even more complicated!\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 43, 3
+Filter|1, 0, 0, 0
+Change UI|6, 0
+Change UI|3, 1
+Sprite|0, 19, 8, 8, 2
+Screen Fade|0, 2, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|6
+Voice Line|6, 99, 0, 41, 100
+Text|However, this time... This door might connect to the\noutside!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Change UI|3, 0
+Change UI|6, 1
+Sprite|0, 19, 0, 3, 2
+Animation|3, 96, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 96, 0, 0, 0, 0, 0, 1
+Animation|3, 96, 0, 0, 0, 0, 0, 8
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|6
+Voice Line|6, 99, 0, 5, 100
+Text|It's obvious by looking at this map... Since there's\nnothing beyond the far back door of Grape House.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 10
+Screen Fade|1, 1, 24
+Animation|3, 96, 0, 0, 0, 0, 0, 255
+Change UI|6, 0
+Sprite|0, 19, 8, 8, 2
+Change UI|3, 1
+Screen Fade|0, 1, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|6
+Voice Line|6, 99, 0, 13, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|...If so, the only thing we can do is try it!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+0x1|0, 91, 9, 1
+Sprite|1, 9, 17, 1, 1
+Speaker|9
+Voice Line|9, 99, 0, 66, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...Hold it.\n
+Wait Frame|
+Wait For Input|
+Text|I heard what you guys were discussing, but it'd be\npointless to even try...I think.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 9, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 42, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Change UI|13, 1
+Text|Wh-What did you say!?\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 9, 0, 1, 1
+Speaker|0
+Text|Before we get to that...why are you here, Chiaki?\nWeren't you with Nagito and Kazuichi?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 9, 1, 1
+Speaker|9
+Text|...\n
+Wait Frame|
+Wait For Input|
+Voice Line|9, 99, 0, 44, 100
+Text|It's...exhausting to be around those two.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>S-So you ran away...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 0, 4, 3
+Change UI|1, 0
+Set Flag|12, 30, 1
+Change UI|9, 0
+Sprite|2, 9, 0, 0, 0
+0x3b|2, 12
+0x2c|2, 11
+Change UI|15, 0
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>It's pointless to try to open this door... Why would\nChiaki know that?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x2c|2, 12
+Choice|23
+0x2c|0, 1
+Change UI|9, 1
+Change UI|15, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>Along the tower floor, there appear to be many lights\nbuilt into the floor illuminating the wall.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>The lights are all...green.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Because of these lights, the walls and interior design\nof the tower look green...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>And with the lights, they're able to create the designs\non the wall.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>However, because these lights are shining on the walls,\nthe ceiling is pretty dark and I can't really see it.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Choice|24
+0x3b|0, 1
+Choice|25
+0x46|12, 30, 0, 0
+0x4d|
+0x3b|2, 13
+Change UI|9, 1
+Change UI|15, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>There's a picture on the floor of Usami's face with\ngrapes in her mouth.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>This feels different from Strawberry Tower... The Usami\npicture over there had a strawberry in her mouth.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>But what's truly different...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3b|2, 14
+0x2c|2, 13
+Run Script|4, 3, 231, 0, 147
+0x2c|2, 14
+Choice|26
+0x2c|0, 0
+Change UI|9, 1
+Change UI|15, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>On both sides of the door in the far back stand two huge\npillars.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>When I turn around...there are gateposts, or pillars, on\nboth sides of the door Nekomaru and I entered from...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|It appears they're standing face-to-face with the other\npair.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>It's the same as Strawberry Tower... I guess we know\nthat there are pillars on both sides of the door.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Choice|27
+0x3b|0, 0
+Choice|254
+0x46|12, 30, 0, 0
+0x4d|
+0x3b|2, 15
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>The thing that's truly different from Strawberry\nTower... It's probably that thing.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3b|2, 16
+0x2c|2, 15
+0x46|12, 31, 0, 0
+0x4d|
+0x3b|2, 17
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>What does she mean it'd be pointless to even try?\nI should try asking Chiaki...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3b|2, 18
+0x2c|2, 17
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>Let's listen to all the clues everyone found first...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x2c|2, 18
+0x2c|2, 16
+Choice|255
+0x2c|1, 244
+0x2c|0, 10
+Change UI|27, 0
+0x3a|5, 0, 0, 60
+Change UI|26, 9
+0x3a|5, 0, 0, 20
+Change UI|9, 1
+Sprite|1, 9, 8, 101, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 99, 0, 5, 100
+Text|Um...that was the last report, right? Then is it okay if\nI go now?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|This is what you mentioned earlier, right? About\nthe structure of the Funhouse?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 12, 1, 3
+Speaker|3
+Voice Line|3, 99, 0, 3, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...The structure of the Funhouse?\n
+Wait Frame|
+Wait For Input|
+Music|255, 180, 0
+Sprite|1, 9, 2, 1, 2
+Speaker|9
+Voice Line|9, 99, 0, 11, 100
+Text|Well, I've come to a conclusion...\n
+Wait Frame|
+Wait For Input|
+Text|The Grape Tower that we're in currently, and the\nStrawberry Tower we were in earlier...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|I think they're actually the same building.\n
+Wait Frame|
+Music|19, 100, 0
+Wait For Input|
+Sprite|0, 19, 7, 1, 3
+Speaker|6
+Voice Line|6, 99, 0, 40, 100
+Text|The two towers...are the same building, you say!?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 21, 1, 4
+Speaker|1
+Voice Line|1, 99, 0, 87, 100
+Text|I see...what makes you think that?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 10, 1, 2
+Speaker|9
+Voice Line|9, 99, 0, 25, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...Their positions.\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Change UI|3, 0
+Change UI|6, 1
+Sprite|0, 9, 0, 3, 2
+Animation|3, 93, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 93, 0, 0, 0, 0, 0, 1
+Animation|3, 93, 0, 0, 0, 0, 0, 18
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 99, 0, 11, 100
+Text|Inside Strawberry House, Strawberry Hall is <CLT 03>on your\nleft<CLT> when your back is facing the elevator, right?\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+Screen Fade|1, 1, 24
+Animation|3, 93, 0, 0, 0, 0, 0, 255
+Animation|3, 96, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 96, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 99, 0, 45, 100
+Text|But inside Grape House...\n
+Wait Frame|
+Wait For Input|
+Animation|3, 96, 0, 0, 0, 0, 0, 6
+Text|Grape Hall is <CLT 03>on your right<CLT> when your back is facing\nthe elevator, right?\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|And so, if we think about it and put those two\ntogether...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 10
+Screen Fade|1, 2, 24
+Animation|3, 96, 0, 0, 0, 0, 0, 255
+Animation|3, 98, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 2, 24
+Animation|3, 98, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 99, 0, 44, 100
+Text|The two towers are the same building, and each house\nconnects to the center...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|That's the building structure that comes to mind.\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+Screen Fade|1, 1, 24
+Animation|3, 96, 0, 0, 0, 0, 0, 255
+Change UI|6, 0
+Sprite|0, 4, 15, 8, 2
+Change UI|3, 1
+Screen Fade|0, 1, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|4
+Voice Line|4, 99, 0, 20, 100
+Text|What...? Strawberry Tower and Grape Tower are the same\nbuilding...?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|But...that might be a possibility...!\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Sprite|0, 4, 0, 4, 2
+0x3a|6, 0, 0, 10
+Change UI|27, 0
+0x3a|5, 0, 0, 60
+Change UI|26, 22
+0x3a|5, 0, 0, 30
+Change UI|1, 1
+Speaker|0
+Text|Come on, take a look at that door.\n
+Wait Frame|
+Wait For Input|
+Text|Isn't that strawberry image the same one that's on the\nelevator and telephone?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Then, in the same way...\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Wouldn't that image on the door also be showing <CLT 03>where\nit leads to<CLT>?\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|27, 0
+0x3a|5, 0, 0, 60
+Change UI|26, 1
+0x3a|5, 0, 0, 30
+Sprite|0, 1, 22, 1, 2
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 99, 0, 29, 100
+Text|If that's the case...it would mean that Strawberry House\nis beyond that door with the strawberry image on it.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Sprite|0, 1, 22, 3, 2
+Change UI|3, 0
+Change UI|6, 1
+0x37|0, 47, 1
+Filter|1, 1, 0, 0
+Screen Fade|0, 1, 24
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|2, 0
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 99, 0, 45, 100
+Text|As well as the opposite...the grape door that was at\nStrawberry Tower would lead to Grape House...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Meaning, we opened the Grape Hall's door when we came in\nhere.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 10
+Screen Fade|1, 1, 24
+0x37|0, 47, 3
+Filter|1, 0, 0, 0
+Animation|3, 98, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 98, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 99, 0, 12, 100
+Text|Meaning, <CLT 03>depending on which door we use<CLT>, this tower...\n
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...changes to either Strawberry Tower or Grape Tower.\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 10
+Screen Fade|1, 1, 24
+Animation|3, 96, 0, 0, 0, 0, 0, 255
+Change UI|6, 0
+Sprite|0, 1, 2, 8, 2
+Change UI|3, 1
+Screen Fade|0, 1, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 99, 0, 30, 100
+Text|Which means...when you look at the other side of the\nGrape Hall door that we used to come in here...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Change UI|3, 0
+Change UI|6, 1
+Sprite|0, 1, 0, 3, 2
+Animation|3, 99, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 99, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 99, 0, 6, 100
+Text|Yep, the grape picture should actually be on here.\n
+Wait Frame|
+Wait For Input|
+Speaker|4
+Voice Line|4, 99, 0, 4, 100
+Text|Then all we gotta do is confirm it, right? If we can\nclose that door from the other side...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|9
+Voice Line|9, 99, 0, 44, 100
+Text|Mmmmm, that might be impossible.\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Animation|3, 99, 0, 0, 0, 0, 0, 255
+Change UI|6, 0
+Sprite|0, 4, 3, 8, 3
+Change UI|3, 1
+Screen Fade|0, 1, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|4
+Voice Line|4, 99, 0, 56, 100
+Text|Impossible...why?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 9, 1, 2
+Speaker|9
+Text|...\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Well, Hajime and Nekomaru were the first ones to enter\nGrape Tower, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 8, 1, 3
+Speaker|6
+Voice Line|6, 99, 0, 2, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|What's...wrong with that?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 8, 101, 2
+Speaker|9
+Voice Line|9, 99, 0, 11, 100
+Text|When you two entered Grape Tower from Grape Hall...\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Didn't it take a little while for the door to open after\nyou pressed the button?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...Huh?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 0, 1, 2
+Speaker|9
+Voice Line|9, 99, 0, 10, 100
+Text|...So, just as I assumed.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|H-How...how'd you know?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 2, 1, 2
+Speaker|9
+Voice Line|9, 99, 0, 45, 100
+Text|When I was walking around by myself... I went back to\nStrawberry House for a while.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|I felt like there was still something I missed when\nsuddenly...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|The Strawberry Hall door <CLT 03>automatically<CLT> closed in front\nof me.\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 47, 1, 1
+Speaker|7
+Voice Line|7, 99, 0, 66, 100
+Text|The door...automatically closed...?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 0, 1, 2
+Speaker|9
+Voice Line|9, 99, 0, 6, 100
+Text|And afterward, no matter how much I pressed the button,\nthe Strawberry Hall door wouldn't open.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 5, 1, 3
+Speaker|10
+Voice Line|10, 99, 0, 67, 100
+Text|But...why?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 9, 1, 2
+Speaker|9
+Voice Line|9, 99, 0, 28, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|The doors to Strawberry Tower and Grape Tower must be\n<CLT 03>designed so that only one can open at a time<CLT>.\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Change UI|3, 0
+Change UI|6, 1
+Sprite|1, 9, 9, 3, 2
+Animation|3, 98, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 98, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 99, 0, 25, 100
+Text|I mean...if both doors opened at the same time, we'd\neasily find out that both towers are the same building.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|If that happens, it wouldn't be a <CLT 03>Funhouse<CLT> anymore,\nright?\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 10
+Screen Fade|1, 1, 24
+Animation|3, 98, 0, 0, 0, 0, 0, 255
+Change UI|6, 0
+Sprite|0, 1, 2, 8, 3
+Change UI|3, 1
+Screen Fade|0, 1, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 99, 0, 26, 100
+Text|Then...the reason the Strawberry Hall door automatically\nclosed in front of you...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 19, 7, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 6, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...Was it because we opened the Grape Hall door?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 2, 1, 1
+Speaker|9
+Voice Line|9, 99, 0, 6, 100
+Text|When that happened, the Grape Hall door didn't open cuz\nit was <CLT 03>waiting for Strawberry Hall's door to close<CLT>...\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Text|If you think about it like that...it makes sense, right?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 8, 18, 1, 0
+Speaker|8
+Voice Line|8, 99, 0, 65, 100
+Text|Like, you're sayin' all this hard stuff I don't get, but\naren't you forgettin' the most basic problem?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|The color of the walls in Strawberry Tower and Grape\nTower are different, y'know?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|There's no way they're the same buildin'.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 3, 1, 2
+Speaker|1
+Voice Line|1, 99, 0, 33, 100
+Text|...You didn't notice? They're <CLT 03>just lights on the floor\nbeing shined on the wall<CLT>.\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Text|By reflecting <CLT 03>a colored light<CLT> onto a white wall, it\nmakes it look like the wall color has changed.\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 8, 16, 1, 0
+Speaker|8
+Voice Line|8, 99, 0, 4, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Th-Then what about the picture on the floor? Is that\ndifferent, too...?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 8, 101, 2
+Speaker|9
+Voice Line|9, 99, 0, 45, 100
+Text|Maybe the floor is just a screen, and the picture is\nbeing projected from beneath the floor...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|In fact, when you look at it closely, it's not a picture\nthat was actually drawn on the floor.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 8, 2, 1, 0
+Speaker|8
+Voice Line|8, 99, 0, 73, 100
+SFX A|0, 25, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Oh I see! Then it's safe to say they're the same\nbuildin', right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 2, 1, 2
+Speaker|1
+Voice Line|1, 99, 0, 35, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|But this is a very important problem, so isn't it better\nif we test it out?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...Test?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 3, 1, 2
+Speaker|1
+Voice Line|1, 99, 0, 27, 100
+Text|For example, we should leave something behind here, and\nwe'll all go to Strawberry Tower...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 1, 1, 2
+Voice Line|1, 99, 0, 86, 100
+Text|And if it's still there, we can conclude that they're\nthe same building, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 8, 22, 1, 0
+Speaker|8
+Voice Line|8, 99, 0, 71, 100
+Text|Want me to stay, then?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 8, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 22, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|No, that's impossible. There's a sensor...preventing\nthat.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 3, 1, 3
+Speaker|4
+Voice Line|4, 99, 0, 56, 100
+Text|...Huh? Sensors?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 7, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 7, 100
+Text|Don't you feel it...? There are countless sensors\nplastered all over the tower's walls and floors...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 4, 1, 2
+Voice Line|6, 99, 0, 44, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Why can't you notice themmmmmmmmmmm!?\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 4, 5, 1, 3
+Speaker|4
+Voice Line|4, 99, 0, 23, 100
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|I'm more surprised that you actually noticed them!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 7, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 7, 100
+Text|My guess...is that sensor can probably detect <CLT 03>any\nmovement within the tower<CLT>...\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 8, 101, 1
+Speaker|9
+Voice Line|9, 99, 0, 44, 100
+Text|And when it reacts, it prevents the door from opening...\nI knew there'd at least be something like that...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 2, 1, 3
+Speaker|1
+Voice Line|1, 99, 0, 2, 100
+Text|By the way...how good *is* that sensor's performance?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 19, 8, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 30, 100
+Text|It's quite high-performance...\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|It seems that it can even detect your heartbeats and\nbreathing patterns.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 37, 1, 0
+Speaker|7
+Voice Line|7, 99, 0, 51, 100
+Text|Then...it'd be completely impossible for someone to stay\nbehind.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 8, 13, 1, 1
+Speaker|8
+Voice Line|8, 99, 0, 70, 100
+Text|What about Nekomaru? He's a heartless robot.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 2, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 47, 100
+Text|I have a motor running inside me, it's as good as any\nhuman heart...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 3, 1, 3
+Speaker|1
+Voice Line|1, 99, 0, 35, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|But if you're in sleep mode, that function will come to\na stop too, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 7, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 23, 100
+Text|Like you said, if I cease all functions with sleep mode,\nthe sensor won't detect it but...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 8, 1, 2
+Voice Line|6, 99, 0, 49, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Do you need to go that far to test it? I won't tolerate\nany robo-prejudice!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 1, 1, 3
+Speaker|1
+Voice Line|1, 99, 0, 24, 100
+Text|...Sorry, you're right.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 7, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 29, 100
+Text|And once I enter sleep mode...\n
+Wait Frame|
+Wait For Input|
+Text|I will not regain consciousness until the "Good Night\nSwitch" is pressed again or if my chest alarm goes off.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 3, 1, 2
+Voice Line|6, 99, 0, 48, 100
+Text|I'm a little concerned about being left alone in that\nstate.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 10, 11, 1, 3
+Speaker|10
+Voice Line|10, 99, 0, 47, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|It is far too dangerous, even as an experiment! It is\npossible that we might violate the laws of robotics!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 2, 1, 2
+Speaker|9
+Voice Line|9, 99, 0, 5, 100
+Text|Then...why don't we just use this?\n
+Wait Frame|
+Wait For Input|
+Animation|11, 184, 0, 0, 0, 0, 0, 1
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|My student handbook.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 2, 1, 2
+Text|I'll leave this handbook here, and we'll all move over\nto Strawberry Tower...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|And if, by chance, the handbook is still there, we can\nsafely say that the two towers are the same, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|11, 184, 0, 0, 0, 0, 0, 2
+Speaker|0
+Text|You're right...let's try this.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 0, 4, 2
+0x23|32, 1, 0, 1, 0
+Change UI|1, 0
+Change UI|27, 0
+0x3a|5, 0, 0, 90
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>We left behind Chiaki's e-Handbook right away...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+Format|4
+Text|<CLT 04>Then we left Grape Tower, and made our way to Strawberry\nTower.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|3, 0
+0x3a|6, 0, 0, 30
+Load Map|0, 71, 1, 0
+0x3a|8, 0, 0, 0
+Screen Fade|1, 1, 48
+Music|2, 100, 0
+Script|4, 0, 8, 0, 0
+Stop Script|
+Stop Script|

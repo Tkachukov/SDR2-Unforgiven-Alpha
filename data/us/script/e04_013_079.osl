@@ -1,0 +1,281 @@
+OSL Script
+Set Game To DR2
+Text Count|12, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+0x2f|0, 8, 112, 59, 1, 244, 112, 48, 0, 1
+0x3a|19, 0, 0, 0
+Show Background|0, 2, 112
+Show Background|0, 6, 112
+Show Background|0, 7, 112
+Show Background|0, 8, 112
+Show Background|0, 9, 112
+Show Background|0, 10, 112
+Show Background|0, 11, 112
+Show Background|0, 12, 112
+Show Background|0, 15, 112
+Show Background|255, 255, 112
+0x2c|1, 244
+Set Flag|0, 12, 0
+Change UI|6, 0
+Load Map|0, 79, 0, 0
+0x1|0, 79, 29, 0
+Change UI|9, 0
+0x23|33, 1, 0, 1, 0
+0x23|34, 1, 0, 1, 0
+0x23|35, 1, 0, 1, 0
+0x23|36, 1, 0, 1, 0
+Change UI|14, 0
+Screen Fade|0, 1, 24
+Change UI|3, 1
+0x46|13, 23, 0, 0
+0x4d|
+0x3b|1, 245
+0x3a|6, 0, 0, 30
+0x3a|19, 0, 0, 0
+0x1|1, 76, 0, 1
+Change UI|51, 0
+Change UI|2, 1
+Change UI|9, 1
+Change UI|1, 1
+Speaker|0
+Text|Um...what time is it right now...?\n
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+Change UI|3, 0
+Change UI|1, 0
+Change UI|26, 43
+0x3a|5, 0, 0, 30
+0x3a|0, 0, 0, 1
+Change UI|3, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>Huh...it's already 10:00 p.m.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Just as I thought...I can't get a sense of what time it\nis when there are no windows or Monokuma Announcements.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|27, 1
+0x3a|5, 0, 0, 60
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>It's still a little early but...I should go back to my\nroom...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+0x1|0, 84, 28, 1
+Wait For Input|
+Music|2, 100, 0
+Change UI|1, 0
+Set Flag|13, 23, 1
+Set Flag|0, 12, 1
+0x2c|1, 245
+Change UI|16, 1
+0x3b|1, 246
+Check Character|255
+Choice|20
+Choice|22
+Choice|23
+Choice|24
+Choice|21
+Choice|25
+Change UI|51, 0
+Change UI|2, 1
+Change UI|9, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>It's still a little early but...I should go back to my\nroom...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Choice|26
+Change UI|51, 0
+Change UI|2, 1
+Change UI|9, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>It's still a little early but...I should go back to my\nroom...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Choice|27
+Change UI|51, 0
+Change UI|2, 1
+Change UI|9, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>It's still a little early but...I should go back to my\nroom...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Choice|28
+Change UI|51, 0
+Change UI|2, 1
+Change UI|9, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>It's still a little early but...I should go back to my\nroom...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Choice|29
+Change UI|51, 0
+Change UI|2, 1
+Change UI|9, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>It's still a little early but...I should go back to my\nroom...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Choice|30
+Change UI|51, 0
+Change UI|2, 1
+Change UI|9, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>It's still a little early but...I should go back to my\nroom...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Choice|31
+Change UI|15, 0
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+Load Map|0, 84, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 0
+SFX A|0, 208, 100
+Change UI|15, 2
+Script|4, 0, 13, 0, 84
+Stop Script|
+Choice|32
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+0x2f|0, 19, 112, 59, 1, 247, 112, 48, 0, 0
+Set Flag|0, 12, 0
+0x3a|8, 0, 0, 2
+Change UI|25, 2
+0x3a|19, 0, 0, 2
+0x3a|5, 0, 0, 30
+Show Background|0, 2, 112
+0x3a|8, 0, 0, 1
+Change UI|25, 2
+0x3a|19, 0, 0, 0
+0x3a|5, 0, 0, 30
+Show Background|255, 255, 112
+0x3a|6, 0, 0, 60
+Change UI|3, 1
+Choice|33
+Run Script|4, 3, 231, 0, 157
+Choice|34
+Run Script|4, 3, 231, 0, 156
+Choice|35
+Run Script|4, 3, 231, 0, 158
+Choice|36
+Run Script|4, 3, 231, 0, 159
+Choice|37
+0x13|1, 1
+0x3a|19, 0, 0, 2
+0x1|1, 76, 0, 1
+Choice|38
+Change UI|15, 0
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 86, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 0
+SFX A|0, 206, 100
+Change UI|15, 2
+Script|4, 0, 0, 0, 86
+Stop Script|
+Choice|39
+Run Script|4, 3, 231, 0, 154
+Choice|40
+Run Script|4, 3, 231, 0, 100
+Choice|41
+Run Script|4, 3, 231, 0, 101
+Choice|42
+Run Script|4, 3, 231, 0, 153
+Choice|43
+Change UI|15, 0
+Change UI|51, 0
+Change UI|2, 1
+Change UI|9, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>It's already 10:00 p.m., huh... Just as I thought, I\ncan't get a sense of the time without any windows.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>It's still a little early but...I should go back to my\nroom...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Choice|44
+Run Script|4, 3, 231, 0, 165
+Choice|45
+Run Script|4, 3, 231, 0, 100
+Choice|46
+Run Script|4, 3, 231, 0, 101
+Choice|47
+Run Script|4, 3, 231, 0, 100
+Choice|48
+Run Script|4, 3, 231, 0, 101
+Choice|254
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+0x2f|0, 19, 112, 59, 1, 248, 112, 48, 0, 0
+Set Flag|0, 12, 0
+0x3a|8, 0, 0, 2
+Change UI|25, 2
+0x3a|19, 0, 0, 2
+0x3a|5, 0, 0, 30
+Show Background|255, 255, 112
+0x3a|6, 0, 0, 60
+Change UI|3, 1
+Choice|255
+0x2c|1, 246
+Stop Script|
+Stop Script|

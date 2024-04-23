@@ -1,0 +1,167 @@
+OSL Script
+Set Game To DR2
+Text Count|10, 0
+0x2c|0, 20
+0x3a|9, 0, 0, 0
+Set Flag|0, 10, 1
+Set Flag|0, 11, 1
+Run Script|4, 0, 202, 0, 1
+Music|28, 100, 0
+Animation|0, 201, 0, 0, 0, 0, 0, 0
+0x47|0, 35, 0, 0, 2, 7, 0, 35, 0, 0, 1
+0x4d|
+0x3b|1, 244
+Change UI|20, 1
+0x3b|1, 245
+0x32|91
+0x32|93
+0x32|94
+0x32|95
+0x32|96
+0x32|98
+0x32|107
+0x32|255
+0x2c|1, 245
+0x3b|1, 246
+0x2c|1, 244
+Change UI|20, 1
+0x3b|1, 247
+0x32|91
+0x32|93
+0x32|94
+0x32|95
+0x32|96
+0x32|255
+0x2c|1, 247
+0x2c|1, 246
+0x46|21, 12, 0, 1
+0x4d|
+0x3b|1, 248
+Change UI|20, 1
+0x3b|1, 249
+0x32|93
+0x32|94
+0x32|95
+0x32|255
+0x2c|1, 249
+0x2c|1, 248
+Change UI|31, 1
+0x3b|1, 250
+Check Flag A|0, 5
+Change UI|1, 1
+Sprite|4, 4, 3, 0, 0
+Trial Camera|4, 0, 13, 0, 0, 0
+Text|What does that have to do with how they beat the crap\nout of Nekomaru?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 8, 0, 0
+Trial Camera|4, 1, 37, 0, 0, 0
+Text|The hammer is definitely the weapon! They used that to\nbeat up Nekomaru!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>Looks like I got it wrong just now... Dammit! I need to\nthink it over one more time!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 220
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|0, 7
+Change UI|1, 1
+Sprite|4, 4, 14, 0, 0
+Trial Camera|4, 0, 33, 0, 0, 0
+Text|So you finally get it, huh! But what you're saying\ndoesn't make any sense at all!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 16, 0, 0
+Trial Camera|4, 0, 138, 0, 0, 0
+Text|...Anyway, the killer took Nekomaru by surprise and used\nthat hammer to beat him up.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|I'll be counting on you for better cover fire!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>Looks like I got it wrong just now... Dammit! I need to\nthink it over one more time!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 220
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|39, 21
+0x3a|6, 0, 0, 50
+Voice Line|0, 99, 0, 6, 100
+Animation|0, 201, 0, 0, 0, 0, 0, 1
+Trial Camera|0, 2, 12, 0, 0, 0
+Change UI|31, 0
+0x3b|0, 0
+Check Flag A|78, 32
+Check Flag A|117, 48
+Check Flag A|156, 64
+Change UI|1, 1
+0x47|0, 35, 0, 0, 2, 7, 0, 35, 0, 0, 1
+0x4d|
+0x3b|1, 251
+Sprite|0, 0, 1, 0, 0
+Trial Camera|0, 0, 34, 0, 1, 0
+Format|4
+Text|<CLT 04>The hammer in the tower was the weapon... Like he\nsaid, it looks like that's the case but...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+0x3b|1, 252
+0x2c|1, 251
+Sprite|0, 0, 1, 0, 0
+Trial Camera|0, 0, 33, 0, 1, 0
+Format|4
+Text|<CLT 04>The hammer in the tower was the weapon... Like he\nsaid, it looks like that's the case but...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 0, 34, 0, 1, 0
+Format|4
+Text|<CLT 04>But still, that hammer is just too clean.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+0x2c|1, 252
+Change UI|1, 0
+Check Flag A|195, 80
+Change UI|31, 2
+0x3b|0, 1
+Check Flag A|234, 96
+Change UI|31, 3
+0x3b|0, 2
+Check Flag A|255, 255
+0x2c|1, 250
+0x2c|0, 0
+Animation|0, 201, 0, 0, 0, 0, 0, 255
+Script|4, 0, 203, 0, 0
+Stop Script|
+0x2c|0, 1
+Animation|0, 201, 0, 0, 0, 0, 0, 255
+Run Script|4, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|0, 2
+Animation|0, 201, 0, 0, 0, 0, 0, 255
+Run Script|4, 1, 43, 0, 0
+0x3b|0, 20
+Stop Script|

@@ -1,0 +1,985 @@
+OSL Script
+Set Game To DR2
+Text Count|107, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+0x2f|0, 8, 112, 59, 1, 244, 112, 48, 0, 1
+0x3a|19, 0, 0, 0
+Show Background|0, 2, 112
+Show Background|0, 6, 112
+Show Background|0, 7, 112
+Show Background|0, 8, 112
+Show Background|0, 9, 112
+Show Background|0, 10, 112
+Show Background|0, 11, 112
+Show Background|0, 12, 112
+Show Background|0, 15, 112
+Show Background|255, 255, 112
+0x2c|1, 244
+Set Flag|0, 12, 0
+Change UI|6, 0
+Load Map|0, 79, 0, 0
+Run Script|4, 3, 231, 0, 173
+Change UI|9, 0
+0x23|33, 1, 0, 1, 0
+0x23|34, 1, 0, 1, 0
+0x23|35, 1, 0, 1, 0
+0x23|36, 1, 0, 1, 0
+0x46|12, 29, 0, 1
+0x4d|
+0x3b|1, 245
+Change UI|14, 0
+Change UI|3, 1
+Screen Fade|0, 1, 24
+0x3a|6, 0, 0, 30
+0x3b|1, 246
+0x2c|1, 245
+Change UI|3, 0
+Animation|3, 95, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 95, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|9
+Text|...\n
+Wait Frame|
+Wait For Input|
+Text|Is this...already moving?\n
+Wait Frame|
+Wait For Input|
+Speaker|4
+Voice Line|4, 99, 0, 20, 100
+Text|If so, that'd be awesome...\n
+Wait Frame|
+Wait For Input|
+Speaker|6
+Voice Line|6, 99, 0, 136, 100
+Text|...How so?\n
+Wait Frame|
+Wait For Input|
+Speaker|4
+Voice Line|4, 99, 0, 4, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|I mean, it's not vibrating at all, right?\n
+Wait Frame|
+Wait For Input|
+Text|This is probably a really high-performance elevator if\nit's not vibrating all that much.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|8
+Voice Line|8, 99, 0, 48, 100
+Text|Maybe it's not actually moving...\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 18, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|All right! Let's open the door and make sure!\n
+Wait Frame|
+Wait For Input|
+Speaker|10
+Voice Line|10, 99, 0, 39, 100
+Text|You cannot! That is too dangerous!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>After staying inside the vibration-free elevator...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Eventually, the door in front of us suddenly opened.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Music|255, 180, 0
+Format|4
+Text|<CLT 04>It appears...we've arrived at our destination.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 225, 100
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+0x3a|6, 0, 0, 60
+Animation|3, 95, 0, 0, 0, 0, 0, 255
+Music|11, 100, 120
+Change UI|14, 0
+Change UI|6, 0
+Set Flag|1, 12, 1
+0x1|1, 73, 29, 1
+0x1|1, 74, 29, 1
+0x1|1, 75, 29, 1
+0x1|1, 73, 1, 1
+0x1|1, 73, 3, 1
+0x1|1, 73, 4, 1
+0x1|1, 73, 6, 1
+0x1|1, 73, 7, 1
+0x1|1, 73, 8, 1
+0x1|1, 73, 9, 1
+0x1|1, 73, 10, 1
+Screen Fade|0, 1, 64
+Change UI|3, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 0
+Change UI|2, 1
+Change UI|9, 1
+Change UI|1, 1
+Speaker|0
+Text|So...this is Grape House...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>No matter where I look, everything is plastered with\ngrape patterns.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>I was already fed up with the strawberry patterns, but\nthis is also...unpleasant.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Music|255, 0, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|0, 16, 0, 6, 2
+Music|12, 100, 0
+0x3a|6, 0, 0, 10
+Change UI|1, 1
+Speaker|16
+Voice Line|16, 99, 1, 211, 100
+Text|Okay! Welcome to Grape House!\n
+Wait Frame|
+Wait For Input|
+Text|Now then, allow me to explain the Grape House!\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Change UI|3, 0
+Sprite|0, 16, 0, 3, 2
+Change UI|6, 1
+Animation|3, 96, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 96, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|16
+Voice Line|16, 99, 0, 68, 100
+SFX A|0, 18, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Tadaaaa! This is Grape House in its entirety!\n
+Wait Frame|
+Wait For Input|
+Text|Soooo...let's start explaining the 1st floor.\n
+Wait Frame|
+Wait For Input|
+Text|Ahem! Aside from the fact that there's no Final Dead\nRoom, it's basically no different than Strawberry House.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|3, 96, 0, 0, 0, 0, 0, 6
+Text|Just like how there's a Strawberry Hall over there,\nthere's a <CLT 03>Grape Hall<CLT> on this side...\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Animation|3, 96, 0, 0, 0, 0, 0, 8
+Text|And when you go through Grape Hall... That means there's\na <CLT 03>Grape Tower<CLT>.\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Animation|3, 96, 0, 0, 0, 0, 0, 10
+Text|The 2nd floor of Grape House is the same as the 2nd\nfloor of Strawberry House...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|I've prepared five guestrooms of different types, along\nwith a relaxing lounge.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|3, 96, 0, 0, 0, 0, 0, 3
+Text|But the main attraction of Grape House is obviously the\n3rd floor...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|3, 96, 0, 0, 0, 0, 0, 12
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|The Monokuma Archive! Everyone loves the Monokuma\nArchive!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|If you wanna know about my proud accomplishments and\ncontributions, feel free to study the literature here!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 10
+Screen Fade|1, 1, 24
+Set Flag|1, 12, 1
+Set Flag|1, 13, 1
+Set Flag|1, 14, 1
+0x1|0, 91, 29, 1
+0x1|1, 73, 29, 1
+0x1|1, 73, 30, 1
+0x1|1, 74, 29, 1
+0x1|1, 74, 30, 1
+0x1|1, 75, 29, 1
+0x1|1, 75, 30, 1
+0x1|1, 76, 29, 1
+0x1|1, 76, 30, 1
+0x1|1, 77, 29, 1
+0x1|1, 77, 30, 1
+0x1|0, 85, 29, 1
+0x1|0, 80, 29, 1
+0x1|0, 81, 29, 1
+0x1|0, 82, 29, 1
+0x1|0, 83, 29, 1
+0x1|0, 84, 29, 1
+0x1|1, 78, 29, 1
+0x1|1, 78, 30, 1
+0x1|0, 86, 29, 1
+Animation|3, 96, 0, 0, 0, 0, 0, 255
+Change UI|6, 0
+Change UI|3, 1
+Change UI|9, 1
+Sprite|0, 16, 13, 8, 2
+Screen Fade|0, 1, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|16
+Voice Line|16, 99, 0, 8, 100
+Text|Now then, this concludes the tour, but I believe it'd be\ndifficult to understand if I just explain with words...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|So you should all use your own two feet to check out the\ninside of the building.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 10, 1, 2
+Voice Line|16, 99, 0, 80, 100
+Text|That's all from me...any questions?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 8, 21, 1, 1
+Speaker|8
+Voice Line|8, 99, 0, 65, 100
+Text|Like, I'm startin' to get hungry. Where's the food,\nanyway?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 0, 1, 2
+Speaker|16
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 10, 1, 2
+Voice Line|16, 99, 0, 44, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...Huh? Is that necessary?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 8, 8, 1, 1
+Speaker|8
+Voice Line|8, 99, 0, 28, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Change UI|13, 1
+Text|Wh-What are ya sayin'? Of course it is!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 16, 3, 1, 2
+Speaker|16
+Voice Line|16, 99, 0, 29, 100
+Text|But it's supposed to be an escape game, so how can there\nbe any tension if there's no time limit?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 4, 1, 2
+Voice Line|16, 99, 0, 33, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Sooo...I've decided to use your stomachs as the time\nlimiiiiiiiit!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 48, 1, 3
+Speaker|7
+Voice Line|7, 99, 0, 69, 100
+Text|What do you mean...?\n
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Sprite|0, 16, 0, 1, 2
+Speaker|16
+Voice Line|16, 99, 0, 7, 100
+Text|Well, simply put...\n
+Wait Frame|
+Wait For Input|
+Music|9, 100, 0
+Sprite|0, 16, 4, 1, 2
+Voice Line|16, 99, 0, 32, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Text|It means <CLT 03>kill someone before you starve to death<CLT>!\n
+Format|3
+Format|0
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 8, 3, 1, 1
+Speaker|8
+Voice Line|8, 99, 0, 31, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Change UI|13, 1
+Text|Wh-What the heck!?\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 16, 3, 1, 2
+Speaker|16
+Voice Line|16, 99, 0, 30, 100
+Text|Puhuhu...if you're planning to kill someone, I highly\nrecommend you make your kill as soon as possible!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 4, 1, 2
+Voice Line|16, 99, 0, 35, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|It'll be too late if you get so weak you have no energy\nto kill!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|0, 16, 0, 7, 2
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Sprite|1, 4, 13, 1, 1
+Speaker|4
+Voice Line|4, 99, 0, 50, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|H-Hey! Hold on!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 7, 48, 1, 2
+Speaker|7
+Voice Line|7, 99, 0, 70, 100
+Text|S-Starve...?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 41, 1, 2
+Voice Line|7, 99, 0, 46, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Dammit! How much more of this do we have to take until\nhe's satisfied!?\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 8, 12, 1, 1
+Speaker|8
+Voice Line|8, 99, 0, 42, 100
+Text|Uh...was he serious about there bein' no food...?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 8, 8, 1, 1
+Voice Line|8, 99, 0, 30, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Change UI|13, 1
+Text|No way! That's the one thing I don't want!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+SFX A|0, 18, 100
+0x20|4, 0, 30, 4, 2
+Change UI|13, 1
+Text|I don't mind starvin' as long as I can eat! Just lemme\neat already!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 19, 7, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 23, 100
+Text|As soon as she learned there was no food, she was\novercome by hunger... Obsessions are truly annoying...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 4, 1, 2
+Voice Line|6, 99, 0, 44, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|But at least try to stay calm! Now's not the time for\nyou to paaaaaaaaaaaaaaaaaaannnniiiiiiiiiiiiiiiiiiiiiiic!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 1, 3, 1, 1
+Speaker|1
+Voice Line|1, 99, 0, 2, 100
+Text|Well, being loud here isn't gonna help us, so for now,\nwe should explore the inside of this building too.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+Sprite|1, 1, 22, 1, 1
+Voice Line|1, 99, 0, 86, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|After all...if you don't give up, you're sure to find\nhope... Isn't that right, Fuyuhiko?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 32, 1, 2
+Speaker|7
+Voice Line|7, 99, 0, 12, 100
+Text|Y-Yeah...that's right...\n
+Wait Frame|
+Wait For Input|
+Music|2, 100, 0
+Sprite|1, 1, 1, 1, 1
+Speaker|1
+Voice Line|1, 99, 0, 17, 100
+Text|Then let's get started. The same pairing as before is\nfine, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 19, 1, 2
+Speaker|4
+Voice Line|4, 99, 0, 42, 100
+Text|Hold on! This time around, I really wanna pair up with\nMiss Sonia...\n
+Wait Frame|
+Wait Frame|
+0x1|1, 73, 3, 0
+0x1|1, 73, 10, 0
+Wait For Input|
+Sprite|1, 7, 37, 1, 3
+Speaker|7
+Voice Line|7, 99, 0, 50, 100
+Text|...She already left with Gundham.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 5, 1, 2
+Speaker|4
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 8, 101, 1
+Speaker|9
+Voice Line|9, 99, 0, 44, 100
+Text|Looks like you're being avoided... Not just rejected...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 21, 1, 2
+Speaker|4
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 1, 1, 1
+Speaker|1
+Voice Line|1, 99, 0, 2, 100
+Text|Kazuichi...I understand that you're feeling down but we\nbetter get going.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 31, 1, 2
+Speaker|7
+Voice Line|7, 99, 0, 4, 100
+Text|Akane...you too. How much longer are you gonna stay\nshocked?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|C'mon, let's go.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 0, 4, 2
+SFX A|0, 201, 100
+0x1|1, 73, 1, 0
+0x1|1, 73, 4, 0
+0x1|1, 73, 7, 0
+0x1|1, 73, 8, 0
+0x1|1, 73, 9, 0
+Speaker|0
+Format|4
+Text|<CLT 04>With heavy steps, everyone left to explore Grape House.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 19, 7, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 4, 100
+Text|Now then, where should we start...?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Since we're on the 1st floor... It might be okay if we\nstart with Grape Tower.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 19, 0, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 5, 100
+Text|Hmm, so you're saying you're going to start with the\nmost suspicious place...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 19, 8, 1, 2
+Voice Line|6, 99, 0, 15, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|ALLLLLLLLLLLLLLL RIGHT! Then let's start with \nGrape Towerrrrrrrrrrrr!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 19, 4, 1, 2
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Voice Line|6, 99, 0, 16, 100
+Text|LET'S START WITH GRAPE TOWERRRRRRRRRRRRRRRR!!!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+0x1|0, 91, 28, 1
+Wait For Input|
+Sprite|1, 19, 0, 4, 2
+Speaker|0
+Format|4
+Text|<CLT 04>Anyway...let's find the exit.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Dammit...there's no way I'm going to let myself starve\nto death in here...!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|9, 0
+Sprite|15, 19, 0, 0, 20
+Sprite|1, 8, 0, 0, 20
+Sprite|13, 7, 30, 0, 20
+0x1|1, 73, 6, 1
+0x1|1, 73, 7, 1
+0x1|1, 73, 8, 1
+0x1|0, 79, 29, 0
+Set Flag|12, 29, 1
+0x2c|1, 246
+Change UI|16, 1
+0x3b|1, 247
+Check Character|15
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 19, 7, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|6
+Voice Line|6, 99, 0, 7, 100
+Text|Grape House, huh... This place has terrible taste as\nwell.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 0, 4, 2
+Change UI|1, 0
+Check Character|1
+0x46|13, 22, 0, 0
+0x4d|
+0x3b|1, 248
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 8, 7, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|8
+Voice Line|8, 99, 0, 26, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Look at that statue... I'm startin' to feel a little\nexcited...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 21, 1, 2
+Voice Line|8, 99, 0, 49, 100
+Text|...But why is there a statue like that in a place like\nthis?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 7, 1, 2
+Voice Line|8, 99, 0, 17, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Wait, is this creature inside this building!?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|I don't think so... This is probably in the hall just to\ngarnish it.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 21, 1, 2
+Speaker|8
+Voice Line|8, 99, 0, 68, 100
+Text|Garnish?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 19, 1, 2
+Voice Line|8, 99, 0, 66, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|You mean like a food garnish? Is this food? Is it\ntasty!?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|It's not food... It's just a decoration.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 0, 4, 2
+Change UI|1, 0
+Set Flag|13, 22, 1
+0x3b|1, 249
+0x2c|1, 248
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 8, 12, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|8
+Voice Line|8, 99, 0, 45, 100
+Text|Oh...so it's not food...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 0, 4, 2
+Change UI|1, 0
+0x2c|1, 249
+Check Character|13
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 7, 32, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|7
+Voice Line|7, 99, 0, 38, 100
+Text|Tch! Starving us like seems pretty straightforward for\nMonokuma...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 33, 1, 2
+Voice Line|7, 99, 0, 71, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|That piece of shit... How dare he pull such a dirty\ntrick on civilians...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 0, 4, 2
+Change UI|1, 0
+Check Character|255
+Choice|20
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 19, 8, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|6
+Voice Line|6, 99, 0, 41, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Ghhhhh! So there's a bathroom here as well...\n
+Wait Frame|
+Wait For Input|
+Text|Regardless, I still cannot shit... That's the only\ndownside to this body!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>The *only* downside...? Your optimism is praiseworthy...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 0, 4, 2
+Change UI|1, 0
+Choice|21
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 19, 7, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|6
+Voice Line|6, 99, 0, 40, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Ngh!? What happened? Are you planning to go back to\nStrawberry House?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 4, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 15, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|There's no time for that! We need to charge through\nGrape Towerrrrrrrrrrrrrrrrrrr!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 19, 0, 4, 2
+Change UI|1, 0
+Choice|22
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 19, 4, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|6
+Voice Line|6, 99, 0, 44, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|What are you doooooooooooooooooing!?\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|We must first charge through Grape Towerrrrrrrrrrrrrr!!!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Speaker|0
+Text|I get it already... Don't shout so loud...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 3, 1, 2
+Voice Line|6, 99, 0, 48, 100
+Text|Well, no need to worry... Shouting no longer hurts my\nthroat.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>I'm more worried about my ears...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 3, 4, 2
+Change UI|1, 0
+Choice|23
+Change UI|51, 0
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>Grape Tower...is beyond this door, right?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Animation|12, 0, 0, 0, 0, 0, 0, 1
+Speaker|0
+Format|4
+Text|<CLT 04>Just like at Strawberry Hall, I only need to press this\nbutton.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Animation|12, 0, 0, 0, 0, 0, 0, 2
+Sprite|0, 19, 4, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 16, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|AAAAAAAAALLLLLLLLLLLLL RIGHT! Leave it to me!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+SFX A|1, 55, 100
+Speaker|0
+Format|4
+Text|<CLT 04>Nekomaru raised his voice and vigorously slammed the\nbutton more times than he needed to...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 7, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 40, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...Hm? It's not opening.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Huh, that's weird... When we were at Strawbery Hall,\nthis should've opened...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 9, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 51, 100
+Text|Don't tell me it's out of order... Fine time for it to\nbreak down!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|W-Well...it obviously shouldn't...\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 215, 100
+Speaker|63
+Format|6
+Text|<CLT 06>"Ga-chunk"<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Sprite|0, 19, 7, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 40, 100
+Text|Hm? Did you hear something?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>And that's when Nekomaru started shouting.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 0, 4, 2
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Change UI|6, 1
+Animation|3, 97, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 97, 0, 0, 0, 0, 0, 4
+0x3a|6, 0, 0, 30
+SFX A|0, 225, 100
+Animation|3, 97, 0, 0, 0, 0, 0, 6
+Load Map|0, 91, 1, 0
+0x3a|6, 0, 0, 120
+0x3a|8, 0, 0, 0
+Screen Fade|1, 1, 24
+Animation|3, 97, 0, 0, 0, 0, 0, 255
+Script|4, 0, 7, 0, 0
+Stop Script|
+Choice|24
+Change UI|51, 0
+Change UI|9, 1
+Change UI|15, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>What is this...muscular bronze statue? It's probably an\nornament but it doesn't fit the ambience at all.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Ah, there's a name written on here...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Hm..."Ogre?"\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Does that mean it's a statue of an ogre? Why is it\nwearing a sailor uniform...?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Choice|25
+Choice|26
+Choice|27
+Choice|28
+Choice|29
+Choice|30
+Choice|31
+Choice|32
+Choice|33
+Choice|34
+Choice|35
+Choice|36
+Choice|37
+Choice|38
+Choice|39
+Run Script|4, 3, 231, 0, 154
+Choice|45
+Run Script|4, 3, 231, 0, 100
+Choice|46
+Run Script|4, 3, 231, 0, 101
+Choice|47
+Run Script|4, 3, 231, 0, 100
+Choice|48
+Run Script|4, 3, 231, 0, 101
+Choice|254
+Choice|255
+0x2c|1, 247
+Stop Script|
+Stop Script|

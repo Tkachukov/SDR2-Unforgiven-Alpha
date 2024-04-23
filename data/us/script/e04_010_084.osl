@@ -1,0 +1,136 @@
+OSL Script
+Set Game To DR2
+Text Count|10, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+Set Flag|0, 12, 1
+Change UI|6, 0
+Load Map|0, 84, 0, 0
+Change UI|9, 0
+0x46|13, 7, 0, 0
+0x4d|
+0x3b|1, 244
+Change UI|14, 0
+Screen Fade|0, 1, 48
+Change UI|3, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 0
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Text|It's...morning already...?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Now that there are no Monokuma Annoucements...\nI don't feel like my usual self anymore.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|There should be a clock in the lounge... I should head\nover there and see what time it is.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|6, 100, 0
+Change UI|3, 0
+Change UI|1, 0
+0x3a|6, 0, 0, 30
+Screen Fade|1, 1, 24
+0x3a|8, 0, 0, 2
+Script|4, 0, 10, 0, 79
+Stop Script|
+0x2c|1, 244
+Change UI|14, 1
+Change UI|3, 1
+0x3a|6, 0, 0, 30
+Change UI|16, 1
+0x3b|1, 245
+Check Character|255
+Choice|20
+Run Script|4, 3, 231, 0, 100
+Choice|21
+Run Script|4, 3, 231, 0, 101
+Choice|22
+0x46|13, 7, 0, 0
+0x4d|
+0x3b|1, 246
+Run Script|4, 3, 231, 0, 166
+0x3b|1, 247
+0x2c|1, 246
+Change UI|15, 0
+Change UI|2, 1
+Change UI|1, 1
+Change UI|18, 0
+Change UI|18, 3
+0x3b|1, 248
+0x32|1
+Text|Yes\n
+Wait Frame|
+Change UI|3, 0
+Change UI|1, 0
+Screen Fade|1, 1, 24
+Change UI|27, 0
+0x3a|5, 0, 0, 60
+Script|4, 0, 11, 0, 0
+Stop Script|
+0x32|2
+Text|No\n
+Wait Frame|
+Change UI|1, 0
+0x32|18
+0x32|19
+Speaker|0
+Format|4
+Text|<CLT 04>It's not my usual bed, but I should try to rest a little\non this flimsy futon...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+0x32|255
+0x2c|1, 248
+0x2c|1, 247
+Choice|254
+Change UI|2, 1
+Change UI|1, 1
+Change UI|18, 0
+Change UI|18, 3
+0x3b|1, 249
+0x32|1
+Text|Yes\n
+Wait Frame|
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 79, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 12
+SFX A|0, 208, 100
+Change UI|15, 2
+Script|4, 0, 10, 0, 79
+Stop Script|
+0x32|2
+Text|No\n
+Wait Frame|
+Change UI|1, 0
+0x32|18
+0x32|19
+Speaker|63
+Format|6
+Text|<CLT 06>Leave here?<CLT>\n
+Format|0
+Wait Frame|
+0x32|255
+0x2c|1, 249
+Choice|255
+0x2c|1, 245
+Stop Script|
+Stop Script|

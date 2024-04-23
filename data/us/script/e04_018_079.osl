@@ -1,0 +1,495 @@
+OSL Script
+Set Game To DR2
+Text Count|44, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+0x2f|0, 8, 112, 59, 1, 244, 112, 48, 0, 1
+0x3a|19, 0, 0, 0
+Show Background|0, 2, 112
+Show Background|0, 6, 112
+Show Background|0, 7, 112
+Show Background|0, 8, 112
+Show Background|0, 9, 112
+Show Background|0, 10, 112
+Show Background|0, 11, 112
+Show Background|0, 12, 112
+Show Background|0, 15, 112
+Show Background|255, 255, 112
+0x2c|1, 244
+Set Flag|0, 12, 0
+Change UI|6, 0
+Load Map|0, 79, 0, 0
+Run Script|4, 3, 231, 0, 173
+Change UI|9, 0
+Sprite|0, 19, 0, 0, 0
+0x1|1, 73, 6, 1
+Sprite|1, 8, 0, 0, 0
+0x1|1, 73, 8, 1
+0x1|0, 79, 29, 0
+0x23|33, 1, 0, 1, 0
+0x23|34, 1, 0, 1, 0
+0x23|35, 1, 0, 1, 0
+0x23|36, 1, 0, 1, 0
+Change UI|14, 0
+Screen Fade|0, 1, 24
+Change UI|3, 1
+0x46|13, 13, 0, 0
+0x4d|
+0x3b|1, 245
+0x3a|19, 0, 0, 0
+0x1|1, 76, 0, 1
+Change UI|51, 0
+Change UI|2, 1
+Change UI|9, 1
+Change UI|1, 1
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Text|...\n
+Wait Frame|
+Wait For Input|
+Text|It's no use...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>I think...I've reached my limit...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>I'm hungry...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>I'm hungry hungry hungry hungry hungry hungry hungry\nhungry hungry hungey hungry hungry hungry hungry...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>If this keeps going...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>If this keeps going...until I die...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 20, 100
+Change UI|13, 1
+Text|...!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+SFX A|0, 18, 100
+Change UI|13, 1
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Wh-What am I thinking!?\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>No...if I stay locked up in this place any longer, I'm\nseriously going to go crazy...!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Exit... I need to find the exit...!<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Where is it...? Where is the exit...?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 21, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Change UI|13, 1
+Text|Dammit! Where the fuck is the exit!?\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|3, 0
+Change UI|6, 1
+0x37|0, 48, 1
+Filter|1, 1, 0, 0
+Sprite|0, 16, 0, 8, 2
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|16
+Text|The Final Dead Room is a challenge given to you by\nHeadmaster Monokuma!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Only those who win the <CLT 03>Life-Threatening Game<CLT> that\noccurs in this room...\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|...will be able to reach the <CLT 03>Octagon<CLT>, the fabled holy\nland where the <CLT 03>Ultimate Weapon<CLT> sleeps!\n
+Format|3
+Format|0
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 6, 1, 2
+Voice Line|16, 99, 0, 95, 100
+Text|Now then, if you're feeling heroic and you're willing to\nrisk your life to continue living.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|You should challenge the Final Dead Room!\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 10
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 48, 3
+Sprite|0, 16, 0, 3, 2
+Filter|1, 0, 0, 0
+Change UI|6, 0
+Change UI|3, 1
+Screen Fade|0, 2, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+0x3a|6, 0, 0, 30
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|That's it... There's still that place...\n
+Wait Frame|
+Wait For Input|
+Text|Nobody...has gone inside there yet...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>That "Life-Threatening Game" is just another one of\nMonokuma's lies...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>It's possible that the exit is on the other side of that\ndoor!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|That's right...that's definitely it... Then...I should\ngo...\n<CLT>
+Wait Frame|
+Wait Frame|
+Format|0
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...I should go to the Final Dead Room.\n
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>I have barely any energy left. I can't even...run\ndecently...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Set Flag|13, 13, 1
+Set Flag|0, 12, 1
+0x1|0, 96, 28, 1
+0x2c|1, 245
+Change UI|16, 1
+0x3b|1, 246
+Check Character|0
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 19, 7, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|6
+Voice Line|6, 99, 0, 23, 100
+Text|Jeez... Even in this situation, this shrew refuses to be\ntamed!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 0, 4, 2
+Change UI|1, 0
+Check Character|1
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 8, 14, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|8
+Voice Line|8, 99, 0, 52, 100
+Text|Dammit...I lost again... I just can't unleash my power\nwhen I'm this hungry...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 19, 7, 1, 3
+Speaker|6
+Voice Line|6, 99, 0, 24, 100
+Text|Ha, what a pity... I still haven't gotten serious yet!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 19, 0, 1, 3
+Voice Line|6, 99, 0, 3, 100
+Text|Regardless, if I ever decide to get serious with this\nbody, you won't even last a second!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 14, 1, 2
+Speaker|8
+Voice Line|8, 99, 0, 53, 100
+Text|Yeah right...! Let's train one more time!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>I can't believe they're going at it right now... Is it\nokay for them to burn their energy like this?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 19, 0, 1, 3
+Speaker|6
+Voice Line|6, 99, 0, 22, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|You better not...exert yourself too much. You haven't\neaten in a while, after all.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 12, 1, 2
+Speaker|8
+Voice Line|8, 99, 0, 42, 100
+SFX A|0, 23, 100
+Text|D-Don't remind me... I was...finally able to forget\nabout food...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 11, 1, 2
+Voice Line|8, 99, 0, 37, 100
+Text|Well, you're really lucky since you can still live even\nif you don't eat...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 19, 7, 1, 3
+Speaker|6
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 5, 1, 2
+Speaker|8
+Voice Line|8, 99, 0, 20, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Anyway...since you have that body now... Does that mean\nyou can do "it" with electricity?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Do "it" to me with electricity...\n
+Wait Frame|
+Wait For Input|
+Text|Won't "it" feel so much more amazin' with electricity\nthan with your bare hands?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 19, 1, 1, 3
+Speaker|6
+Voice Line|6, 99, 0, 8, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Gahaha! I guess I have no choice!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Text|When I'm done with you, your body won't be able to live\nwithout "it"!\n
+Wait Frame|
+Wait Frame|
+SFX A|1, 51, 100
+Sprite|1, 19, 0, 5, 3
+0x3a|6, 0, 0, 60
+Wait For Input|
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Change UI|9, 0
+Sprite|0, 8, 98, 0, 0
+Sprite|1, 19, 98, 0, 0
+0x1|1, 73, 6, 0
+0x1|1, 73, 8, 0
+Speaker|0
+Format|4
+Text|<CLT 04>...I don't even have the energy or willpower to say\nanything anymore.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Check Character|255
+Choice|20
+Run Script|4, 3, 231, 0, 7
+Choice|21
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Change UI|6, 1
+Load Map|0, 71, 1, 0
+Animation|3, 217, 0, 0, 0, 0, 0, 3
+SFX A|0, 225, 100
+Screen Fade|0, 1, 24
+Animation|3, 217, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 90
+0x3a|8, 0, 0, 17
+Screen Fade|1, 1, 24
+SFX A|0, 225, 100
+Animation|3, 217, 0, 0, 0, 0, 0, 255
+Script|4, 0, 0, 0, 71
+Stop Script|
+Choice|22
+Run Script|4, 3, 231, 0, 7
+Choice|23
+Run Script|4, 3, 231, 0, 7
+Choice|24
+Run Script|4, 3, 231, 0, 7
+Choice|25
+0x13|0, 1
+0x3a|19, 0, 0, 1
+0x1|1, 73, 0, 1
+Choice|26
+Run Script|4, 3, 231, 0, 7
+Choice|27
+Run Script|4, 3, 231, 0, 7
+Choice|28
+Run Script|4, 3, 231, 0, 7
+Choice|29
+Run Script|4, 3, 231, 0, 7
+Choice|30
+Run Script|4, 3, 231, 0, 7
+Choice|31
+Run Script|4, 3, 231, 0, 7
+Choice|32
+0x47|0, 19, 0, 0, 0
+0x4d|
+0x3b|1, 247
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+0x2f|0, 19, 112, 59, 1, 248, 112, 48, 0, 0
+Set Flag|0, 12, 0
+0x3a|8, 0, 0, 2
+Change UI|25, 2
+0x3a|19, 0, 0, 2
+0x3a|5, 0, 0, 30
+Show Background|0, 2, 112
+0x3a|8, 0, 0, 1
+Change UI|25, 2
+0x3a|19, 0, 0, 0
+0x3a|5, 0, 0, 30
+Show Background|255, 255, 112
+0x3a|6, 0, 0, 60
+Change UI|3, 1
+0x3b|1, 249
+0x2c|1, 247
+Run Script|4, 3, 231, 0, 7
+0x2c|1, 249
+Choice|33
+Run Script|4, 3, 231, 0, 7
+Choice|34
+Run Script|4, 3, 231, 0, 7
+Choice|35
+Run Script|4, 3, 231, 0, 7
+Choice|36
+Run Script|4, 3, 231, 0, 7
+Choice|37
+Run Script|4, 3, 231, 0, 7
+Choice|38
+Change UI|15, 0
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 86, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 0
+SFX A|0, 206, 100
+Change UI|15, 2
+Script|4, 0, 0, 0, 86
+Stop Script|
+Choice|39
+Run Script|4, 3, 231, 0, 154
+Choice|40
+Run Script|4, 3, 231, 0, 7
+Choice|41
+Run Script|4, 3, 231, 0, 7
+Choice|42
+Run Script|4, 3, 231, 0, 7
+Choice|43
+Run Script|4, 3, 231, 0, 7
+Choice|44
+Run Script|4, 3, 231, 0, 7
+Choice|45
+Run Script|4, 3, 231, 0, 100
+Choice|46
+Run Script|4, 3, 231, 0, 101
+Choice|47
+Run Script|4, 3, 231, 0, 100
+Choice|48
+Run Script|4, 3, 231, 0, 101
+Choice|254
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+0x2f|0, 19, 112, 59, 1, 250, 112, 48, 0, 0
+Set Flag|0, 12, 0
+0x3a|8, 0, 0, 2
+Change UI|25, 2
+0x3a|19, 0, 0, 2
+0x3a|5, 0, 0, 30
+Show Background|255, 255, 112
+0x3a|6, 0, 0, 60
+Change UI|3, 1
+Choice|255
+0x2c|1, 246
+Stop Script|
+Stop Script|

@@ -1,0 +1,587 @@
+OSL Script
+Set Game To DR2
+Text Count|74, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+Set Flag|0, 12, 1
+Change UI|6, 0
+Load Map|0, 91, 0, 0
+Change UI|9, 0
+Sprite|0, 1, 0, 0, 0
+Sprite|1, 3, 0, 0, 0
+Sprite|2, 4, 0, 0, 0
+Sprite|3, 19, 0, 0, 0
+Sprite|4, 7, 30, 0, 0
+Sprite|5, 8, 0, 0, 0
+Sprite|6, 9, 0, 0, 0
+Sprite|7, 10, 0, 0, 0
+0x1|0, 91, 1, 1
+0x1|0, 91, 3, 1
+0x1|0, 91, 4, 1
+0x1|0, 91, 6, 1
+0x1|0, 91, 7, 1
+0x1|0, 91, 8, 1
+0x1|0, 91, 9, 1
+0x1|0, 91, 10, 1
+0x1|0, 79, 29, 0
+0x23|28, 0, 0, 0, 0
+0x23|29, 0, 0, 0, 0
+0x23|30, 0, 0, 0, 0
+0x23|31, 0, 0, 0, 0
+0x23|32, 0, 0, 0, 0
+0x23|34, 0, 0, 0, 0
+0x3a|5, 0, 0, 2
+Change UI|6, 0
+Screen Fade|0, 1, 24
+Change UI|3, 1
+Change UI|51, 0
+Change UI|2, 1
+Change UI|9, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>Everyone who gathered here had pale faces...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|26, 4
+0x3a|5, 0, 0, 30
+Sprite|0, 4, 15, 1, 2
+Change UI|1, 1
+Speaker|4
+Voice Line|4, 99, 0, 43, 100
+Text|Man, I'm tired...\n
+Wait Frame|
+Wait For Input|
+Text|I'm seriously...so tired...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 37, 1, 3
+Speaker|7
+Voice Line|7, 99, 0, 38, 100
+Text|Stop complaining... You're bringing me down...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 3, 1, 2
+Speaker|4
+Voice Line|4, 99, 0, 21, 100
+Text|But I'm exhausted... Not only can we not eat food, but\nwe're being forced to come here early in the morning...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|This isn't about just you... We're all getting screwed\nhere.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 18, 1, 2
+Speaker|4
+Voice Line|4, 99, 0, 56, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|But we're getting screwed the most... Obviously we're\nmore tired than everyone else...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|I mean, we had to take the contact elevator to get here\nfrom Strawberry House.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|So we had to walk all the way from Strawberry Hall to\nthe elevator, and then walk all the way over here!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|The longer you walk, the more calories you burn! So\nobviously we're more tired than you guys...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 19, 4, 1, 1
+Speaker|6
+Voice Line|6, 99, 0, 57, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Stop whining!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 4, 19, 1, 2
+Speaker|4
+Voice Line|4, 99, 0, 4, 100
+Text|Tch, you're fine... You don't have to worry about\ngetting hungry since you're a robot...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 19, 8, 1, 1
+Speaker|6
+Voice Line|6, 99, 0, 41, 100
+Text|I'm in a similar situation... I left my charger inside\nmy cottage...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 0, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|0, 16, 3, 6, 2
+Music|12, 100, 0
+0x3a|6, 0, 0, 10
+Change UI|1, 1
+Speaker|16
+Voice Line|16, 99, 0, 46, 100
+Text|Man, you guys are already starting to brag about how\nunhealthy you are...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 48, 1, 3
+Speaker|7
+Voice Line|7, 99, 0, 71, 100
+Text|You've got a lot of nerve coming here...!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 5, 1, 4
+Speaker|10
+Voice Line|10, 99, 0, 3, 100
+Text|N-Now that we have all gathered here so early in the\nmorning, what do you intend to make us do this time?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 13, 1, 2
+Speaker|16
+Voice Line|16, 99, 1, 217, 100
+Text|I just want everyone to be healthy again.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...Healthy?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 10, 101, 2
+Speaker|16
+Voice Line|16, 99, 0, 1, 100
+Text|You're losing your drive because you're burning rubber\ndown the Unhealthy Highway, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 9, 1, 2
+Voice Line|16, 99, 0, 41, 100
+Text|I'm offering this service so that you can all feel\nhealthy again!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Sooooo...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 4, 1, 2
+Voice Line|16, 99, 0, 33, 100
+SFX A|0, 21, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Text|From this day forward, I'd like you to make <CLT 03>Monokuma\nTai Chi<CLT> part of your daily routine every morning!\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...M-Monokuma Tai Chi?\n
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Sprite|1, 16, 4, 1, 2
+Speaker|16
+SFX A|0, 18, 100
+Change UI|13, 1
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|All right, start the music!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Change UI|6, 1
+Music|48, 100, 0
+Animation|3, 100, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 64
+Animation|3, 100, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|16
+Voice Line|16, 99, 2, 205, 100
+Text|Fuooooooooooooooooooooo...\n
+Wait Frame|
+Wait For Input|
+Voice Line|16, 99, 2, 206, 100
+Text|Make optimal use...of earth's gravity...and release\nyourself...from the tension of your conscious self...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|6
+Voice Line|6, 99, 0, 137, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Hei! Sei! Tou!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Speaker|16
+Voice Line|16, 99, 2, 207, 100
+Text|Control your breathing...slowly and softly... Move as if\nyou're drawing a circle...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|6
+Voice Line|6, 99, 0, 138, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Ha! Tou! Ya!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Speaker|16
+Voice Line|16, 99, 2, 208, 100
+Text|Naturally...just as you are...relax...your body and\nmind....\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Th-This...is clearly affecting my hunger...!<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>...Why exactly do we have to do this?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|16
+Voice Line|16, 99, 2, 209, 100
+SFX A|0, 21, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Change UI|13, 1
+Text|Hey, over there! Don't dawdle!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Music|255, 90, 0
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 60
+Screen Fade|1, 1, 48
+Animation|3, 100, 0, 0, 0, 0, 0, 255
+Music|13, 100, 0
+Change UI|6, 0
+Sprite|0, 16, 9, 8, 2
+Change UI|3, 1
+Screen Fade|0, 1, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|16
+Voice Line|16, 99, 0, 42, 100
+Text|Phew, we sure worked up a good sweat! Staying healthy is\ndefinitely super important!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 41, 1, 3
+Speaker|7
+Voice Line|7, 99, 0, 48, 100
+Text|Oh fuck off... We did a bunch of pointless exercise\nthanks to you, and now we're hungrier than ever...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 12, 1, 4
+Speaker|8
+Voice Line|8, 99, 0, 45, 100
+SFX A|0, 23, 100
+Text|I...can't...move...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 12, 1, 2
+Speaker|16
+Voice Line|16, 99, 0, 12, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|The road to good health is not an easy one! It might be\npainful, but we'll do this again tomorrow!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Unless something big happens, I won't allow any tardies\nor absences. Make sure you remember that!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|1, 16, 0, 7, 2
+0x3a|6, 0, 0, 30
+Music|10, 100, 120
+Sprite|1, 10, 5, 1, 3
+Change UI|1, 1
+Speaker|10
+Voice Line|10, 99, 0, 55, 100
+Text|Y-You intend...to keep making us do this...!?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 12, 1, 4
+Speaker|8
+Voice Line|8, 99, 0, 43, 100
+Text|Guys...I don't think I'm gonna last till tomorrow.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 12, 1, 3
+Speaker|4
+Voice Line|4, 99, 0, 59, 100
+Text|E-Enough already... How much longer...is this going to\nlast...?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 7, 1, 1
+Speaker|1
+Voice Line|1, 99, 0, 72, 100
+Text|Didn't he say...until the killing starts?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 3, 2, 1, 2
+Speaker|3
+Voice Line|3, 99, 0, 6, 100
+Text|It seems the plausibility of those words is finally\nstarting to affect us...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|If this persists any longer, it wouldn't surprise me if\nsomething really did happen...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 12, 1, 3
+Speaker|4
+Voice Line|4, 99, 0, 59, 100
+Text|I-I don't wanna die...in a place like this...\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|If I'm gonna die in a place like this, I-I might as\nwell...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 18, 100
+Change UI|13, 1
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Wh-What are you saying!? Calm down!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 4, 13, 1, 3
+Speaker|4
+Voice Line|4, 99, 0, 53, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|I can't fucking calm down!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 4, 12, 1, 3
+Voice Line|4, 99, 0, 59, 100
+Text|There's no food... There's no way to escape...\n
+Wait Frame|
+Wait For Input|
+Text|If this goes on...everyone's gonna starve to death...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 13, 1, 3
+Voice Line|4, 99, 0, 50, 100
+SFX A|0, 18, 100
+0x20|4, 0, 30, 4, 2
+Change UI|13, 1
+Text|Wait! Are you telling us to just wait until we starve to\ndeath!?\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Music|255, 180, 0
+Text|I'd rather...have that happen to us...\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...than have our friends kill each other...\n
+Wait Frame|
+Music|11, 100, 120
+Wait For Input|
+Sprite|1, 1, 27, 1, 1
+Speaker|1
+Voice Line|1, 99, 0, 68, 100
+Text|...Huh? Do you mean that you'd rather die?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 18, 1, 3
+Speaker|4
+Voice Line|4, 99, 0, 56, 100
+Text|I-I got it... You're just saying that because you're the\ntraitor!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Change UI|13, 1
+Text|...What!?\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 4, 18, 1, 3
+Speaker|4
+Text|You're planning to make us all weak...so you can kill us\nall!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Wh-What are you saying...!?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 13, 1, 3
+Speaker|4
+Voice Line|4, 99, 0, 50, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Change UI|13, 1
+Text|Fess up! You've been secretly getting food from your\nFuture Foundation buddies, haven't you!?\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Speaker|0
+Text|I-I swear...you better...!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 17, 1, 2
+Speaker|9
+Voice Line|9, 99, 0, 67, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|STOOOOOOOOOOOOOOOP!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 0, 1, 2
+Speaker|9
+Voice Line|9, 99, 0, 12, 100
+Text|Making a scene is just going to make us hungrier.\nSo...let's just calm down for now.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 1, 1, 1
+Speaker|1
+Voice Line|1, 99, 0, 24, 100
+Text|You're right...even if you guys fight, our situation\nisn't going to change.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 3, 2, 1, 2
+Speaker|3
+Voice Line|3, 99, 0, 43, 100
+Text|Wait to die from impending starvation... Or wait for\nsomeone to kill someone else before that happens...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|At any rate, it's a rather difficult situation.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 4, 1, 1
+Speaker|1
+Voice Line|1, 99, 0, 31, 100
+Text|Which is the true hope...? I'll just follow what\neveryone else decides...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 15, 1, 1
+Voice Line|1, 99, 0, 11, 100
+Text|If you're going to choose, you should hurry. The longer\nwe keep waiting, the closer we get to death!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+Screen Fade|1, 1, 48
+Change UI|6, 1
+Sprite|0, 1, 0, 3, 1
+0x37|0, 0, 1
+Screen Fade|0, 1, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>The conversation...ended there.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>It seems nobody had the energy to keep talking or\narguing.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>So...we silently left Grape Tower.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Screen Fade|1, 1, 24
+0x37|0, 0, 3
+Script|4, 0, 16, 0, 0
+Stop Script|
+Stop Script|

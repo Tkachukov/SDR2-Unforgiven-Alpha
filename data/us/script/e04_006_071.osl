@@ -1,0 +1,558 @@
+OSL Script
+Set Game To DR2
+Text Count|53, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+0x2f|0, 8, 112, 59, 1, 244, 112, 48, 0, 1
+0x3a|19, 0, 0, 0
+Show Background|0, 2, 112
+Show Background|0, 3, 112
+Show Background|0, 4, 112
+Show Background|0, 8, 112
+Show Background|0, 9, 112
+Show Background|0, 10, 112
+Show Background|0, 11, 112
+Show Background|0, 12, 112
+Show Background|0, 13, 112
+Show Background|0, 14, 112
+Show Background|0, 18, 112
+Show Background|255, 255, 112
+0x2c|1, 244
+Set Flag|0, 12, 0
+Change UI|6, 0
+Load Map|0, 71, 0, 0
+Run Script|4, 3, 231, 0, 172
+Change UI|9, 0
+Sprite|29, 16, 0, 0, 0
+Sprite|1, 1, 0, 0, 0
+Sprite|24, 3, 0, 0, 0
+Sprite|31, 4, 0, 0, 0
+Sprite|27, 7, 30, 0, 0
+Sprite|33, 19, 0, 0, 0
+Sprite|32, 8, 0, 0, 0
+Sprite|28, 9, 0, 0, 0
+Sprite|23, 10, 0, 0, 0
+0x1|1, 67, 1, 1
+0x1|1, 67, 3, 1
+0x1|1, 67, 4, 1
+0x1|1, 67, 6, 1
+0x1|1, 67, 7, 1
+0x1|1, 67, 8, 1
+0x1|1, 67, 9, 1
+0x1|1, 67, 10, 1
+0x1|0, 71, 29, 0
+0x23|33, 1, 0, 1, 0
+0x23|34, 1, 0, 1, 0
+0x23|35, 1, 0, 1, 0
+0x23|36, 1, 0, 1, 0
+0x23|37, 1, 0, 1, 0
+0x23|51, 1, 0, 1, 0
+0x23|52, 0, 0, 0, 0
+0x46|19, 15, 0, 1
+0x4d|
+0x3b|1, 245
+0x23|41, 0, 0, 0, 0
+0x2c|1, 245
+0x23|55, 0, 0, 0, 0
+Change UI|14, 0
+Change UI|3, 1
+Screen Fade|0, 1, 24
+Change UI|51, 0
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>Hm? Is it just me or does it seem rowdy by the elevator \nover there...?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Did...something happen...?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|16, 1
+0x3b|1, 246
+Check Character|29
+Change UI|51, 0
+Change UI|9, 1
+Music|255, 0, 0
+SFX A|0, 33, 100
+Sprite|0, 16, 9, 6, 2
+Music|13, 100, 0
+0x3a|6, 0, 0, 10
+Change UI|2, 1
+Change UI|1, 1
+Speaker|16
+Voice Line|16, 99, 0, 59, 100
+Text|Yoooo! How are you guys doing!?\n
+Wait Frame|
+Wait For Input|
+Text|Were you able to get a general idea of Strawberry\nHouse's side?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 2, 1, 1
+Speaker|1
+Voice Line|1, 99, 0, 68, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Strawberry House's <CLT 03>side<CLT>...?\n
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Text|That's a strange thing to say... It sounds like there\nare other buildings...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 3, 1, 2
+Speaker|16
+Voice Line|16, 99, 1, 155, 100
+Text|Of course!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 3, 1, 2
+SFX A|0, 21, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|That's why there's this thing called a <CLT 03>contact\nelevator<CLT>!\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 3, 12, 1, 3
+Speaker|3
+Voice Line|3, 99, 0, 3, 100
+Text|Contact elevator, you say...?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 3, 1, 2
+Speaker|16
+Voice Line|16, 99, 0, 1, 100
+Text|Even though it's an elevator, it's a big mistake to\nthink that moves vertically.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|This is an elevator that travels along a rail, so even\nmoving horizontally is easy as pie!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Then...does this elevator go to a different building?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 0, 1, 2
+Speaker|16
+Voice Line|16, 99, 0, 74, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|That's right! To Grape House!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 9, 1, 1
+Speaker|9
+Voice Line|9, 99, 0, 20, 100
+Text|...Grape House?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 0, 1, 2
+Speaker|16
+Voice Line|16, 99, 0, 5, 100
+Text|The Funhouse is an enormous building that's made up of\nother buildings.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 13, 1, 2
+Voice Line|16, 99, 0, 64, 100
+Text|Well, we can worry about the details when we get to\nGrape House! I'll be going ahead!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|0, 16, 0, 7, 2
+0x3a|6, 0, 0, 30
+Music|2, 100, 0
+Change UI|1, 1
+Sprite|1, 7, 32, 1, 2
+Speaker|7
+Voice Line|7, 99, 0, 12, 100
+Text|I-I don't really get it but... He just wanted to tell us\nto go to Grape House this time, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 19, 1, 1
+Speaker|10
+Voice Line|10, 99, 0, 67, 100
+Text|And that we must ride that elevator...right?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 3, 1, 3
+Speaker|4
+Voice Line|4, 99, 0, 19, 100
+Text|Wh-What should we do...?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 4, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 16, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Ha! We just have to go for it! The only way we can\novercome this situation is to make a move!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 4, 15, 1, 3
+Speaker|4
+Voice Line|4, 99, 0, 21, 100
+Text|B-But still...you know...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 50, 1, 2
+Speaker|7
+Voice Line|7, 99, 0, 29, 100
+Text|...What? You scared?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 13, 1, 3
+Speaker|4
+Voice Line|4, 99, 0, 52, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Change UI|13, 1
+Text|Aw hell no! Why're you saying that in front of Miss\nSonia!?\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 4, 19, 1, 3
+Voice Line|4, 99, 0, 56, 100
+Text|Fine, I'll fucking go! Heh, I'm not scared at all!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Well, I don't have it as bad as Kazuichi, but...I do \nhave a bad feeling about this.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>But...we can't just stand here and do nothing...!<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 0, 4, 3
+0x3a|6, 0, 0, 30
+Change UI|1, 0
+Change UI|26, 22
+0x3a|5, 0, 0, 40
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>All right...let's go!<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Animation|11, 254, 0, 0, 0, 0, 0, 1
+Speaker|0
+Format|4
+Text|<CLT 04>When I pressed the grape button next to the door, it\nimmediately opened...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Animation|11, 254, 0, 0, 0, 0, 0, 2
+Music|255, 60, 0
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 225, 100
+Screen Fade|1, 1, 24
+Change UI|3, 0
+Change UI|6, 1
+0x37|0, 0, 1
+Screen Fade|0, 1, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>We stepped onto the elevator, and off we went to Grape\nHouse.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Music|10, 100, 180
+Change UI|1, 0
+Load Map|0, 79, 1, 0
+0x3a|6, 0, 0, 60
+0x3a|8, 0, 0, 0
+Screen Fade|1, 1, 24
+0x37|0, 0, 3
+Script|4, 0, 6, 0, 79
+Stop Script|
+Check Character|1
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 1, 0, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 99, 0, 6, 100
+Text|Hajime, I was waiting for you, you know.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Huh? Why were you waiting for me?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 2, 1, 2
+Speaker|1
+Voice Line|1, 99, 0, 27, 100
+Text|Monokuma said...he'll be presenting something when\neveryone is here.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>...Monokuma said that?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 0, 4, 2
+Change UI|1, 0
+Check Character|24
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 3, 12, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|3
+Voice Line|3, 99, 0, 2, 100
+Text|Where were you? I swear, making an Overlord wait...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 3, 1, 2
+Voice Line|3, 99, 0, 7, 100
+Text|Very well... But this won't happen a second time.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 0, 4, 2
+Change UI|1, 0
+Check Character|31
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 4, 15, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|4
+Text|...\n
+Wait Frame|
+Wait For Input|
+Text|Apparently Monokuma...has something to say...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 0, 4, 2
+Change UI|1, 0
+Check Character|27
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 7, 30, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Text|Did you tell Akane what you wanted to say?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 37, 1, 2
+Speaker|7
+Voice Line|7, 99, 0, 4, 100
+Text|Yeah...I'm pretty sure she didn't want to hear it\nbut...I'm the only person who could say it.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 0, 4, 2
+Change UI|1, 0
+Check Character|33
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 19, 8, 1, 2
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|6
+Text|...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>He's glaring at the bathroom with eyes full of abnormal\nmalice.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Is he really that upset...that he can't take a shit?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 0, 4, 2
+Change UI|1, 0
+Check Character|32
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 8, 21, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|8
+Voice Line|8, 99, 0, 70, 100
+Text|Is Fuyuhiko...all right? I think he was tryin' to flirt\nwith me...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Y-You think that was flirting...!?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 0, 4, 2
+Change UI|1, 0
+Check Character|28
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 9, 9, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 99, 0, 11, 100
+Text|Apparently...Monokuma has something to say.\n
+Wait Frame|
+Wait For Input|
+Text|But he's not gonna tell us until everyone's together.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|It's probably something terrible again...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 0, 1, 2
+Speaker|9
+Voice Line|9, 99, 0, 44, 100
+Text|Terrible... It'd be much better if it was *just*\nterrible.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 22, 4, 2
+Change UI|1, 0
+Check Character|23
+0x46|13, 20, 0, 0
+0x4d|
+0x3b|1, 247
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 10, 19, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|10
+Voice Line|10, 99, 0, 3, 100
+Text|Ah, Hajime...were you safe?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 13, 1, 2
+Speaker|10
+Voice Line|10, 99, 0, 2, 100
+Text|Apparently Monokuma has something to say, but I...have\nan odd feeling about this.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|I *only* have a bad feeling about this...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 0, 4, 2
+Change UI|1, 0
+Set Flag|13, 20, 1
+0x3b|1, 248
+0x2c|1, 247
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 10, 13, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|10
+Voice Line|10, 99, 0, 2, 100
+Text|Apparently Monokuma has something to say, but I...have\nan odd feeling about this.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|I *only* have a bad feeling about this...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 0, 4, 2
+Change UI|1, 0
+0x2c|1, 248
+Check Character|255
+Choice|20
+Run Script|4, 3, 231, 0, 4
+Choice|21
+Run Script|4, 3, 231, 0, 4
+Choice|22
+Run Script|4, 3, 231, 0, 4
+Choice|25
+Run Script|4, 3, 231, 0, 4
+Choice|24
+Run Script|4, 3, 231, 0, 4
+Choice|23
+Run Script|4, 3, 231, 0, 4
+Choice|26
+Run Script|4, 3, 231, 0, 4
+Choice|27
+Run Script|4, 3, 231, 0, 4
+Choice|28
+Run Script|4, 3, 231, 0, 4
+Choice|29
+Run Script|4, 3, 231, 0, 4
+Choice|30
+Run Script|4, 3, 231, 0, 4
+Choice|31
+Run Script|4, 3, 231, 0, 4
+Choice|32
+Run Script|4, 3, 231, 0, 4
+Choice|33
+Run Script|4, 3, 231, 0, 4
+Choice|34
+Run Script|4, 3, 231, 0, 4
+Choice|40
+Run Script|4, 3, 231, 0, 140
+Choice|41
+Run Script|4, 3, 231, 0, 10
+Choice|53
+Run Script|4, 3, 231, 0, 100
+Choice|54
+Run Script|4, 3, 231, 0, 101
+Choice|254
+Choice|255
+0x2c|1, 246
+Stop Script|
+Stop Script|

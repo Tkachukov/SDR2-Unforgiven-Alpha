@@ -1,0 +1,454 @@
+OSL Script
+Set Game To DR2
+Text Count|15, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+0x2f|0, 8, 112, 59, 1, 244, 112, 48, 0, 1
+0x3a|19, 0, 0, 0
+Show Background|0, 2, 112
+Show Background|0, 6, 112
+Show Background|0, 7, 112
+Show Background|0, 8, 112
+Show Background|0, 9, 112
+Show Background|0, 10, 112
+Show Background|0, 11, 112
+Show Background|0, 12, 112
+Show Background|0, 15, 112
+Show Background|255, 255, 112
+0x2c|1, 244
+Set Flag|0, 12, 0
+Change UI|6, 0
+Load Map|0, 79, 0, 0
+Run Script|4, 3, 231, 0, 173
+Change UI|9, 0
+Sprite|1, 10, 0, 0, 0
+0x1|1, 73, 10, 1
+0x1|0, 79, 29, 0
+0x23|33, 1, 0, 1, 0
+0x23|34, 1, 0, 1, 0
+0x23|35, 1, 0, 1, 0
+0x23|36, 1, 0, 1, 0
+Change UI|14, 0
+Screen Fade|0, 1, 24
+Change UI|3, 1
+Change UI|16, 1
+0x3b|1, 245
+Check Character|1
+0x2f|0, 20, 112, 59, 1, 246, 112, 48, 0, 10
+Change UI|9, 1
+Sprite|0, 11, 41, 1, 2
+Change UI|0, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|11
+Voice Line|11, 99, 0, 14, 100
+Text|This Funhouse looks just like a level from\nthe shitty indie horror game...\n
+Wait Frame|
+Wait For Input|
+Change UI|9, 0
+0x46|15, 31, 0, 1
+0x4d|
+0x3b|1, 247
+Script|4, 0, 11, 0, 0
+Stop Script|
+0x2c|1, 247
+Show Background|255, 255, 112
+Check Character|255
+Choice|20
+Run Script|4, 3, 231, 0, 149
+Choice|21
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Change UI|6, 1
+Load Map|0, 71, 1, 0
+Animation|3, 217, 0, 0, 0, 0, 0, 3
+SFX A|0, 225, 100
+Screen Fade|0, 1, 24
+Animation|3, 217, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 90
+0x3a|8, 0, 0, 17
+Screen Fade|1, 1, 24
+SFX A|0, 225, 100
+Animation|3, 217, 0, 0, 0, 0, 0, 255
+Script|4, 0, 0, 0, 71
+Stop Script|
+Choice|22
+0x13|0, 0
+0x3a|19, 0, 0, 2
+0x1|1, 76, 0, 1
+Choice|23
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>I pressed the button next to the Grape Hall door, and\nafter a while...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Change UI|6, 1
+Animation|3, 97, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 97, 0, 0, 0, 0, 0, 4
+0x3a|6, 0, 0, 30
+SFX A|0, 225, 100
+Animation|3, 97, 0, 0, 0, 0, 0, 6
+Load Map|0, 91, 1, 0
+0x3a|6, 0, 0, 120
+0x3a|8, 0, 0, 0
+Screen Fade|1, 1, 24
+Animation|3, 97, 0, 0, 0, 0, 0, 255
+Script|4, 0, 0, 0, 91
+Stop Script|
+Choice|24
+Run Script|4, 3, 231, 0, 150
+Choice|25
+0x46|13, 7, 0, 0
+0x4d|
+0x3b|1, 248
+Change UI|51, 0
+Change UI|2, 1
+Change UI|9, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>I should check out the lounge clock first and see what\ntime it is... Not knowing the time doesn't feel right.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3b|1, 249
+0x2c|1, 248
+0x13|0, 1
+0x3a|19, 0, 0, 1
+0x1|1, 73, 0, 1
+0x2c|1, 249
+Choice|26
+0x46|13, 7, 0, 0
+0x4d|
+0x3b|1, 250
+Change UI|51, 0
+Change UI|2, 1
+Change UI|9, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>I should check out the lounge clock first and see what\ntime it is... Not knowing the time doesn't feel right.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3b|1, 251
+0x2c|1, 250
+0x13|1, 0
+0x3a|19, 0, 0, 3
+Set Flag|1, 14, 1
+0x1|1, 78, 29, 1
+0x1|1, 78, 0, 1
+0x2c|1, 251
+Choice|27
+0x46|13, 7, 0, 0
+0x4d|
+0x3b|1, 252
+Change UI|51, 0
+Change UI|2, 1
+Change UI|9, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>I should check out the lounge clock first and see what\ntime it is... Not knowing the time doesn't feel right.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3b|1, 253
+0x2c|1, 252
+Run Script|8, 0, 9, 0, 14
+0x46|15, 31, 0, 1
+0x4d|
+0x3b|1, 254
+0x1|0, 81, 29, 1
+Script|4, 0, 11, 0, 0
+Stop Script|
+0x2c|1, 254
+0x2c|1, 253
+Choice|28
+0x46|13, 7, 0, 0
+0x4d|
+0x3b|1, 255
+Change UI|51, 0
+Change UI|2, 1
+Change UI|9, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>I should check out the lounge clock first and see what\ntime it is... Not knowing the time doesn't feel right.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3b|2, 0
+0x2c|1, 255
+Change UI|15, 0
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 80, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 0
+SFX A|0, 206, 100
+Change UI|15, 2
+Script|4, 0, 0, 0, 80
+Stop Script|
+0x2c|2, 0
+Choice|29
+0x46|13, 7, 0, 0
+0x4d|
+0x3b|2, 1
+Change UI|51, 0
+Change UI|2, 1
+Change UI|9, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>I should check out the lounge clock first and see what\ntime it is... Not knowing the time doesn't feel right.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3b|2, 2
+0x2c|2, 1
+Change UI|3, 0
+Change UI|15, 0
+Load Map|0, 82, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 0
+SFX A|0, 206, 100
+Change UI|15, 2
+Script|4, 0, 0, 0, 82
+Stop Script|
+0x2c|2, 2
+Choice|30
+0x46|13, 7, 0, 0
+0x4d|
+0x3b|2, 3
+Change UI|51, 0
+Change UI|2, 1
+Change UI|9, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>I should check out the lounge clock first and see what\ntime it is... Not knowing the time doesn't feel right.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3b|2, 4
+0x2c|2, 3
+Run Script|8, 0, 8, 0, 13
+0x46|15, 31, 0, 1
+0x4d|
+0x3b|2, 5
+0x1|0, 83, 29, 1
+Script|4, 0, 11, 0, 0
+Stop Script|
+0x2c|2, 5
+0x2c|2, 4
+Choice|31
+0x46|13, 7, 0, 0
+0x4d|
+0x3b|2, 6
+Change UI|51, 0
+Change UI|2, 1
+Change UI|9, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>I should check out the lounge clock first and see what\ntime it is... Not knowing the time doesn't feel right.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3b|2, 7
+0x2c|2, 6
+Change UI|15, 0
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+Load Map|0, 84, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 0
+SFX A|0, 208, 100
+Change UI|15, 2
+Script|4, 0, 0, 0, 84
+Stop Script|
+0x2c|2, 7
+Choice|32
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+0x2f|0, 19, 112, 59, 2, 8, 112, 48, 0, 0
+Set Flag|0, 12, 0
+0x3a|8, 0, 0, 2
+Change UI|25, 2
+0x3a|19, 0, 0, 2
+0x3a|5, 0, 0, 30
+Show Background|0, 2, 112
+0x3a|8, 0, 0, 1
+Change UI|25, 2
+0x3a|19, 0, 0, 0
+0x3a|5, 0, 0, 30
+Show Background|255, 255, 112
+0x3a|6, 0, 0, 60
+Change UI|3, 1
+0x46|13, 7, 0, 0
+0x4d|
+0x3b|2, 9
+Change UI|51, 0
+Change UI|2, 1
+Change UI|9, 1
+Change UI|1, 1
+Speaker|0
+Text|Let's see...the time is...\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|26, 43
+0x3a|5, 0, 0, 60
+Change UI|1, 1
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>...9:00 a.m.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>It's later than I'm used to waking up, but I guess it\nstill counts as morning.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|3, 0
+Change UI|27, 1
+0x3a|5, 0, 0, 60
+0x3a|0, 0, 0, 2
+Change UI|3, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>...Now then, what should I do now?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>In this kind of situation...panicking will accomplish\nnothing.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>It might be better if I spend time like I normally do\nfor as long as I can.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>I should find someone to talk to...or it might be a good\nidea to just stay in my room and conserve my energy.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Music|255, 60, 0
+Animation|0, 4, 0, 0, 0, 0, 0, 1
+Animation|0, 4, 0, 0, 0, 0, 0, 255
+Music|7, 100, 0
+Change UI|3, 1
+0x3a|15, 0, 0, 36
+Set Flag|13, 7, 1
+Set Flag|15, 31, 0
+Set Flag|0, 12, 1
+Run Script|4, 3, 231, 0, 170
+0x1|1, 99, 1, 253
+0x2c|2, 9
+Choice|33
+Run Script|4, 3, 231, 0, 157
+Choice|34
+Run Script|4, 3, 231, 0, 156
+Choice|35
+Run Script|4, 3, 231, 0, 158
+Choice|36
+Run Script|4, 3, 231, 0, 159
+Choice|37
+0x13|1, 1
+0x3a|19, 0, 0, 2
+0x1|1, 76, 0, 1
+Choice|38
+Change UI|15, 0
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 86, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 0
+SFX A|0, 206, 100
+Change UI|15, 2
+Script|4, 0, 0, 0, 86
+Stop Script|
+Choice|39
+Run Script|4, 3, 231, 0, 154
+Choice|40
+Run Script|4, 3, 231, 0, 100
+Choice|41
+Run Script|4, 3, 231, 0, 101
+Choice|42
+Run Script|4, 3, 231, 0, 153
+Choice|43
+Run Script|4, 3, 231, 0, 154
+Choice|44
+Run Script|4, 3, 231, 0, 165
+Choice|45
+Run Script|4, 3, 231, 0, 100
+Choice|46
+Run Script|4, 3, 231, 0, 101
+Choice|47
+Run Script|4, 3, 231, 0, 100
+Choice|48
+Run Script|4, 3, 231, 0, 101
+Choice|254
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+0x2f|0, 19, 112, 59, 2, 10, 112, 48, 0, 0
+Set Flag|0, 12, 0
+0x3a|8, 0, 0, 2
+Change UI|25, 2
+0x3a|19, 0, 0, 2
+0x3a|5, 0, 0, 30
+Show Background|255, 255, 112
+0x3a|6, 0, 0, 60
+Change UI|3, 1
+Choice|255
+0x2c|1, 245
+Stop Script|
+Stop Script|

@@ -1,0 +1,993 @@
+OSL Script
+Set Game To DR2
+Text Count|115, 0
+0x2c|0, 20
+Set Flag|0, 7, 1
+Set Flag|0, 13, 0
+Music|56, 100, 0
+Change UI|1, 1
+Change UI|4, 0
+Sprite|0, 0, 20, 0, 0
+Trial Camera|0, 1, 19, 0, 1, 0
+Voice Line|0, 4, 0, 109, 100
+SFX A|0, 19, 100
+Text|That's right... We should've heard the sound he made\nwhen he fell. Wasn't it that <CLT 03>rumbling noise<CLT>?\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|11, 11, 36, 0, 0
+Trial Camera|11, 0, 80, 0, 0, 0
+Text|...Rumbling?\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 3, 4, 0
+Trial Camera|8, 1, 3, 0, 0, 0
+Voice Line|8, 4, 0, 73, 100
+SFX A|0, 20, 100
+Text|I thought it was just an earthquake so I went back to\nsleep... Was that the sound from when Nekomaru fell?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 87, 0, 0, 0
+Voice Line|0, 4, 0, 110, 100
+Text|Well, a huge body fell from the 4th floor to the 1st,\nand the pillar fell with it...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 0, 255, 0, 0, 0
+Voice Line|0, 4, 0, 111, 100
+SFX A|0, 21, 100
+Text|It's obvious we'd hear the impact sound.\n
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 3, 0, 0
+Trial Camera|4, 0, 239, 0, 0, 0
+Voice Line|4, 4, 0, 96, 100
+SFX A|0, 19, 100
+Text|We heard that noise, too...!\n
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 1, 0, 0
+Trial Camera|3, 0, 159, 0, 0, 0
+Voice Line|3, 4, 0, 61, 100
+Text|It was when we were gathered at the Strawberry House\nlounge...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 180, 0
+Sprite|11, 11, 45, 0, 0
+Trial Camera|11, 0, 18, 0, 0, 0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Music|24, 100, 0
+Sprite|3, 3, 3, 0, 0
+Trial Camera|3, 0, 33, 0, 0, 0
+SFX A|0, 19, 100
+Text|...What is it, little chick?\n
+Wait Frame|
+Wait For Input|
+Sprite|11, 11, 38, 0, 0
+Trial Camera|11, 0, 18, 0, 0, 0
+Text|That... sound everyone heard... I did not hear\nit at all.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 255, 0, 0, 0
+Voice Line|0, 4, 0, 112, 100
+SFX A|0, 19, 100
+Text|...Huh?\n
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 3, 0, 0
+Trial Camera|4, 0, 186, 0, 0, 0
+Text|Hey, why are you crying this time?\nThere is nothing shameful with overhearing a sound, you know?\n
+Wait Frame|
+Wait For Input|
+Sprite|11, 11, 40, 0, 0
+Trial Camera|11, 0, 18, 0, 0, 0
+Text|You don't get it! I am an Ultimate Traditional Dancer!\nTo miss a sound like that... so shameful...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 7, 0, 0
+Trial Camera|4, 0, 158, 0, 0, 0
+Voice Line|4, 4, 0, 98, 100
+Text|Th-There's nothing to worry about! What's important is\nthat rumbling noise anyway...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 3, 0, 0
+Trial Camera|1, 0, 87, 0, 0, 0
+Voice Line|1, 4, 0, 100, 100
+Text|If we use that rumbling sound as a reference, we might\nbe able to figure out how much our time was off.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 21, 0, 0
+Trial Camera|8, 0, 179, 0, 0, 0
+Voice Line|8, 4, 0, 74, 100
+SFX A|0, 19, 100
+Text|I heard that sound...prolly around <CLT 03>5:30 in the\nmornin'<CLT>!\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 9, 0, 0
+Trial Camera|9, 0, 241, 0, 0, 0
+Voice Line|9, 4, 0, 65, 100
+Text|...Huh? You can tell?\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 18, 0, 0
+Trial Camera|8, 0, 98, 0, 0, 0
+Voice Line|8, 4, 0, 75, 100
+Text|I instantly woke up and left my room...and that's when I\nsaw the clock in the lounge.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|11, 11, 35, 4, 0
+Trial Camera|11, 0, 40, 0, 0, 0
+SFX A|0, 25, 100
+Text|Good job, Akane! Remain on this intelligence\nlevel from now on, okay?\n
+Wait Frame|
+Wait For Input|
+Change UI|18, 0
+0x3a|11, 0, 0, 60
+0x3a|13, 0, 0, 1
+Animation|0, 200, 0, 0, 0, 0, 0, 0
+0x2c|0, 0
+Change UI|18, 2
+0x3b|1, 244
+0x32|1
+Text|One hour\n
+Wait Frame|
+Sprite|9, 9, 10, 0, 0
+Trial Camera|9, 1, 37, 0, 0, 0
+Text|Play one hour of video games each day!\n
+Wait Frame|
+Wait For Input|
+Text|...Wait, we're not talking about good advice. We're\ntalking about how much our time was off.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Everyone's staring... Looks like I just made a fool of\nmyself in front of everyone...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 220
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 245
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|4, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 245
+0x3b|0, 0
+0x32|2
+Text|Two hours\n
+Wait Frame|
+Voice Line|0, 99, 0, 1, 100
+Animation|0, 200, 0, 0, 0, 0, 0, 1
+Animation|0, 200, 0, 0, 0, 0, 0, 255
+0x46|21, 5, 0, 1
+0x4d|
+0x3b|1, 246
+0x3a|13, 1, 3, 232
+0x3b|1, 247
+0x2c|1, 246
+0x3a|13, 1, 1, 244
+0x2c|1, 247
+0x3b|0, 1
+0x32|3
+Text|Three hours\n
+Wait Frame|
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Format|4
+Text|<CLT 04>Nekomaru fell at 7:30 a.m... We heard the rumbling noise\nat 5:30 a.m...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>It doesn't add up if it's three hours!<CLT>\n
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 220
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 248
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|4, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 248
+0x3b|0, 0
+0x32|4
+Text|Four hours\n
+Wait Frame|
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Format|4
+Text|<CLT 04>Nekomaru fell at 7:30 a.m... We heard the rumbling noise\nat 5:30 a.m...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>It doesn't add up if it's four hours!<CLT>\n
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 220
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 249
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|4, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 249
+0x3b|0, 0
+0x32|18
+Sprite|1, 1, 10, 0, 0
+Trial Camera|1, 0, 13, 0, 0, 0
+Text|Reserve Course students are pretty pathetic. They even\nstruggle to complete simple calculations...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Everyone's staring... Looks like I just made a fool of\nmyself in front of everyone...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 220
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 250
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|4, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 250
+0x3a|11, 0, 0, 60
+0x3b|0, 0
+0x32|19
+Sprite|0, 0, 1, 0, 0
+Trial Camera|0, 0, 219, 0, 1, 0
+Format|4
+Text|<CLT 04>If that rumbling sound we heard was at 5:30 a.m...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>It's like the answer to how much our time was off is\nliterally right in front of me.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+0x32|255
+0x2c|1, 244
+0x2c|0, 1
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Music|255, 180, 0
+Sprite|0, 0, 20, 0, 0
+Trial Camera|0, 0, 112, 0, 1, 0
+Voice Line|0, 4, 0, 113, 100
+Text|Nekomaru's alarm went off at 7:30, and if we heard the\nsound of his impact at 5:30...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|8, 100, 0
+Sprite|0, 0, 9, 4, 0
+Trial Camera|0, 1, 37, 0, 0, 0
+Voice Line|0, 4, 0, 114, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 21, 100
+Text|That means our time was off by <CLT 03>two hours<CLT>.\n
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 3, 4, 0
+Trial Camera|8, 1, 45, 0, 0, 0
+Voice Line|8, 4, 0, 76, 100
+SFX A|0, 20, 100
+Text|T-Two hours!? That much!?\n
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 37, 0, 0
+Trial Camera|7, 0, 54, 0, 0, 0
+Voice Line|7, 4, 0, 59, 100
+Text|We were starving pretty badly... There's no way we\nwould've noticed...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 11, 0, 0
+Trial Camera|4, 0, 87, 0, 0, 0
+Voice Line|4, 4, 0, 99, 100
+Text|Plus, the Funhouse has no windows, and there weren't any\nMonokuma Announcements either.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 1, 0, 0
+Trial Camera|3, 0, 35, 0, 0, 0
+Voice Line|3, 4, 0, 63, 100
+Text|...However, for what reason did the killer alter our\nperception of time?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 4, 0, 0
+Trial Camera|1, 0, 144, 0, 0, 0
+Voice Line|1, 4, 0, 101, 100
+Text|The reason is obvious: so they could lure out <CLT 03>just<CLT>\nNekomaru.\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|9, 100, 0
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 233, 0, 0, 0
+SFX A|0, 19, 100
+Format|4
+Text|<CLT 04>Lure out...only Nekomaru?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 3, 0, 0
+Trial Camera|1, 2, 10, 0, 0, 0
+Voice Line|1, 4, 0, 102, 100
+Text|If you messed with the clocks and used a specific thing,\nyou'd definitely get Nekomaru to the tower alone, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|1, 0, 105, 0, 1, 0
+Voice Line|1, 4, 0, 103, 100
+Text|From there, the killer's plan was a splendid success...\nThat's all it means.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|18, 0
+0x3a|11, 0, 0, 60
+0x3a|13, 0, 0, 1
+Animation|0, 200, 0, 0, 0, 0, 0, 0
+0x2c|0, 2
+Change UI|18, 1
+0x3b|1, 251
+0x32|1
+Text|Monokuma Tai Chi\n
+Wait Frame|
+Voice Line|0, 99, 0, 1, 100
+Animation|0, 200, 0, 0, 0, 0, 0, 1
+Animation|0, 200, 0, 0, 0, 0, 0, 255
+0x46|21, 5, 0, 1
+0x4d|
+0x3b|1, 252
+0x3a|13, 1, 3, 232
+0x3b|1, 253
+0x2c|1, 252
+0x3a|13, 1, 1, 244
+0x2c|1, 253
+0x3b|0, 3
+0x32|2
+Text|Massage Time\n
+Wait Frame|
+Sprite|0, 0, 20, 0, 0
+Trial Camera|0, 0, 53, 0, 0, 0
+Text|In order to lure only Nekomaru, did the killer take\nadvantage of Massage Time?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 3, 0, 0
+Trial Camera|8, 0, 32, 0, 0, 0
+Text|Th-Then...is the killer...\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 10, 0, 0
+Trial Camera|8, 1, 51, 0, 0, 0
+Text|...his most frequent massage customer, MEEEEEEEEE!?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 11, 0, 0
+Trial Camera|1, 0, 33, 0, 0, 0
+Text|...Of course not. That has nothing to do with the time\nanyway.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>Y-You're right... Dammit...let's think it over one more\ntime.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 220
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 254
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|4, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 254
+0x3b|0, 2
+0x32|3
+Text|The rumbling noise\n
+Wait Frame|
+Sprite|0, 0, 20, 0, 0
+Trial Camera|0, 0, 53, 0, 0, 0
+Text|In order to lure only Nekomaru, did the killer take\nadvantage of the rumbling noise?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 11, 0, 0
+Trial Camera|1, 0, 33, 0, 0, 0
+Text|...Of course not. Nekomaru died when the rumbling\nhappened, remember?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|What I'm talking about is earlier... The time when the\nkiller lured him.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>Y-You're right... Dammit...let's think it over one more\ntime.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 220
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 255
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|4, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 255
+0x3b|0, 2
+0x32|4
+Text|The clock's alarm\n
+Wait Frame|
+Sprite|0, 0, 20, 0, 0
+Trial Camera|0, 0, 53, 0, 0, 0
+Text|In order to lure only Nekomaru, did the killer take\nadvantage of the clock's alarm?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 4, 0, 0
+Trial Camera|1, 0, 33, 0, 0, 0
+Text|You mean the clock in the lounge that Fuyuhiko and the\nothers heard? But Nekomaru didn't go there.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 27, 0, 0
+Trial Camera|1, 1, 190, 0, 0, 0
+Text|What's the point of luring him to the lounge anyway?\n
+Wait Frame|
+Wait For Input|
+Text|Are you suggesting that the killer and Nekomaru took a\nstroll to the crime scene, just the two of them?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>Y-You're right... Dammit...let's think it over one more\ntime.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 220
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|2, 0
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|4, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|2, 0
+0x3b|0, 2
+0x32|18
+Sprite|16, 16, 31, 0, 0
+Trial Camera|16, 2, 15, 0, 0, 0
+Text|Hey, what are you dawdling for!? If you don't hurry up,\nI'm gonna end this trial!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Th-This is bad...I need to hurry...!<CLT>\n
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 220
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|2, 1
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|4, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|2, 1
+0x3a|11, 0, 0, 60
+0x3b|0, 2
+0x32|19
+0x47|0, 35, 0, 0, 2, 7, 0, 35, 0, 0, 1
+0x4d|
+0x3b|2, 2
+Sprite|0, 0, 1, 0, 0
+Trial Camera|0, 0, 219, 0, 1, 0
+Format|4
+Text|<CLT 04>Besides messing with the time, the killer also used a\n"specific thing?"<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>If they were trying to lure only Nekomaru, then that\n"specific thing" is...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+0x3b|2, 3
+0x2c|2, 2
+Sprite|0, 0, 1, 0, 0
+Trial Camera|0, 0, 219, 0, 1, 0
+Format|4
+Text|<CLT 04>Besides messing with the time, the killer also used a\n"specific thing?"<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>If they were trying to lure only Nekomaru, then that\n"specific thing" is...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>I mean, only Nekomaru would've known what time is\nactually was.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>If so, the "specific thing" the killer used was...<CLT>\n
+Format|0
+Wait Frame|
+0x2c|2, 3
+0x32|255
+0x2c|1, 251
+0x2c|0, 3
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Sprite|0, 0, 20, 0, 0
+Trial Camera|0, 1, 19, 0, 1, 0
+Voice Line|0, 4, 0, 115, 100
+Text|That's it... The killer made use of the <CLT 03>Monokuma Tai\nChi<CLT> activity in the morning.\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 2, 0, 0
+Trial Camera|3, 0, 34, 0, 0, 0
+Voice Line|3, 4, 0, 64, 100
+Text|How did they use it?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 3, 0, 0
+Trial Camera|1, 0, 112, 0, 0, 0
+Voice Line|1, 4, 0, 104, 100
+Text|We were required to go to Grape Tower every morning at\n7:00 a.m. for that activity, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|1, 0, 114, 0, 1, 0
+Voice Line|1, 4, 0, 105, 100
+Text|But if they messed with all the clocks inside the\nbuilding, what would that do to us?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Trial Camera|0, 0, 93, 0, 0, 0
+Voice Line|0, 4, 0, 116, 100
+Text|We wouldn't be able to attend on time...but that\n<CLT 03>wouldn't affect Nekomaru<CLT>.\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 0, 95, 0, 1, 0
+Voice Line|0, 4, 0, 117, 100
+Text|His <CLT 03>radio clock<CLT> had the exact time...\n
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 4, 0, 0
+Trial Camera|1, 0, 117, 0, 0, 0
+Voice Line|1, 4, 0, 106, 100
+Text|That's right. In doing so, the killer was able to lure\nhim to the tower by himself at the precise time.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 48, 0, 0
+Trial Camera|7, 0, 159, 0, 0, 0
+Voice Line|7, 4, 0, 60, 100
+SFX A|0, 19, 100
+Text|Then when I witnessed Nekomaru early in the morning...\n
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|60, 0
+Change UI|6, 1
+Change UI|9, 1
+Animation|3, 169, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 2, 24
+Animation|3, 169, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 4, 0, 107, 100
+Text|If I recall, you witnessed Nekomaru <CLT 03>around 5:00 a.m.<CLT>\n
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Voice Line|1, 4, 0, 108, 100
+Text|And if that time was also two hours off, it should've\nbeen <CLT 03>7:00 a.m.<CLT>... Yeah, that's pretty much it.\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Voice Line|1, 4, 0, 109, 100
+Text|At that time, he was heading over to Monokuma Tai Chi\n<CLT 03>right on schedule<CLT>.\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Animation|3, 169, 0, 0, 0, 0, 0, 255
+Change UI|60, 1
+Change UI|6, 0
+Change UI|9, 0
+Sprite|0, 0, 20, 0, 0
+Trial Camera|0, 0, 140, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|0, 0, 20, 0, 0
+Voice Line|0, 4, 0, 118, 100
+Text|I see...now that I think about it, I realize what\nMonokuma meant when he said those words...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 32, 4, 0
+Trial Camera|16, 2, 39, 0, 0, 0
+Voice Line|16, 4, 0, 12, 100
+SFX A|0, 20, 100
+Text|*Gasp!*\n
+Wait Frame|
+Wait For Input|
+Sprite|17, 17, 26, 4, 0
+Trial Camera|17, 2, 79, 0, 0, 0
+Voice Line|17, 4, 0, 16, 100
+SFX A|0, 18, 100
+Text|Too early! He didn't even ask you yet!\n
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|6, 1
+Change UI|9, 1
+0x37|0, 63, 1
+Filter|1, 1, 0, 0
+Sprite|0, 16, 1, 8, 2
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|16
+Text|Jeez, how outrageous!\n
+Wait Frame|
+Wait For Input|
+Text|I honestly didn't expect <CLT 03>everyone<CLT> to ditch Monokuma\nTai Chi...\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 13, 1, 2
+Text|But it turned out like this after all, so I guess it\ncan't be helped!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Filter|1, 0, 0, 0
+Sprite|0, 16, 0, 3, 2
+0x37|0, 63, 3
+Change UI|6, 0
+Change UI|9, 0
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 199, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|0, 0, 9, 0, 0
+Voice Line|0, 4, 0, 119, 100
+Text|When you said <CLT 03>everyone<CLT>, you were including us, right?\n
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 0, 134, 0, 1, 0
+Voice Line|0, 4, 0, 120, 100
+Text|We thought we came to the tower on time, but in truth,\nit was way past the meeting time...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|13, 100, 0
+Sprite|16, 16, 31, 0, 0
+Trial Camera|16, 2, 43, 0, 0, 0
+Voice Line|16, 4, 0, 13, 100
+Text|Aw jeez! That's...well, how should I put it...?\n
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 36, 0, 0
+Trial Camera|16, 2, 55, 0, 0, 0
+Voice Line|16, 4, 0, 14, 100
+SFX A|0, 19, 100
+Text|Um...what was it? You know, tripping over a foot...or\nsomething like that.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|17, 17, 22, 0, 0
+Trial Camera|17, 2, 79, 0, 0, 0
+Voice Line|17, 4, 0, 17, 100
+SFX A|0, 25, 100
+Text|Are you talking about..."tripping over someone else's\nfault"...?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 33, 0, 0
+Trial Camera|16, 2, 17, 0, 0, 0
+Voice Line|16, 4, 0, 15, 100
+SFX A|0, 20, 100
+Text|Wroooooooong! Too bad!\n
+Wait Frame|
+Wait For Input|
+Sprite|17, 17, 27, 4, 0
+Trial Camera|17, 2, 79, 0, 0, 0
+Voice Line|17, 4, 0, 18, 100
+SFX A|0, 22, 100
+Text|L-Liar! I'm right!\n
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 38, 0, 0
+Trial Camera|16, 2, 17, 0, 0, 0
+Voice Line|16, 4, 0, 16, 100
+SFX A|0, 21, 100
+Text|That's not it! It's incorrect!\n
+Wait Frame|
+Wait For Input|
+Sprite|17, 17, 26, 4, 0
+Trial Camera|17, 2, 79, 0, 0, 0
+Voice Line|17, 4, 0, 19, 100
+Text|Th-That's definitely the correct answer! You always get\nso stubborn like this!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|24, 100, 60
+Sprite|1, 1, 11, 0, 0
+Trial Camera|1, 0, 34, 0, 0, 0
+Voice Line|1, 4, 0, 110, 100
+Text|Let's just ignore the peanut gallery. Now that we've\nfound out how the killer lured Nekomaru...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 21, 0, 0
+Trial Camera|1, 0, 112, 0, 0, 0
+Voice Line|1, 4, 0, 111, 100
+Text|The number of suspects has drastically decreased.\n
+Wait Frame|
+Wait For Input|
+Music|255, 180, 0
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 1, 29, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 10, 0
+SFX A|0, 19, 100
+Format|4
+Text|<CLT 04>...Huh?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Music|19, 100, 0
+Sprite|4, 4, 19, 0, 0
+Trial Camera|4, 0, 118, 0, 0, 0
+Voice Line|4, 4, 0, 100, 100
+Text|Hey...why would that decrease the number of suspects?\nDon't be a friggin' liar...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 4, 0, 0
+Trial Camera|1, 0, 54, 0, 0, 0
+Voice Line|1, 4, 0, 112, 100
+Text|You'll know I'm not lying when you listen to what\nFuyuhiko's going to say next.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 32, 0, 0
+Trial Camera|7, 0, 144, 0, 0, 0
+Voice Line|7, 4, 0, 61, 100
+Text|...Huh? What the hell do you mean?\n
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|60, 0
+Change UI|6, 1
+Change UI|9, 1
+Animation|3, 169, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 2, 24
+Animation|3, 169, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 4, 0, 113, 100
+Text|You witnessed Nekomaru going toward the tower... Did\nsomething else happen after that?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Animation|3, 169, 0, 0, 0, 0, 0, 255
+Change UI|60, 1
+Change UI|6, 0
+Change UI|9, 0
+Sprite|7, 7, 32, 0, 0
+Trial Camera|7, 0, 139, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|7, 7, 32, 0, 0
+Voice Line|7, 4, 0, 62, 100
+Text|Are you talking about that alarm?\n
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 9, 0, 0
+Trial Camera|9, 0, 253, 0, 0, 0
+Voice Line|9, 4, 0, 66, 100
+Text|Hm? Alarm?\n
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 31, 0, 0
+Trial Camera|7, 0, 14, 0, 0, 0
+Voice Line|7, 4, 0, 63, 100
+Text|A little while after I witnessed Nekomaru, the clock in\nthe Strawberry House lounge started going off.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 37, 0, 0
+Trial Camera|7, 2, 7, 0, 0, 0
+Voice Line|7, 4, 0, 64, 100
+Text|Plus, it was just before that rumbling sound occurred...\nThat's it...so that's what it is...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 35, 0, 0
+Trial Camera|7, 1, 39, 0, 0, 0
+Voice Line|7, 4, 0, 65, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 21, 100
+Text|If Nekomaru died when the rumble happened, then whoever\ndoesn't have an alibi at the time is the prime suspect!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 3, 4, 0
+Trial Camera|8, 0, 239, 0, 0, 0
+Voice Line|8, 4, 0, 77, 100
+SFX A|0, 20, 100
+Text|Really!? Was there anyone who didn't have an alibi at\nthat time!?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 5, 0, 0
+Trial Camera|4, 1, 45, 0, 0, 0
+Voice Line|4, 4, 0, 101, 100
+SFX A|0, 19, 100
+Text|I...remember now...\n
+Wait Frame|
+Wait For Input|
+Trial Camera|4, 0, 108, 0, 0, 0
+Voice Line|4, 4, 0, 102, 100
+Text|The sound was so loud I couldn't help bolting from my\nroom, but there was one guy who never left the lounge...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 15, 0, 0
+Trial Camera|4, 0, 123, 0, 0, 0
+Voice Line|4, 4, 0, 103, 100
+Text|We were both on the same floor... It's pretty weird that\nbastard never came out of his guestroom...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+Sprite|8, 8, 16, 4, 0
+Trial Camera|8, 1, 21, 0, 0, 0
+Voice Line|8, 4, 0, 78, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 21, 100
+Text|Who is it...? Who's the bastard...!?\n
+Wait Frame|
+Wait For Input|
+Music|8, 100, 0
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 219, 0, 1, 0
+Format|4
+Text|<CLT 04>It's whoever doesn't have an alibi for that\ntime...right?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Script|4, 0, 235, 0, 0
+Stop Script|
+Stop Script|

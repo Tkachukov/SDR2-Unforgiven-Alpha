@@ -1,0 +1,110 @@
+OSL Script
+Set Game To DR2
+Text Count|8, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+Set Flag|0, 12, 1
+Change UI|6, 0
+Load Map|0, 84, 0, 0
+0x1|0, 79, 29, 0
+Change UI|9, 0
+0x46|13, 4, 0, 1
+0x4d|
+0x3b|1, 244
+0x3b|0, 0
+0x3b|1, 245
+0x2c|1, 244
+0x3b|0, 10
+0x2c|1, 245
+0x2c|0, 0
+Change UI|14, 1
+Change UI|3, 1
+0x3a|6, 0, 0, 30
+Change UI|16, 1
+0x3b|1, 246
+Check Character|255
+Choice|20
+Run Script|4, 3, 231, 0, 100
+Choice|21
+Run Script|4, 3, 231, 0, 101
+Choice|22
+Run Script|4, 3, 231, 0, 166
+Choice|254
+Change UI|2, 1
+Change UI|1, 1
+Change UI|18, 0
+Change UI|18, 3
+0x3b|1, 247
+0x32|1
+Text|Yes\n
+Wait Frame|
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 79, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 0
+SFX A|0, 201, 100
+Change UI|15, 2
+Script|4, 0, 0, 0, 79
+Stop Script|
+0x32|2
+Text|No\n
+Wait Frame|
+Change UI|1, 0
+0x32|18
+0x32|19
+Speaker|63
+Format|6
+Text|<CLT 06>Leave here?<CLT>\n
+Format|0
+Wait Frame|
+0x32|255
+0x2c|1, 247
+Choice|255
+0x2c|1, 246
+0x2c|0, 10
+Change UI|14, 0
+Screen Fade|0, 1, 48
+Change UI|3, 1
+Change UI|51, 0
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>I'm starting to feel this strange chill...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Well, it obviously must be from hunger.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|What...time is it...now?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>I sat up much slower than usual, then headed straight to\nthe lounge.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Music|6, 100, 120
+Change UI|3, 0
+Change UI|1, 0
+Screen Fade|1, 1, 24
+0x3a|8, 0, 0, 1
+Script|4, 0, 14, 0, 79
+Stop Script|
+Stop Script|

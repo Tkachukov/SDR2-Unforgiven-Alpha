@@ -1,0 +1,505 @@
+OSL Script
+Set Game To DR2
+Text Count|48, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+0x2f|0, 8, 112, 59, 1, 244, 112, 48, 0, 1
+0x3a|19, 0, 0, 0
+Show Background|0, 2, 112
+Show Background|0, 6, 112
+Show Background|0, 7, 112
+Show Background|0, 8, 112
+Show Background|0, 9, 112
+Show Background|0, 10, 112
+Show Background|0, 11, 112
+Show Background|0, 12, 112
+Show Background|0, 15, 112
+Show Background|255, 255, 112
+0x2c|1, 244
+Set Flag|0, 12, 0
+Change UI|6, 0
+Load Map|0, 79, 0, 0
+Run Script|4, 3, 231, 0, 173
+Change UI|9, 0
+Sprite|0, 9, 0, 0, 0
+0x1|1, 73, 9, 1
+Sprite|1, 8, 0, 0, 0
+0x1|1, 73, 8, 1
+0x46|13, 21, 0, 1
+0x4d|
+0x3b|1, 245
+Sprite|2, 10, 0, 0, 0
+0x1|1, 76, 10, 1
+0x2c|1, 245
+0x1|0, 79, 29, 0
+0x23|33, 1, 0, 1, 0
+0x23|34, 1, 0, 1, 0
+0x23|35, 1, 0, 1, 0
+0x23|36, 1, 0, 1, 0
+Change UI|14, 0
+Screen Fade|0, 1, 24
+Change UI|3, 1
+0x46|13, 4, 0, 0
+0x4d|
+0x3b|1, 246
+0x3a|19, 0, 0, 0
+0x1|1, 76, 0, 1
+Change UI|51, 0
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Text|Hm...\n
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|26, 43
+0x3a|5, 0, 0, 60
+0x3a|0, 0, 0, 2
+Change UI|3, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>6:30 a.m... It's a miracle I was able to wake up.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>As I recall, it's bad if we don't gather at Grape Tower\nby 7:00 a.m.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|I don't expect much from Monokuma, but I guess I should\ngo for now.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Set Flag|13, 4, 1
+Set Flag|0, 12, 1
+0x1|0, 91, 28, 1
+0x2c|1, 246
+Change UI|16, 1
+0x3b|1, 247
+Check Character|0
+Change UI|9, 1
+Sprite|0, 9, 15, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Text|Good morning, Chiaki. Are you going to Grape Tower?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 15, 1, 2
+Speaker|9
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 15, 4, 2
+Speaker|0
+Format|4
+Text|<CLT 04>Huh? She walked by me without even replying...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Hey Chiaki?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 15, 1, 3
+Speaker|9
+Text|...\n
+Wait Frame|
+Wait For Input|
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 5, 1, 3
+Voice Line|9, 99, 0, 38, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...Ah, I was sleeping.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>You were sleeping!?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|I-Isn't it dangerous...to sleepwalk?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 15, 1, 3
+Speaker|9
+Voice Line|9, 99, 0, 63, 100
+Text|...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Don't fall asleep while I'm asking that!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 5, 1, 3
+Speaker|9
+Voice Line|9, 99, 0, 37, 100
+Text|I'll be fine...I think...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|You don't look fine at all... Want to go to Grape tower\ntogether?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 5, 1, 3
+Speaker|9
+Voice Line|9, 99, 0, 38, 100
+Text|I feel...fine...I think...\n
+Wait Frame|
+SFX A|0, 201, 100
+Sprite|0, 9, 0, 5, 3
+0x3a|6, 0, 0, 60
+0x1|1, 73, 9, 0
+0x1|0, 91, 9, 1
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>...Is she really okay?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|9, 0
+Sprite|0, 9, 98, 0, 0
+Change UI|1, 0
+Check Character|1
+Change UI|9, 1
+Sprite|0, 8, 1, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Text|Akane...what are you doing here?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 11, 1, 2
+Speaker|8
+Voice Line|8, 99, 0, 37, 100
+Text|Well...I've been thinking about this statue.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 13, 1, 2
+Voice Line|8, 99, 0, 61, 100
+Text|It's not alive or anything but it has a strong aura. I\ncan't think of it as a regular human aura.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|This thing might be the most powerful creature on the\nisland...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 7, 1, 2
+Voice Line|8, 99, 0, 26, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Change UI|13, 1
+Text|Yessssss! That sure gets me goin'!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Speaker|0
+Text|Is this...a person? The nameplate says "Ogre," so isn't\nthis a statue of an ogre?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 4, 1, 2
+Speaker|8
+Voice Line|8, 99, 0, 16, 100
+Text|Ogre or whatever, it's fine as long as it's strong!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 11, 1, 2
+Voice Line|8, 99, 0, 2, 100
+Text|Oh, looks like it's almost time. I'll head over to Grape\nTower first.\n
+Wait Frame|
+Wait Frame|
+SFX A|0, 201, 100
+Sprite|0, 8, 0, 5, 2
+0x3a|6, 0, 0, 60
+0x1|1, 73, 8, 0
+0x1|0, 91, 8, 1
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Is she thinking about fighting the strongest creature on\nthe island?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|9, 0
+Sprite|1, 8, 98, 0, 0
+Change UI|1, 0
+Check Character|2
+0x46|13, 24, 0, 0
+0x4d|
+0x3b|1, 248
+Change UI|9, 1
+Sprite|0, 10, 0, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|10
+Voice Line|10, 99, 0, 3, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Hajime, do you remember our promise?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Promise...? You mean continuing your lecture on the\nThree Laws of Robotics?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 9, 1, 2
+Speaker|10
+Voice Line|10, 99, 0, 26, 100
+Text|It is only proper that I keep our promise, so I shall\nexplain!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Well...I guess I'll let her talk...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 9, 1, 2
+Speaker|10
+Text|First, let us review!\n
+Wait Frame|
+Wait For Input|
+Text|The first law is safety, the second law is obedience,\nand the third law is self-defense, correct?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Now...regarding the second law of obedience, it is\npossible for it to conflict the first law.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...Conflict?\n
+Wait Frame|
+Wait For Input|
+Text|Ah, I see... If a robot was ever ordered to harm a\nhuman, huh.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 1, 1, 2
+Speaker|10
+Voice Line|10, 99, 0, 10, 100
+Text|Correctamundo!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>...Please don't say that again.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 9, 1, 2
+Speaker|10
+Voice Line|10, 99, 0, 23, 100
+Text|In any event, it is said that robots do not necessarily\nneed to obey the second law.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 14, 1, 2
+Voice Line|10, 99, 0, 53, 100
+Text|Regardless, The Three Laws of Robotics are quite\nabstract, so there are a lot of other issues...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Seriously...why does Sonia know so much about this?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Do all royalty possess such forbidden knowledge...?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 0, 4, 2
+Change UI|1, 0
+Set Flag|13, 24, 1
+0x3b|1, 249
+0x2c|1, 248
+Change UI|9, 1
+Sprite|0, 10, 1, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|10
+Voice Line|10, 99, 0, 9, 100
+Text|Please make sure you remember the Three Laws of\nRobotics!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 0, 4, 2
+Change UI|1, 0
+0x2c|1, 249
+Check Character|255
+Choice|20
+Run Script|4, 3, 231, 0, 149
+Choice|21
+Change UI|9, 1
+Change UI|15, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>We need to go to Grape Tower. There's no reason to use\nthe elevator.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Choice|22
+Run Script|4, 3, 231, 0, 155
+Choice|23
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Change UI|6, 1
+Animation|3, 97, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 97, 0, 0, 0, 0, 0, 4
+0x3a|6, 0, 0, 30
+SFX A|0, 225, 100
+Animation|3, 97, 0, 0, 0, 0, 0, 6
+Load Map|0, 91, 1, 0
+0x3a|6, 0, 0, 120
+0x3a|8, 0, 0, 0
+Screen Fade|1, 1, 24
+Animation|3, 97, 0, 0, 0, 0, 0, 255
+Script|4, 0, 15, 0, 0
+Stop Script|
+Choice|24
+Run Script|4, 3, 231, 0, 150
+Choice|25
+0x13|0, 1
+0x3a|19, 0, 0, 1
+0x1|1, 73, 0, 1
+Choice|26
+Run Script|4, 3, 231, 0, 155
+Choice|27
+Run Script|4, 3, 231, 0, 155
+Choice|28
+Run Script|4, 3, 231, 0, 155
+Choice|29
+Run Script|4, 3, 231, 0, 155
+Choice|30
+Run Script|4, 3, 231, 0, 155
+Choice|31
+Run Script|4, 3, 231, 0, 155
+Choice|32
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+0x2f|0, 19, 112, 59, 1, 250, 112, 48, 0, 0
+Set Flag|0, 12, 0
+0x3a|8, 0, 0, 2
+Change UI|25, 2
+0x3a|19, 0, 0, 2
+0x3a|5, 0, 0, 30
+Show Background|0, 2, 112
+0x3a|8, 0, 0, 1
+Change UI|25, 2
+0x3a|19, 0, 0, 0
+0x3a|5, 0, 0, 30
+Show Background|255, 255, 112
+0x3a|6, 0, 0, 60
+Change UI|3, 1
+Choice|33
+Run Script|4, 3, 231, 0, 157
+Choice|34
+Run Script|4, 3, 231, 0, 156
+Choice|35
+Run Script|4, 3, 231, 0, 158
+Choice|36
+Run Script|4, 3, 231, 0, 159
+Choice|37
+Run Script|4, 3, 231, 0, 155
+Choice|38
+Run Script|4, 3, 231, 0, 155
+Choice|39
+Run Script|4, 3, 231, 0, 154
+Choice|40
+Run Script|4, 3, 231, 0, 100
+Choice|41
+Run Script|4, 3, 231, 0, 101
+Choice|42
+Run Script|4, 3, 231, 0, 153
+Choice|43
+Change UI|15, 0
+Change UI|51, 0
+Change UI|2, 1
+Change UI|9, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>6:30 a.m. huh...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>As I recall, it's bad if we don't gather at Grape Tower\nby 7:00 a.m.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Then...I guess this was perfect timing.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Choice|44
+Run Script|4, 3, 231, 0, 165
+Choice|45
+Run Script|4, 3, 231, 0, 100
+Choice|46
+Run Script|4, 3, 231, 0, 101
+Choice|47
+Run Script|4, 3, 231, 0, 100
+Choice|48
+Run Script|4, 3, 231, 0, 101
+Choice|254
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+0x2f|0, 19, 112, 59, 1, 251, 112, 48, 0, 0
+Set Flag|0, 12, 0
+0x3a|8, 0, 0, 2
+Change UI|25, 2
+0x3a|19, 0, 0, 2
+0x3a|5, 0, 0, 30
+Show Background|255, 255, 112
+0x3a|6, 0, 0, 60
+Change UI|3, 1
+Choice|255
+0x2c|1, 247
+Stop Script|
+Stop Script|

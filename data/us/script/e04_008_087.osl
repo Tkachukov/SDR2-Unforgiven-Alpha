@@ -1,0 +1,837 @@
+OSL Script
+Set Game To DR2
+Text Count|103, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+Set Flag|0, 12, 0
+Change UI|6, 0
+Load Map|0, 87, 0, 0
+Change UI|9, 0
+Sprite|0, 7, 30, 0, 0
+Sprite|0, 7, 90, 0, 0
+Sprite|1, 8, 0, 0, 0
+Sprite|1, 8, 90, 0, 0
+Sprite|8, 10, 0, 0, 0
+Sprite|8, 10, 90, 0, 0
+Sprite|7, 3, 0, 0, 0
+Sprite|7, 3, 90, 0, 0
+Sprite|4, 4, 0, 0, 0
+Sprite|4, 4, 90, 0, 0
+Sprite|9, 1, 0, 0, 0
+Sprite|9, 1, 90, 0, 0
+Sprite|5, 19, 0, 0, 0
+Sprite|5, 19, 90, 0, 0
+Sprite|2, 9, 0, 0, 0
+Sprite|2, 9, 90, 0, 0
+0x1|0, 87, 1, 1
+0x1|0, 87, 3, 1
+0x1|0, 87, 4, 1
+0x1|0, 87, 6, 1
+0x1|0, 87, 7, 1
+0x1|0, 87, 8, 1
+0x1|0, 87, 9, 1
+0x1|0, 87, 10, 1
+0x23|28, 0, 0, 1, 0
+0x23|29, 1, 0, 1, 0
+0x23|30, 1, 0, 1, 0
+0x23|31, 1, 0, 1, 0
+0x23|33, 0, 0, 0, 0
+Change UI|14, 0
+0x3a|5, 0, 0, 2
+Screen Fade|0, 1, 24
+Change UI|3, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 10, 15, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|10
+Voice Line|10, 99, 0, 61, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Ah, look over there!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>The moment we set foot inside Strawberry Tower, Sonia\nraised her voice.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>When I looked where she was pointing...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 15, 4, 2
+Change UI|1, 0
+0x3a|6, 0, 0, 30
+Change UI|26, 31
+0x3a|5, 0, 0, 60
+Change UI|1, 1
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|It's there... The handbook...!\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Music|2, 100, 0
+Change UI|27, 0
+0x3a|5, 0, 0, 50
+Change UI|9, 0
+Sprite|0, 7, 91, 0, 20
+Sprite|1, 8, 91, 0, 40
+Sprite|8, 10, 91, 0, 40
+Sprite|7, 3, 91, 0, 30
+Sprite|4, 4, 91, 0, 30
+Sprite|9, 1, 91, 0, 30
+Sprite|5, 19, 91, 0, 30
+Sprite|2, 9, 91, 0, 50
+0x23|31, 0, 0, 1, 0
+0x3a|5, 0, 0, 60
+Change UI|26, 9
+0x3a|5, 0, 0, 30
+Change UI|1, 1
+Change UI|9, 1
+Sprite|1, 9, 0, 1, 2
+Speaker|9
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 2, 1, 2
+Voice Line|9, 99, 0, 6, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Yep, there's no doubt. This is my student handbook.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 14, 1, 3
+Speaker|4
+Voice Line|4, 99, 0, 72, 100
+Text|If the handbook Chiaki left in Grape Tower is\nhere...then that means...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 22, 1, 4
+Speaker|1
+Voice Line|1, 99, 0, 87, 100
+Text|...It seems that we've confirmed it.\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Change UI|3, 0
+Change UI|6, 1
+Sprite|1, 1, 0, 3, 1
+Animation|3, 98, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 98, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 99, 0, 12, 100
+Text|Strawberry Tower and Grape Tower are actually <CLT 03>the same\nbuilding<CLT>.\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Text|And depending on whether you enter from Strawberry Hall\nor Grape Hall, the tower...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|...becomes either Strawberry Tower or Grape Tower.\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 10
+Screen Fade|1, 1, 24
+Animation|3, 98, 0, 0, 0, 0, 0, 255
+Change UI|6, 0
+Sprite|0, 19, 7, 8, 2
+Change UI|3, 1
+Screen Fade|0, 1, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|6
+Voice Line|6, 99, 0, 7, 100
+Text|Then, that door over there with the grape image on it...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 7, 4, 2
+Change UI|1, 0
+Change UI|26, 22
+0x3a|5, 0, 0, 60
+Change UI|1, 1
+Speaker|6
+Voice Line|6, 99, 0, 5, 100
+Text|It's not the exit... But it appears it's connected to\nGrape House's Grape Hall.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|27, 0
+0x3a|5, 0, 0, 60
+Change UI|26, 1
+0x3a|5, 0, 0, 30
+Sprite|0, 1, 2, 1, 2
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 99, 0, 72, 100
+Text|But...it also means that we have no idea where the exit\nis...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 0, 1, 2
+Voice Line|1, 99, 0, 2, 100
+Text|Well, I guess that can't be helped. There's no way we'd\nactually find the exit that easily.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 1, 1, 2
+Voice Line|1, 99, 0, 11, 100
+Text|Well anyway, I'm surprised! I can't believe you already\nuncovered a secret like this.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|As expected of Chiaki, you're truly amazing.\n
+Wait Frame|
+Wait For Input|
+Text|Normally, all you do is stare into space, but at times\nlike this you really pull through for us.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 0, 1, 1
+Speaker|9
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 14, 1, 2
+Speaker|10
+Voice Line|10, 99, 0, 68, 100
+Text|However...why was this building designed so strangely?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 17, 14, 1, 0
+Speaker|17
+Voice Line|17, 99, 0, 48, 100
+Text|There's probably no reason. It's simply because "it's a\nFunhouse".\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|That's all the reason Monokuma needs!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 13, 1, 1
+Speaker|8
+Voice Line|8, 99, 0, 47, 100
+Text|Um...who're you again?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 17, 18, 1, 0
+Speaker|17
+Voice Line|17, 99, 0, 62, 100
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|I'm Monomi! Why did you forget about me!?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 7, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 40, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|That reminds me... Whatever happened to the Monokuma\nAnnoucement?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 8, 21, 1, 1
+Speaker|8
+Voice Line|8, 99, 0, 68, 100
+Text|What do you mean...?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 4, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 49, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|According to my internal clock, it's already past 10:00\np.m.!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 10, 15, 1, 3
+Speaker|10
+Voice Line|10, 99, 0, 63, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Change UI|13, 1
+Text|Huh!? Is it that time already!?\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 19, 8, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 32, 100
+Text|Despite that...why hasn't there been a Monokuma\nAnnouncement!?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 0, 0
+Change UI|1, 0
+Change UI|3, 0
+0x3a|6, 0, 0, 10
+SFX A|0, 33, 100
+Sprite|1, 16, 0, 6, 1
+0x3a|0, 0, 0, 1
+Music|12, 100, 0
+Change UI|3, 1
+0x3a|6, 0, 0, 10
+Change UI|1, 1
+Speaker|16
+Voice Line|16, 99, 0, 58, 100
+Text|Allow me to answer!\n
+Wait Frame|
+Wait For Input|
+Text|Every single day, up until now... I have consistently\nlet you know when it's morning and night on this island.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|And thanks to that, you've been able to live a normal\nlife...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 2, 1, 1
+Voice Line|16, 99, 0, 12, 100
+Text|Did you guys mistake me for some kind of pretty alarm\nclock?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 13, 1, 1
+Voice Line|16, 99, 0, 55, 100
+Text|Ah, well... It's totally true that I'm pretty but...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 1, 1, 0
+Speaker|8
+Voice Line|8, 99, 0, 37, 100
+Text|...Hey, what're you tryin' to say?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 0, 1, 1
+Speaker|16
+Voice Line|16, 99, 0, 8, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|For the time being, the Monokuma Announcements\nare on hiatus.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 0, 1, 1
+Speaker|16
+Text|You can't go outside and there are no windows here, so\nit's not like it matters if it's morning or night.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 3, 1, 1
+Voice Line|16, 99, 0, 29, 100
+Text|Also...I've been thinking of a little something to\nreplace the Monokuma Announcement.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Puhu...puhuhuhuhuhuhu.\n
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|1, 16, 0, 7, 1
+0x3a|6, 0, 0, 30
+Music|2, 100, 0
+0x3a|6, 0, 0, 30
+Sprite|0, 7, 37, 1, 0
+Change UI|1, 1
+Speaker|7
+Voice Line|7, 99, 0, 11, 100
+Text|What's wrong with him...?\n
+Wait Frame|
+Wait For Input|
+Text|Well, if there's no announcements, we can just look at\nthe clock...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 3, 1, 3
+Speaker|1
+Voice Line|1, 99, 0, 27, 100
+Text|Both Strawberry House and Grape House have clocks in\ntheir 1st floor lounges.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 1, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 8, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Even if I don't look at a clock, I have my internal\nclock, so it's no problem for me anyway!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 1, 1, 1
+Speaker|9
+Voice Line|9, 99, 0, 23, 100
+Text|And it's already past 10:00 p.m., right? I'm starting to\nfeel sleepy after hearing that.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 2, 1, 3
+Speaker|1
+Voice Line|1, 99, 0, 26, 100
+Text|Since we don't have food... It might be better if we\nrest and conserve our energy.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 0, 1, 3
+Voice Line|1, 99, 0, 2, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|For now, let's just decide our room assigments.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Room assignments...?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 3, 1, 3
+Speaker|1
+Voice Line|1, 99, 0, 27, 100
+Text|Each house has <CLT 03>five<CLT> guestrooms, so we should first\ndecide who's going to stay in which house.\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 9, 1, 2
+Speaker|9
+Voice Line|9, 99, 0, 44, 100
+Text|Hmmm...why don't we make things simple and split them\nbetween the boys and the girls?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 10, 1, 1, 3
+Speaker|10
+Voice Line|10, 99, 0, 12, 100
+Text|Yes, let us do that!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 11, 1, 2
+Speaker|4
+Voice Line|4, 99, 0, 36, 100
+Text|That's a bummer but... Well, I guess it makes sense...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 1, 1, 3
+Speaker|3
+Voice Line|3, 99, 0, 6, 100
+Text|Then ladies first...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 13, 1, 3
+Voice Line|3, 99, 0, 22, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Now then, kittens! Choose which house you would like!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 8, 101, 2
+Speaker|9
+Voice Line|9, 99, 0, 45, 100
+Text|Let's just choose Grape House. Staring at a red room is\njust going to strain my eyes.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 0, 1, 3
+Speaker|6
+Voice Line|6, 99, 0, 2, 100
+Text|Then the men shall have Strawberry House! Strawberry men\nare known for passion!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 4, 1, 4
+Speaker|1
+Voice Line|1, 99, 0, 2, 100
+Text|Also...each house had guestrooms of varying quality,\nright?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 42, 1, 1
+Speaker|7
+Voice Line|7, 99, 0, 4, 100
+Text|Wasn't it <CLT 03>two Deluxe Rooms<CLT>, <CLT 03>one Standard Room<CLT>...and\n<CLT 03>two Crummy Rooms<CLT>?\n
+Format|3
+Format|0
+Format|3
+Format|0
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 24, 1, 2
+Speaker|4
+Voice Line|4, 99, 0, 5, 100
+Text|And we need to decide those next, huh?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|But there are only five rooms in each house, right? Then\none guy will be left over...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 8, 1, 3
+Speaker|6
+Voice Line|6, 99, 0, 52, 100
+Text|Then that means...there's only one appropriate way to\nsettle this!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Appropriate way..?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 4, 1, 3
+Speaker|6
+Voice Line|6, 99, 0, 15, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Rock Paper Scissors, of course!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 19, 0, 4, 3
+Speaker|0
+Format|4
+Text|<CLT 04>Suddenly...the Rock Paper Scissors battle between six\nguys had begun!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>And the results...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 1, 1, 4
+Speaker|1
+Voice Line|1, 99, 0, 11, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Ah, sorry. I ended up winning so easily.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>That's right...I totally forgot...that Nagito is the\n<CLT><CLT 03><CLT><CLT 04><CLT><CLT 03>Ultimate Lucky Student<CLT><CLT 04>.<CLT>\n
+Wait Frame|
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 3, 15, 1, 3
+Speaker|3
+Voice Line|3, 99, 0, 41, 100
+Text|So I take 2nd place... That's fine. I was getting bored\nof always being on top.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 0, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 7, 100
+Text|It's decided! You two will get a Deluxe Room! Now then,\nregarding the third winner...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 1, 1, 2
+Voice Line|6, 99, 0, 8, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Gaaaahaha! It's meeeeeeeeee! I will be resting in the\nStandard Room!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 7, 31, 1, 1
+Speaker|7
+Voice Line|7, 99, 0, 4, 100
+Text|Me and Kazuichi are next...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 11, 1, 2
+Speaker|4
+Voice Line|4, 99, 0, 36, 100
+Text|Tch, so I get a Crummy Room, huh... Well, it's better\nthan rooming with *someone*.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 9, 1, 3
+Speaker|1
+Voice Line|1, 99, 0, 24, 100
+Text|That's unfortunate, Hajime... You can rest in the lounge\nbut try not to catch a cold.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 0, 1, 3
+Speaker|1
+Voice Line|1, 99, 0, 2, 100
+Text|Hey, how about you Grape House girls? Did you all pick\nyour rooms as well?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 4, 1, 2
+Speaker|9
+Voice Line|9, 99, 0, 6, 100
+Text|Yeah, we did. We had a brief discussion and settled\nthings smoothly.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Sonia and I have the Deluxe Room...and apparently Akane\nwants one of the Crummy Rooms.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 47, 1, 0
+Speaker|7
+Voice Line|7, 99, 0, 66, 100
+Text|Huh? Why did you choose the Crummy Room? There's still a\nStandard Room left over...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 18, 1, 1
+Speaker|8
+Voice Line|8, 99, 0, 38, 100
+Text|It's good enough for me. You guys might think it's\npretty crappy, but it's a palace compared to my home.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 10, 19, 101, 3
+Speaker|10
+Voice Line|10, 99, 0, 67, 100
+Text|So there is a Standard Room and a Crummy Room left...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 10, 1, 1, 3
+Voice Line|10, 99, 0, 9, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Hajime, if you would like, please use one of them.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...Huh?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 8, 1, 2
+Speaker|4
+Voice Line|4, 99, 0, 42, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Y-You can't do that!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 10, 19, 1, 3
+Speaker|10
+Voice Line|10, 99, 0, 63, 100
+Text|...Why not?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 7, 1, 2
+Speaker|4
+Voice Line|4, 99, 0, 34, 100
+Text|I-I mean...it's dangerous. Hajime might be the traitor,\nyou know...?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 10, 9, 1, 3
+Speaker|10
+Voice Line|10, 99, 0, 3, 100
+Text|What are you saying?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 7, 1, 2
+Speaker|4
+Voice Line|4, 99, 0, 35, 100
+Text|Wh-What am I...huh? Huh?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 9, 1, 1
+Speaker|9
+Voice Line|9, 99, 0, 12, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|We...haven't doubted Hajime at all.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 18, 1, 0
+Speaker|8
+Voice Line|8, 99, 0, 65, 100
+Text|Even I don't think he'd try to trick us.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 1, 1, 3
+Speaker|1
+Voice Line|1, 99, 0, 11, 100
+Text|It seems that you're the only one who thought Hajime is\nsuspicious.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 13, 1, 2
+Speaker|4
+Voice Line|4, 99, 0, 50, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Really? Of all people, you're gonna say that!?\nYOU'RE REALLY GONNA SAY THAT!?\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 9, 2, 1, 1
+Speaker|9
+Voice Line|9, 99, 0, 35, 100
+Text|Hajime, you can use one of our leftover rooms.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Thank you...\n
+Wait Frame|
+Wait For Input|
+Text|I'll feel bad about using the Standard Room, so I'll\nstay in the Crummy Room...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|But even so...it really helps that I have a place to\nsleep.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 0, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 2, 100
+Text|Now then, it's decided. We should turn in for today.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 11, 1, 1
+Speaker|4
+Voice Line|4, 99, 0, 6, 100
+Text|It...like...it doesn't make any sense...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 0, 5, 1
+SFX A|0, 201, 100
+0x3a|6, 0, 0, 60
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 64
+Change UI|6, 1
+0x37|0, 0, 1
+Screen Fade|0, 1, 24
+Music|255, 120, 0
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>And so, all the guys except for me ended up staying the\nnight on the 2nd floor of Strawberry House...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>And all the girls, plus my leftover self, stayed on the\n2nd floor of Grape House...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Sprite|0, 17, 0, 8, 1
+0x37|0, 0, 3
+Change UI|6, 0
+Change UI|3, 1
+Screen Fade|0, 1, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|9, 1
+Change UI|1, 1
+Sprite|0, 17, 0, 1, 1
+Speaker|17
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 9, 1, 1
+Voice Line|17, 99, 0, 24, 100
+SFX A|0, 23, 100
+Text|Jeez! Just as I thought, I was forgotten!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 6, 1, 1
+Voice Line|17, 99, 0, 25, 100
+Text|Well, I'm used to it after all!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 15, 1, 1
+Voice Line|17, 99, 0, 49, 100
+Text|Pfft...tee hee!\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 34, 100
+Sprite|0, 17, 0, 7, 1
+Change UI|1, 0
+0x3a|6, 0, 0, 30
+Screen Fade|1, 1, 48
+Change UI|3, 0
+Script|4, 0, 9, 0, 0
+Stop Script|
+Stop Script|

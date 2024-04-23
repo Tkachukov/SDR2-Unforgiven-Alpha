@@ -1,0 +1,325 @@
+OSL Script
+Set Game To DR2
+Text Count|45, 0
+0x2c|0, 20
+Set Flag|0, 7, 1
+Set Flag|0, 13, 0
+Music|24, 100, 0
+Change UI|1, 1
+Sprite|16, 16, 31, 0, 0
+Trial Camera|16, 2, 15, 0, 1, 0
+Voice Line|16, 1, 0, 1, 100
+Text|Now then, let's begin with a simple explanation of the\nclass trial.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|2, 1, 236, 0, 0, 0
+Voice Line|16, 1, 0, 2, 100
+Text|During the class trial you will present your arguments\nfor who the killer is, and vote for "whodunnit."\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 2, 10, 0, 0, 0
+Voice Line|16, 1, 0, 3, 100
+Text|If you vote correctly, then only the blackened will\nreceive punishment. But if you pick the wrong person...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|16, 2, 74, 0, 0, 0
+Voice Line|16, 1, 0, 4, 100
+Text|I'll punish everyone *besides* the blackened, and that\nperson will earn the right to leave this island!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 30, 4, 0
+Trial Camera|16, 2, 39, 0, 0, 0
+Voice Line|16, 4, 0, 1, 100
+SFX A|0, 18, 100
+Text|I'm sure you guys are starving by now, but let's get\nrevved up and raring to go! \n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|16, 2, 67, 0, 0, 0
+Voice Line|16, 4, 0, 2, 100
+Text|Whoever survives will be treated to a fancy lunch. Guess\nwhat? Rabbit curry is on the menu!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|17, 17, 27, 0, 0
+Trial Camera|17, 2, 79, 0, 0, 0
+Voice Line|17, 4, 0, 1, 100
+SFX A|0, 22, 100
+Text|Huh? I'm not the main ingredient, right?\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 12, 0, 0
+Trial Camera|8, 0, 34, 0, 0, 0
+Voice Line|8, 4, 0, 1, 100
+Text|I'm here today...because coach Nekomaru risked his\nlife...to protect me...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 16, 0, 0
+Trial Camera|8, 0, 229, 0, 0, 0
+Voice Line|8, 4, 0, 2, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 18, 100
+Text|I'm gonna be the one who avenges him! I'll definitely\nfind out who the killer is!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 19, 0, 0
+Trial Camera|8, 1, 19, 0, 0, 0
+Voice Line|8, 4, 0, 3, 100
+SFX A|0, 23, 100
+Text|...I'm definitely not tempted by curry, got it!?\n
+Wait Frame|
+Wait For Input|
+Sprite|11, 11, 27, 4, 0
+Trial Camera|11, 0, 33, 0, 0, 0
+Voice Line|11, 99, 0, 13, 100
+SFX A|0, 22, 100
+Text|How can you think about curry when our lives\nare on the line?!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 0, 0, 1
+Sprite|7, 7, 31, 0, 0
+Trial Camera|7, 0, 137, 0, 0, 0
+Voice Line|7, 4, 0, 1, 100
+SFX A|0, 19, 100
+Text|Hey...why don't we try going over the incident?\n
+Wait Frame|
+Wait For Input|
+Trial Camera|7, 2, 7, 0, 1, 0
+Voice Line|7, 4, 0, 2, 100
+Text|We weren't able to leave Strawberry House, so I want to\nmake sure we get a detailed understanding...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 8, 0, 0
+Trial Camera|9, 0, 53, 0, 0, 0
+Voice Line|9, 99, 0, 12, 100
+Text|Well, three of us had discovered Nekomaru's body\naround 7:00 AM.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|9, 0, 53, 0, 0, 0
+Voice Line|9, 99, 0, 10, 100
+Text|...myself, Hajime and Hiyoko.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 16, 0, 0
+Trial Camera|9, 0, 53, 0, 0, 0
+Voice Line|9, 99, 0, 27, 100
+Text|We headed over to Grape Tower for Monokuma Tai Chi and\nfound the body there.\n
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 5, 0, 0
+Trial Camera|4, 0, 159, 0, 0, 0
+Voice Line|4, 99, 0, 12, 100
+Text|Wait, why was Hajime with you this early in the\nmorning? Were you two... like, together?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|11, 11, 44, 4, 0
+Trial Camera|11, 0, 33, 0, 0, 0
+Voice Line|11, 99, 0, 13, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 18, 100
+Text|Don't project your perversion on others, you sick fuck!\n
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 6, 0, 0
+Trial Camera|4, 1, 39, 0, 0, 0
+Voice Line|4, 99, 0, 9, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 22, 100
+Text|Hey, why are you suddenly offended on their behalf?\nI hadn't even accused you of being with them together!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 14, 0, 0
+Trial Camera|4, 1, 3, 0, 0, 0
+Voice Line|4, 99, 0, 19, 100
+SFX A|0, 19, 100
+Text|I know no guy would ever want to be with you,\neven as part of the threesome... Right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|11, 11, 38, 0, 0
+Trial Camera|11, 0, 33, 0, 0, 0
+Voice Line|11, 99, 0, 44, 100
+SFX A|0, 25, 100
+Text|You are just not getting ojou-sama's bond with\nher servants, you dumb sex pest...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Trial Camera|0, 0, 88, 0, 0, 0
+Voice Line|0, 4, 0, 1, 100
+Text|We just happened to run into each other on the first\nfloor of Grape House, and went to the tower together...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|11, 11, 45, 0, 0
+Trial Camera|11, 0, 33, 0, 0, 0
+Voice Line|11, 99, 0, 59, 100
+Text|And then...the three of us discovered Nekomaru's body.\n
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 8, 0, 0
+Trial Camera|9, 0, 93, 0, 0, 0
+Voice Line|9, 4, 0, 1, 100
+Text|The <CLT 03>body discovery announcement<CLT> was made soon after.\nAkane heard that and rushed over.\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 47, 0, 0
+Trial Camera|7, 0, 255, 0, 0, 0
+Voice Line|7, 4, 0, 3, 100
+SFX A|0, 19, 100
+Text|We heard the body discovery announcement too...from\nStrawberry House, obviously.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 42, 0, 0
+Trial Camera|7, 2, 11, 0, 1, 0
+Voice Line|7, 4, 0, 4, 100
+Text|As I recall, we found out the elevator was out of order,\nwhich left us stuck...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 3, 0, 0
+Trial Camera|4, 0, 90, 0, 0, 0
+Voice Line|4, 4, 0, 4, 100
+Text|So we decided to go to the tower for the time being and\nheaded for Strawberry Hall...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 15, 0, 0
+Trial Camera|4, 0, 80, 0, 0, 0
+Voice Line|4, 4, 0, 5, 100
+Text|But someone even broke Strawberry Hall's door button. We\ncouldn't go anywhere because of that.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 1, 0, 0
+Trial Camera|3, 0, 37, 0, 0, 0
+Voice Line|3, 4, 0, 1, 100
+Text|Thinking we should at least find some method to\ncommunicate, we set our sights on the lounge telephone.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 21, 0, 0
+Trial Camera|8, 0, 139, 0, 0, 0
+Voice Line|8, 4, 0, 5, 100
+Text|Forget these borin' intros! Let's talk about the killer!\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 18, 0, 0
+Trial Camera|8, 0, 115, 0, 0, 0
+Voice Line|8, 4, 0, 6, 100
+Text|...Anyway, it's definitely someone from Strawberry\nHouse!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 18, 4, 0
+Trial Camera|4, 0, 239, 0, 0, 0
+Voice Line|4, 4, 0, 6, 100
+SFX A|0, 21, 100
+Text|What do you mean, "definitely"!?\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 1, 0, 0
+Trial Camera|8, 0, 41, 0, 0, 0
+Voice Line|8, 4, 0, 7, 100
+Text|There's no way a chick would kill someone so cruelly...\nSo it must be one of you Strawberry House dudes.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 7, 4, 0
+Trial Camera|8, 1, 51, 0, 0, 0
+Voice Line|8, 4, 0, 8, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 18, 100
+Text|One of you better hurry up and confess, or I'll break\nall of you in half!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|11, 11, 41, 0, 0
+Trial Camera|11, 0, 33, 0, 0, 0
+Voice Line|11, 99, 0, 15, 100
+Text|Peko was a girl, and turned out to be the cruelest\npiece of shit out of... whatever.\n
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 2, 0, 0
+Trial Camera|9, 0, 53, 0, 0, 0
+Voice Line|9, 4, 0, 2, 100
+Text|Now now, enough with the lover's quarrel. We need to\nthink about this seriously.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|9, 1, 236, 0, 1, 0
+Voice Line|9, 4, 0, 3, 100
+Text|We don't have the luxury of discussing irrelevant\nthings. The incident this time has many questions.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 16, 0, 0
+Trial Camera|4, 0, 33, 0, 0, 0
+SFX A|0, 19, 100
+Text|Then let's start with something that we all\ncan agree on: the <CLT 03>weapon<CLT>!\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 10, 0, 0
+Trial Camera|1, 0, 6, 0, 0, 0
+Voice Line|1, 4, 0, 1, 100
+SFX A|0, 21, 100
+Text|...Huh?\n
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 3, 0, 0
+Trial Camera|4, 0, 92, 0, 0, 0
+Voice Line|4, 4, 0, 9, 100
+Text|Well...the weapon is obvious, right?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 10, 0, 0
+Trial Camera|1, 0, 3, 0, 0, 0
+Voice Line|1, 4, 0, 2, 100
+SFX A|0, 21, 100
+Text|...Huh?\n
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 11, 0, 0
+Trial Camera|4, 0, 109, 0, 0, 0
+Voice Line|4, 4, 0, 10, 100
+Text|What the heck, you guys...? The weapon...you can totally\ntell just by looking... \n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 1, 0, 0
+Trial Camera|0, 0, 137, 0, 0, 0
+Format|4
+Text|<CLT 04>You can tell what the weapon is just by looking...? It\nwouldn't be much of a mystery if that were true...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 0, 219, 0, 1, 0
+Format|4
+Text|<CLT 04>The only thing at the crime scene that looked like a\nweapon was probably...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Script|4, 0, 202, 0, 0
+Stop Script|
+Stop Script|
